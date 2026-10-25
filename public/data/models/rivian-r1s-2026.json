@@ -1,0 +1,42 @@
+{
+  "updatedAt": "2026-10-01",
+  "version": "20261001000000000",
+  "model": {
+    "id": "rivian-r1s-2026",
+    "make": "Rivian",
+    "name": "R1S",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "rivian-r1s-2026-dual-standard",
+        "name": "Dual Standard",
+        "msrp": 77000,
+        "powertrain": "electric",
+        "drivetrain": "AWD",
+        "seats": 7,
+        "mpgCombined": 69,
+        "electricRangeMiles": 270,
+        "fastChargeKw": 220,
+        "chargeTimeHours": 10,
+        "towingLbs": 7700,
+        "cargoCuFt": 104.7
+      },
+      {
+        "id": "rivian-r1s-2026-tri-max",
+        "name": "Tri Max",
+        "msrp": 106000,
+        "powertrain": "electric",
+        "drivetrain": "AWD",
+        "seats": 7,
+        "mpgCombined": 66,
+        "electricRangeMiles": 374,
+        "fastChargeKw": 220,
+        "chargeTimeHours": 12,
+        "towingLbs": 7700,
+        "cargoCuFt": 104.7
+      }
+    ]
+  }
+}

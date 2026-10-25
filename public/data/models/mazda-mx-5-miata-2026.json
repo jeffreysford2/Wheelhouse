@@ -1,0 +1,34 @@
+{
+  "updatedAt": "2026-10-01",
+  "version": "20261001000000000",
+  "model": {
+    "id": "mazda-mx-5-miata-2026",
+    "make": "Mazda",
+    "name": "MX-5 Miata",
+    "year": 2026,
+    "bodyStyle": "convertible",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "mazda-mx-5-miata-2026-sport",
+        "name": "Sport",
+        "msrp": 30000,
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 2,
+        "mpgCombined": 29,
+        "cargoCuFt": 4.6
+      },
+      {
+        "id": "mazda-mx-5-miata-2026-grand-touring",
+        "name": "Grand Touring",
+        "msrp": 35500,
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 2,
+        "mpgCombined": 29,
+        "cargoCuFt": 4.6
+      }
+    ]
+  }
+}

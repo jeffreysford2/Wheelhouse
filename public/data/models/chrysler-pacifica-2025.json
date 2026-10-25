@@ -1,0 +1,47 @@
+{
+  "updatedAt": "2026-10-01",
+  "version": "20261001000000000",
+  "model": {
+    "id": "chrysler-pacifica-2025",
+    "make": "Chrysler",
+    "name": "Pacifica",
+    "year": 2025,
+    "bodyStyle": "minivan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "safetyRating": 4,
+    "trims": [
+      {
+        "id": "chrysler-pacifica-2025-select",
+        "name": "Select",
+        "msrp": 43000,
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 7,
+        "mpgCombined": 22,
+        "cargoCuFt": 32.3
+      },
+      {
+        "id": "chrysler-pacifica-2025-limited-awd",
+        "name": "Limited AWD",
+        "msrp": 50500,
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7,
+        "mpgCombined": 19,
+        "cargoCuFt": 32.3
+      },
+      {
+        "id": "chrysler-pacifica-2025-plug-in-hybrid-pinnacle",
+        "name": "Plug-in Hybrid Pinnacle",
+        "msrp": 62000,
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "FWD",
+        "seats": 7,
+        "mpgCombined": 82,
+        "electricRangeMiles": 32,
+        "chargeTimeHours": 2,
+        "cargoCuFt": 32.3
+      }
+    ]
+  }
+}

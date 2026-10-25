@@ -1,0 +1,45 @@
+{
+  "updatedAt": "2026-10-01",
+  "version": "20261001000000000",
+  "model": {
+    "id": "ford-f-150-2026",
+    "make": "Ford",
+    "name": "F-150",
+    "year": 2026,
+    "bodyStyle": "truck",
+    "imageUrl": "/images/placeholder-car.svg",
+    "safetyRating": 4,
+    "trims": [
+      {
+        "id": "ford-f-150-2026-xl-regular-cab",
+        "name": "XL Regular Cab",
+        "msrp": 38800,
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 3,
+        "mpgCombined": 20,
+        "towingLbs": 8200
+      },
+      {
+        "id": "ford-f-150-2026-xlt-powerboost",
+        "name": "XLT PowerBoost",
+        "msrp": 55000,
+        "powertrain": "hybrid",
+        "drivetrain": "4WD",
+        "seats": 6,
+        "mpgCombined": 23,
+        "towingLbs": 12700
+      },
+      {
+        "id": "ford-f-150-2026-lariat",
+        "name": "Lariat",
+        "msrp": 64000,
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5,
+        "mpgCombined": 19,
+        "towingLbs": 13000
+      }
+    ]
+  }
+}

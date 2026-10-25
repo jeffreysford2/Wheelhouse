@@ -1,0 +1,34 @@
+{
+  "updatedAt": "2026-10-01",
+  "version": "20261001000000000",
+  "model": {
+    "id": "volkswagen-golf-gti-2026",
+    "make": "Volkswagen",
+    "name": "Golf GTI",
+    "year": 2026,
+    "bodyStyle": "hatchback",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "volkswagen-golf-gti-2026-s",
+        "name": "S",
+        "msrp": 33700,
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5,
+        "mpgCombined": 27,
+        "cargoCuFt": 19.9
+      },
+      {
+        "id": "volkswagen-golf-gti-2026-autobahn",
+        "name": "Autobahn",
+        "msrp": 40800,
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5,
+        "mpgCombined": 27,
+        "cargoCuFt": 19.9
+      }
+    ]
+  }
+}
