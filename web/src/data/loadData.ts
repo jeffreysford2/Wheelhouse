@@ -24,10 +24,22 @@ export function loadIndex(): Promise<IndexFile> {
 
 const modelRequests = new Map<string, Promise<ModelFile>>();
 
+/** Thrown for a model id the index doesn't list, so pages can say "not found" rather than "couldn't load". */
+export class ModelNotFoundError extends Error {
+  constructor(modelId: string) {
+    super(`No model with id ${modelId}`);
+    this.name = "ModelNotFoundError";
+  }
+}
+
 export async function loadModel(modelId: string): Promise<ModelFile> {
+  // Check the index first rather than relying on a 404: static hosts set up
+  // for client-side routing answer unknown paths with the site's HTML page.
+  const { version, models } = await loadIndex();
+  if (!models.some((model) => model.id === modelId)) throw new ModelNotFoundError(modelId);
+
   // The index version is added to the URL so a monthly refresh never mixes
   // a fresh index with a cached model file from last month.
-  const { version } = await loadIndex();
   const url = `${DATA_ROOT}/models/${encodeURIComponent(modelId)}.json?v=${version}`;
 
   let request = modelRequests.get(url);

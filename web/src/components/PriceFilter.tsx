@@ -23,7 +23,10 @@ function priceSteps(dataRange: { min: number; max: number }): number[] {
 
 export function PriceFilter({ priceMin, priceMax, dataRange, onChange }: Props) {
   const id = useId();
-  const steps = priceSteps(dataRange);
+  // A shared link can carry a price that isn't one of our steps ($42,000).
+  // Add it to the list so the dropdown shows it instead of "No max".
+  const picked = [priceMin, priceMax].filter((price) => price !== undefined);
+  const steps = [...new Set([...priceSteps(dataRange), ...picked])].sort((a, b) => a - b);
   const toNumber = (raw: string) => (raw === "" ? undefined : Number(raw));
 
   return (

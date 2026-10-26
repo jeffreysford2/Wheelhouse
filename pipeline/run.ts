@@ -5,18 +5,14 @@
 // adapters are still stubs, so running this today just prints why it
 // stopped. To work on the site, use `npm run sample-data` instead.
 
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import { makeBuildStamp, writeDataFiles } from "./build";
+import { makeBuildStamp, validateAndWrite } from "./build";
 import { mergeSources } from "./match";
 import { CarApiCatalogSource } from "./sources/carApiCatalog";
 import { EpaFuelEconomySource } from "./sources/epaFuelEconomy";
 import { NhtsaSafetySource } from "./sources/nhtsaSafety";
 import type { ModelYearRequest } from "./sources/sourceRecords";
-import { validateModels } from "./validate";
 
 const MODEL_YEARS: ModelYearRequest = [2025, 2026];
-const OUTPUT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../public/data");
 
 async function runPipeline(): Promise<void> {
   const catalogSource = new CarApiCatalogSource();
@@ -33,16 +29,8 @@ async function runPipeline(): Promise<void> {
 
   const models = mergeSources(catalog, fuelEconomy, safety);
 
-  const result = validateModels(models);
-  if (!result.ok) {
-    // Exit without writing, so the previous month's files stay live.
-    console.error(`Validation failed with ${result.problems.length} problem(s); keeping the current data.`);
-    for (const problem of result.problems) console.error(`  - ${problem}`);
-    process.exit(1);
-  }
-
-  await writeDataFiles(models, OUTPUT_DIR, makeBuildStamp(new Date()));
-  console.log(`Wrote ${models.length} models to ${OUTPUT_DIR}`);
+  const wrote = await validateAndWrite(models, makeBuildStamp(new Date()));
+  if (!wrote) process.exit(1);
 }
 
 runPipeline().catch((error: unknown) => {

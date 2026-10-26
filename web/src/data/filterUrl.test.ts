@@ -20,6 +20,9 @@ describe("filter URLs", () => {
   it("leaves the default sort out of the URL and ignores junk numbers", () => {
     expect(paramsFromState(EMPTY_FILTERS, "price").toString()).toBe("");
     expect(filtersFromParams(new URLSearchParams("maxPrice=lots")).priceMax).toBeUndefined();
+    // An empty value must not become a $0 limit that hides every car.
+    expect(filtersFromParams(new URLSearchParams("maxPrice=&seats=")).priceMax).toBeUndefined();
+    expect(filtersFromParams(new URLSearchParams("maxPrice=&seats=")).minSeats).toBeUndefined();
     expect(sortFromParams(new URLSearchParams("sort=bogus"))).toBe("price");
   });
 });

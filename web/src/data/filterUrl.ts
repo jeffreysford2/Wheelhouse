@@ -38,9 +38,10 @@ export function filtersFromParams(params: URLSearchParams): FilterState {
   filters.makes = params.getAll(LIST_PARAMS.makes);
 
   for (const [key, param] of Object.entries(NUMBER_PARAMS) as [keyof typeof NUMBER_PARAMS, string][]) {
-    const raw = params.get(param);
-    const value = raw === null ? NaN : Number(raw);
-    if (Number.isFinite(value)) filters[key] = value;
+    // Every filter number is a positive amount. Checking for that also drops
+    // an empty value: Number("") is 0, which would mean "max price $0".
+    const value = Number(params.get(param) ?? NaN);
+    if (Number.isFinite(value) && value > 0) filters[key] = value;
   }
 
   return filters;

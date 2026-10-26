@@ -5,6 +5,7 @@
 import { useId, useMemo, useState, type KeyboardEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import type { IndexModel } from "../../../shared/carTypes";
+import { startingPrice } from "../data/filters";
 import { formatPrice } from "../data/format";
 import { searchModels } from "../data/search";
 import { useIndexData } from "../data/useIndexData";
@@ -33,9 +34,11 @@ export function SearchBox() {
   const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "ArrowDown" && results.length > 0) {
       event.preventDefault();
-      setIsOpen(true);
-      setHighlighted((current) => (current + 1) % results.length);
-    } else if (event.key === "ArrowUp" && results.length > 0) {
+      // If the list was closed, the first press just reopens it on the
+      // already-highlighted top result instead of skipping past it.
+      if (showList) setHighlighted((current) => (current + 1) % results.length);
+      else setIsOpen(true);
+    } else if (event.key === "ArrowUp" && showList) {
       event.preventDefault();
       setHighlighted((current) => (current - 1 + results.length) % results.length);
     } else if (event.key === "Enter" && showList) {
@@ -68,8 +71,7 @@ export function SearchBox() {
           setIsOpen(true);
         }}
         onFocus={() => setIsOpen(true)}
-        // Delay closing so a click on a result lands before the list disappears.
-        onBlur={() => setTimeout(() => setIsOpen(false), 120)}
+        onBlur={() => setIsOpen(false)}
         onKeyDown={onKeyDown}
       />
       {showList && (
@@ -81,6 +83,8 @@ export function SearchBox() {
               role="option"
               aria-selected={position === highlighted}
               className="search-result"
+              // Keep focus in the input, so it doesn't blur and close the
+              // list before this click lands.
               onMouseDown={(event) => event.preventDefault()}
               onClick={() => goTo(model)}
               onMouseEnter={() => setHighlighted(position)}
@@ -88,7 +92,7 @@ export function SearchBox() {
               <span>
                 {model.year} {model.make} <strong>{model.name}</strong>
               </span>
-              <span className="figures muted">{formatPrice(Math.min(...model.trims.map((trim) => trim.msrp)))}</span>
+              <span className="figures muted">{formatPrice(startingPrice(model))}</span>
             </li>
           ))}
         </ul>

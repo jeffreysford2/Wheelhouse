@@ -79,6 +79,11 @@ function cheapest(trims: IndexTrim[]): IndexTrim | undefined {
   return trims.reduce<IndexTrim | undefined>((best, trim) => (!best || trim.msrp < best.msrp ? trim : best), undefined);
 }
 
+/** The "From $X" price: the model's cheapest trim, whatever the filters. */
+export function startingPrice(model: { trims: { msrp: number }[] }): number {
+  return Math.min(...model.trims.map((trim) => trim.msrp));
+}
+
 /** Returns how a model matches, or undefined when no trim does. */
 export function matchModel(model: IndexModel, filters: FilterState): ModelMatch | undefined {
   if (!modelPassesModelLevelFilters(model, filters)) return undefined;

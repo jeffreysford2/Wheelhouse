@@ -4,7 +4,8 @@
 import { Link, useParams } from "react-router-dom";
 import { CarImage } from "../components/CarImage";
 import { formatEfficiency, formatNumber, formatPrice, POWERTRAIN_LABELS } from "../data/format";
-import { loadModel } from "../data/loadData";
+import { startingPrice } from "../data/filters";
+import { loadModel, ModelNotFoundError } from "../data/loadData";
 import { useAsync } from "../data/useAsync";
 import "./ModelDetailPage.css";
 
@@ -14,9 +15,11 @@ export function ModelDetailPage() {
 
   if (file.status === "loading") return <p className="page muted">Loading…</p>;
   if (file.status === "error") {
+    const isMissing = file.error instanceof ModelNotFoundError;
     return (
       <div className="page" role="alert">
-        <h1>We couldn't find that car</h1>
+        <h1>{isMissing ? "We couldn't find that car" : "We couldn't load this car"}</h1>
+        {!isMissing && <p className="muted">Check your connection and reload the page.</p>}
         <p>
           <Link to="/">Back to all cars</Link>
         </p>
@@ -26,7 +29,6 @@ export function ModelDetailPage() {
 
   const { model } = file.data;
   const fullName = `${model.year} ${model.make} ${model.name}`;
-  const startingPrice = Math.min(...model.trims.map((trim) => trim.msrp));
   const trimsByPrice = [...model.trims].sort((a, b) => a.msrp - b.msrp);
 
   return (
@@ -42,7 +44,7 @@ export function ModelDetailPage() {
           </p>
           <h1>{model.name}</h1>
           <p className="model-detail-price">
-            From <span className="figures">{formatPrice(startingPrice)}</span>
+            From <span className="figures">{formatPrice(startingPrice(model))}</span>
           </p>
           {model.safetyRating !== undefined && <p>NHTSA overall safety rating: {model.safetyRating} of 5 stars</p>}
         </div>

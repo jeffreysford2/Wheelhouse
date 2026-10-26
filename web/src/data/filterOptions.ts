@@ -52,11 +52,6 @@ export type ListFilterKey = "bodyStyles" | "powertrains" | "drivetrains" | "make
  * style is SUV or truck), so the group's current picks are replaced, not
  * added to. Cheap enough to run on every change at a few hundred models.
  */
-export function countForOption<K extends ListFilterKey>(
-  models: IndexModel[],
-  filters: FilterState,
-  key: K,
-  option: FilterState[K][number],
-): number {
+export function countForOption(models: IndexModel[], filters: FilterState, key: ListFilterKey, option: string): number {
   return matchModels(models, { ...filters, [key]: [option] }).length;
 }

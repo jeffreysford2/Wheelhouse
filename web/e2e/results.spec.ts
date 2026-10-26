@@ -36,3 +36,16 @@ test("sorting by longest range puts electric cars first", async ({ page }) => {
   // The Rivian's Tri Max trim has the longest range in the sample data.
   await expect(page.locator(".model-card").first()).toContainText("R1S");
 });
+
+test("a price from a shared link shows in the dropdown, and an empty one is ignored", async ({ page }) => {
+  await page.goto("/?maxPrice=42000");
+  await expect(page.getByLabel("Maximum price")).toHaveValue("42000");
+
+  await page.goto("/?maxPrice=");
+  await expect(page.getByRole("heading", { name: "14 cars" })).toBeVisible();
+});
+
+test("an unknown model id says the car wasn't found", async ({ page }) => {
+  await page.goto("/cars/not-a-real-car-2026");
+  await expect(page.getByRole("heading", { name: "We couldn't find that car" })).toBeVisible();
+});

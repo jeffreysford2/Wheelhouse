@@ -8,7 +8,9 @@ export type SortOrder = "price" | "mpg" | "range" | "newest";
 
 export const SORT_LABELS: Record<SortOrder, string> = {
   price: "Price, low to high",
-  mpg: "Best fuel economy",
+  // Electric MPGe and gas MPG share one ranking, so electric cars come
+  // first; the label says so rather than implying a like-for-like figure.
+  mpg: "Best MPG or MPGe",
   range: "Longest electric range",
   newest: "Newest",
 };

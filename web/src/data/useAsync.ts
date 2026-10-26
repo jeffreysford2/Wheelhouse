@@ -24,7 +24,8 @@ export function useAsync<T>(load: () => Promise<T>, dependencies: unknown[]): As
     return () => {
       isCurrent = false;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // The caller lists what `load` depends on, the same way useEffect works,
+    // so `load` itself can be a fresh arrow function on every render.
   }, dependencies);
 
   return state;

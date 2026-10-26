@@ -34,7 +34,8 @@ export type FuelEconomyRecord = {
   /** EPA's descriptive text, e.g. "AWD Hybrid". Used as a hint when picking between records. */
   description?: string;
   drivetrain?: Drivetrain;
-  powertrain?: Powertrain;
+  /** Required: matching never borrows figures across powertrains. */
+  powertrain: Powertrain;
   mpgCombined: number;
   electricRangeMiles?: number;
   chargeTimeHours?: number;

@@ -2,6 +2,7 @@
 // drop when nothing matches.
 
 import type { IndexModel } from "../../../shared/carTypes";
+import type { ListFilterKey } from "./filterOptions";
 import { matchModels, type FilterState } from "./filters";
 import { BODY_STYLE_LABELS, formatNumber, formatPrice, POWERTRAIN_LABELS } from "./format";
 
@@ -13,15 +14,12 @@ export type ActiveFilter = {
   without: (filters: FilterState) => FilterState;
 };
 
-function listChips<K extends "bodyStyles" | "powertrains" | "drivetrains" | "makes">(
-  filters: FilterState,
-  key: K,
-  labelOf: (value: FilterState[K][number]) => string,
-): ActiveFilter[] {
-  return (filters[key] as FilterState[K][number][]).map((value) => ({
+/** One chip per picked option in a checkbox group, such as "SUV" and "Truck". */
+function listChips<T extends string>(key: ListFilterKey, picked: readonly T[], labelOf: (value: T) => string): ActiveFilter[] {
+  return picked.map((value) => ({
     key: `${key}:${value}`,
     label: labelOf(value),
-    without: (current) => ({ ...current, [key]: (current[key] as unknown[]).filter((v) => v !== value) }),
+    without: (current) => ({ ...current, [key]: current[key].filter((v) => v !== value) }),
   }));
 }
 
@@ -50,10 +48,10 @@ export function describeActiveFilters(filters: FilterState): ActiveFilter[] {
   }
 
   chips.push(
-    ...listChips(filters, "bodyStyles", (value) => BODY_STYLE_LABELS[value]),
-    ...listChips(filters, "powertrains", (value) => POWERTRAIN_LABELS[value]),
-    ...listChips(filters, "drivetrains", (value) => value),
-    ...listChips(filters, "makes", (value) => value),
+    ...listChips("bodyStyles", filters.bodyStyles, (value) => BODY_STYLE_LABELS[value]),
+    ...listChips("powertrains", filters.powertrains, (value) => POWERTRAIN_LABELS[value]),
+    ...listChips("drivetrains", filters.drivetrains, (value) => value),
+    ...listChips("makes", filters.makes, (value) => value),
     ...minimumChip(filters, "minSeats", (value) => `${value}+ seats`),
     ...minimumChip(filters, "minMpg", (value) => `${value}+ MPG`),
     ...minimumChip(filters, "minRangeMiles", (value) => `${value}+ mi electric range`),

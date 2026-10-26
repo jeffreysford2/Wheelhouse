@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { mergeSources, modelId, normalizeName, pickFuelEconomyRecord } from "../match";
+import { distinctTrimNames, mergeSources, modelId, normalizeName, pickFuelEconomyRecord } from "../match";
 import type { CatalogTrimRecord, FuelEconomyRecord } from "../sources/sourceRecords";
 
 const camryLe: CatalogTrimRecord = {
@@ -47,6 +47,20 @@ describe("pickFuelEconomyRecord", () => {
   });
 });
 
+describe("distinctTrimNames", () => {
+  it("adds the drivetrain when a catalog repeats a trim name", () => {
+    const xleFwd = { ...camryLe, trim: "XLE", drivetrain: "FWD" } as const;
+    const xleAwd = { ...camryLe, trim: "XLE", drivetrain: "AWD" } as const;
+    expect(distinctTrimNames([camryLe, xleFwd, xleAwd])).toEqual(["LE", "XLE FWD", "XLE AWD"]);
+  });
+
+  it("adds the powertrain when the drivetrain is the same too", () => {
+    const gas = { ...camryLe, trim: "XLE", powertrain: "gas" } as const;
+    const hybrid = { ...camryLe, trim: "XLE", powertrain: "hybrid" } as const;
+    expect(distinctTrimNames([gas, hybrid])).toEqual(["XLE FWD Gas", "XLE FWD Hybrid"]);
+  });
+});
+
 describe("mergeSources", () => {
   it("joins sources even when they spell the model differently", () => {
     const f150: CatalogTrimRecord = {
@@ -61,6 +75,19 @@ describe("mergeSources", () => {
     expect(model?.id).toBe("ford-f-150-2026");
     expect(model?.safetyRating).toBe(4);
     expect(model?.trims[0]?.mpgCombined).toBe(20);
+  });
+
+  it("gives same-named trims separate ids so the run doesn't fail validation", () => {
+    const xleFwd = { ...camryLe, trim: "XLE", drivetrain: "FWD" } as const;
+    const xleAwd = { ...camryLe, trim: "XLE", drivetrain: "AWD", msrp: 30_000 } as const;
+    const [model] = mergeSources([xleFwd, xleAwd], [], []);
+    expect(model?.trims.map((trim) => trim.id)).toEqual(["toyota-camry-2026-xle-fwd", "toyota-camry-2026-xle-awd"]);
+  });
+
+  it("keeps the lowest safety rating when NHTSA rates a model more than once", () => {
+    const camry = { year: 2026, make: "Toyota", model: "Camry" } as const;
+    const [model] = mergeSources([camryLe], [], [{ ...camry, overallRating: 5 }, { ...camry, overallRating: 4 }]);
+    expect(model?.safetyRating).toBe(4);
   });
 
   it("keeps a catalog trim that has no EPA match, just without fuel economy", () => {

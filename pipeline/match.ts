@@ -40,8 +40,9 @@ export function modelKey(record: { year: number; make: string; model: string }):
  * EPA does not use trim names, so we score each candidate for the same
  * model: a matching powertrain matters most (a hybrid trim must not get gas
  * MPG), then drivetrain, then how closely EPA's description matches the trim name.
- * Returns undefined rather than guessing when no candidate shares the
- * powertrain, because a wrong MPG is worse than a missing one.
+ * Only records with the same powertrain are considered, and it returns
+ * undefined rather than guessing when there are none, because a wrong MPG is
+ * worse than a missing one.
  */
 export function pickFuelEconomyRecord(
   trim: CatalogTrimRecord,
@@ -50,10 +51,9 @@ export function pickFuelEconomyRecord(
   let best: { record: FuelEconomyRecord; score: number } | undefined;
 
   for (const record of candidates) {
-    if (record.powertrain && record.powertrain !== trim.powertrain) continue;
+    if (record.powertrain !== trim.powertrain) continue;
 
     let score = 0;
-    if (record.powertrain === trim.powertrain) score += 4;
     if (record.drivetrain === trim.drivetrain) score += 2;
     if (record.description) {
       const description = normalizeName(record.description);
@@ -82,6 +82,43 @@ function groupBy<T>(items: T[], keyOf: (item: T) => string): Map<string, T[]> {
 }
 
 /**
+ * Catalogs often list one trim name once per drivetrain ("XLE" FWD and "XLE"
+ * AWD). Repeated names get the drivetrain added, then the powertrain if they
+ * still clash, so every trim has a unique id and a name visitors can tell
+ * apart. A name that is still repeated after that is a real duplicate, and
+ * validation will stop the run.
+ */
+export function distinctTrimNames(records: CatalogTrimRecord[]): string[] {
+  const addSuffixToRepeats = (names: string[], suffixOf: (record: CatalogTrimRecord) => string) =>
+    names.map((name, position) =>
+      names.indexOf(name) !== names.lastIndexOf(name) ? `${name} ${suffixOf(records[position]!)}` : name,
+    );
+
+  const withDrivetrain = addSuffixToRepeats(
+    records.map((record) => record.trim),
+    (record) => record.drivetrain,
+  );
+  return addSuffixToRepeats(withDrivetrain, (record) => capitalize(record.powertrain));
+}
+
+function capitalize(text: string): string {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+/**
+ * NHTSA can rate one model several times (for example 2WD and 4WD). We show
+ * one rating per model, so keep the lowest: never overstate how safe a car is.
+ */
+function lowestSafetyRatingByModel(safety: SafetyRecord[]): Map<string, number> {
+  const ratings = new Map<string, number>();
+  for (const record of safety) {
+    const key = modelKey(record);
+    ratings.set(key, Math.min(record.overallRating, ratings.get(key) ?? Infinity));
+  }
+  return ratings;
+}
+
+/**
  * Combine all sources into Models. The catalog decides which models and
  * trims exist; EPA and NHTSA only add detail, so a car missing from EPA still
  * appears, just without fuel economy.
@@ -92,7 +129,7 @@ export function mergeSources(
   safety: SafetyRecord[],
 ): Model[] {
   const fuelEconomyByModel = groupBy(fuelEconomy, modelKey);
-  const safetyByModel = new Map(safety.map((record) => [modelKey(record), record]));
+  const safetyRatingByModel = lowestSafetyRatingByModel(safety);
   const catalogByModel = groupBy(catalogTrims, modelKey);
 
   const models: Model[] = [];
@@ -101,11 +138,14 @@ export function mergeSources(
     const id = modelId(first.make, first.model, first.year);
     const epaCandidates = fuelEconomyByModel.get(key) ?? [];
 
-    const trims: Trim[] = trimRecords.map((record) => {
+    const trimNames = distinctTrimNames(trimRecords);
+
+    const trims: Trim[] = trimRecords.map((record, position) => {
       const epa = pickFuelEconomyRecord(record, epaCandidates);
+      const name = trimNames[position]!;
       return withoutUndefined({
-        id: `${id}-${slugify(record.trim)}`,
-        name: record.trim,
+        id: `${id}-${slugify(name)}`,
+        name,
         msrp: record.msrp,
         powertrain: record.powertrain,
         drivetrain: record.drivetrain,
@@ -127,7 +167,7 @@ export function mergeSources(
         year: first.year,
         bodyStyle: first.bodyStyle,
         imageUrl: trimRecords.find((record) => record.imageUrl)?.imageUrl ?? PLACEHOLDER_IMAGE_URL,
-        safetyRating: safetyByModel.get(key)?.overallRating,
+        safetyRating: safetyRatingByModel.get(key),
         trims,
       }),
     );

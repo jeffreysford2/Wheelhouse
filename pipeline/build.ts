@@ -3,7 +3,12 @@
 
 import { mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import type { IndexFile, IndexModel, IndexTrim, Model, ModelFile } from "../shared/carTypes";
+import { validateModels } from "./validate";
+
+/** Where the site reads its data from (the repo-level public/data folder). */
+export const PUBLIC_DATA_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../public/data");
 
 /** Strip the fields only the detail page needs, to keep the first download small. */
 export function toIndexModel(model: Model): IndexModel {
@@ -47,4 +52,22 @@ export async function writeDataFiles(models: Model[], outputDir: string, stamp: 
 async function writeJson(filePath: string, data: unknown): Promise<void> {
   // Pretty-printed so a monthly diff of the data is readable in review.
   await writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+}
+
+/**
+ * The last step of both the monthly run and the sample-data script, shared so
+ * the two can never publish differently. Writes nothing if validation fails,
+ * so the files already published stay live. Returns whether it wrote.
+ */
+export async function validateAndWrite(models: Model[], stamp: BuildStamp, outputDir = PUBLIC_DATA_DIR): Promise<boolean> {
+  const result = validateModels(models);
+  if (!result.ok) {
+    console.error(`Validation failed with ${result.problems.length} problem(s); keeping the current data.`);
+    for (const problem of result.problems) console.error(`  - ${problem}`);
+    return false;
+  }
+
+  await writeDataFiles(models, outputDir, stamp);
+  console.log(`Wrote ${models.length} models to ${outputDir}`);
+  return true;
 }

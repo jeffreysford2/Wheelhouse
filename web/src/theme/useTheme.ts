@@ -14,8 +14,22 @@ function readSavedChoice(): ThemeChoice {
   }
 }
 
+const DARK_QUERY = "(prefers-color-scheme: dark)";
+
 function systemPrefersDark(): boolean {
-  return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  return window.matchMedia(DARK_QUERY).matches;
+}
+
+/** Tracks the OS light/dark setting, so the toggle's icon follows it when the OS switches while the page is open. */
+function useSystemPrefersDark(): boolean {
+  const [prefersDark, setPrefersDark] = useState(systemPrefersDark);
+  useEffect(() => {
+    const query = window.matchMedia(DARK_QUERY);
+    const onChange = () => setPrefersDark(query.matches);
+    query.addEventListener("change", onChange);
+    return () => query.removeEventListener("change", onChange);
+  }, []);
+  return prefersDark;
 }
 
 /**
@@ -25,6 +39,8 @@ function systemPrefersDark(): boolean {
  */
 export function useTheme() {
   const [choice, setChoice] = useState<ThemeChoice>(readSavedChoice);
+  const systemIsDark = useSystemPrefersDark();
+  const isDark = choice === "dark" || (choice === "system" && systemIsDark);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -39,14 +55,7 @@ export function useTheme() {
   }, [choice]);
 
   /** Flip to the opposite of whatever is showing now. */
-  const toggle = useCallback(() => {
-    setChoice((current) => {
-      const showingDark = current === "dark" || (current === "system" && systemPrefersDark());
-      return showingDark ? "light" : "dark";
-    });
-  }, []);
-
-  const isDark = choice === "dark" || (choice === "system" && typeof window !== "undefined" && systemPrefersDark());
+  const toggle = useCallback(() => setChoice(isDark ? "light" : "dark"), [isDark]);
 
   return { choice, isDark, toggle, setChoice };
 }

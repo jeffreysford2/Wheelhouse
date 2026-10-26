@@ -25,17 +25,16 @@ const SAFETY_CHOICES = [4, 5];
 const CARGO_CHOICES = [15, 25, 35, 50, 75];
 const TOWING_CHOICES = [1_500, 3_500, 5_000, 7_500, 10_000];
 
+/** Clicking a checkbox adds the option to its group, or removes it if already picked. */
+function toggleValue<T>(picked: readonly T[], value: T): T[] {
+  return picked.includes(value) ? picked.filter((v) => v !== value) : [...picked, value];
+}
+
 export function FilterPanel({ models, available, filters, onChange }: Props) {
   const set = <K extends keyof FilterState>(key: K, value: FilterState[K]) => onChange({ ...filters, [key]: value });
 
-  // Clicking a checkbox adds the option to its group, or removes it if already picked.
-  const toggle = <K extends ListFilterKey>(key: K, value: FilterState[K][number]) => {
-    const current = filters[key] as FilterState[K][number][];
-    const next = current.includes(value) ? current.filter((v) => v !== value) : [...current, value];
-    set(key, next as FilterState[K]);
-  };
-
-  const optionsFor = <K extends ListFilterKey>(key: K, values: FilterState[K][number][], labelOf: (value: FilterState[K][number]) => string) =>
+  // Each checkbox option shows how many models it would bring back.
+  const optionsFor = <T extends string>(key: ListFilterKey, values: T[], labelOf: (value: T) => string) =>
     values.map((value) => ({ value, label: labelOf(value), count: countForOption(models, filters, key, value) }));
 
   return (
@@ -51,14 +50,14 @@ export function FilterPanel({ models, available, filters, onChange }: Props) {
         legend="Body style"
         options={optionsFor("bodyStyles", available.bodyStyles, (value) => BODY_STYLE_LABELS[value])}
         selected={filters.bodyStyles}
-        onToggle={(value) => toggle("bodyStyles", value)}
+        onToggle={(value) => set("bodyStyles", toggleValue(filters.bodyStyles, value))}
       />
 
       <CheckboxGroup
         legend="Powertrain"
         options={optionsFor("powertrains", available.powertrains, (value) => POWERTRAIN_LABELS[value])}
         selected={filters.powertrains}
-        onToggle={(value) => toggle("powertrains", value)}
+        onToggle={(value) => set("powertrains", toggleValue(filters.powertrains, value))}
       />
 
       <MinimumSelect
@@ -73,7 +72,7 @@ export function FilterPanel({ models, available, filters, onChange }: Props) {
         legend="Drivetrain"
         options={optionsFor("drivetrains", available.drivetrains, (value) => value)}
         selected={filters.drivetrains}
-        onToggle={(value) => toggle("drivetrains", value)}
+        onToggle={(value) => set("drivetrains", toggleValue(filters.drivetrains, value))}
       />
 
       {available.hasMpg && (
@@ -100,7 +99,7 @@ export function FilterPanel({ models, available, filters, onChange }: Props) {
         legend="Brand"
         options={optionsFor("makes", available.makes, (value) => value)}
         selected={filters.makes}
-        onToggle={(value) => toggle("makes", value)}
+        onToggle={(value) => set("makes", toggleValue(filters.makes, value))}
       />
 
       {available.hasSafetyRating && (
