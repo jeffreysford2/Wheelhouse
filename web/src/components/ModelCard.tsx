@@ -18,7 +18,7 @@ export function ModelCard({ match }: Props) {
 
   return (
     <Link to={`/cars/${model.id}`} className="model-card">
-      <CarImage imageUrl={model.imageUrl} alt={fullName} />
+      <CarImage imageUrl={model.imageUrl} alt={fullName} bodyStyle={model.bodyStyle} />
       <div className="model-card-body">
         <p className="model-card-make">
           {model.year} {model.make}
@@ -37,19 +37,25 @@ export function ModelCard({ match }: Props) {
           )}
         </p>
 
+        {/* Powertrain gets its own line: "Gas or Hybrid or Plug-in hybrid" used to wrap mid-phrase among the specs. */}
+        <p className="model-card-powertrain">
+          {powertrains.map((powertrain, index) => (
+            <span key={powertrain}>
+              {index > 0 && " or "}
+              <PowertrainLabel powertrain={powertrain} />
+            </span>
+          ))}
+        </p>
+
         <ul className="model-card-specs">
           <li>{BODY_STYLE_LABELS[model.bodyStyle]}</li>
-          <li>
-            {powertrains.map((powertrain, index) => (
-              <span key={powertrain}>
-                {index > 0 && " or "}
-                <PowertrainLabel powertrain={powertrain} />
-              </span>
-            ))}
-          </li>
           {seatsText && <li>{seatsText}</li>}
           {efficiency && <li>{efficiency}</li>}
-          {featuredTrim.electricRangeMiles !== undefined && <li>{featuredTrim.electricRangeMiles} mi electric</li>}
+          {featuredTrim.electricRangeMiles !== undefined && (
+            <li>
+              {featuredTrim.electricRangeMiles} mi {featuredTrim.powertrain === "electric" ? "range" : "on electric"}
+            </li>
+          )}
         </ul>
       </div>
     </Link>

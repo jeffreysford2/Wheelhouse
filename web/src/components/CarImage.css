@@ -6,12 +6,16 @@
   background: var(--color-surface-sunken);
 }
 
+/* A stand-in carries no information, so it gets a short banner rather than a
+   full photo frame: more cars fit on a phone screen. Real photos keep 16:9. */
 .car-image-placeholder {
   display: grid;
   place-items: center;
+  aspect-ratio: 5 / 2;
   color: var(--color-ink);
 }
 
 .car-image-placeholder svg {
-  width: 62%;
+  width: 52%;
+  max-width: 260px;
 }

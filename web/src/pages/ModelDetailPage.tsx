@@ -56,7 +56,7 @@ export function ModelDetailPage() {
         ← All cars
       </Link>
       <header className="model-detail-header">
-        <CarImage imageUrl={model.imageUrl} alt={fullName} />
+        <CarImage imageUrl={model.imageUrl} alt={fullName} bodyStyle={model.bodyStyle} />
         <div className="model-detail-summary">
           <p className="muted">
             {model.year} {model.make}
@@ -70,7 +70,15 @@ export function ModelDetailPage() {
             <li>
               {model.trims.length} {model.trims.length === 1 ? "trim" : "trims"}
             </li>
-            {model.safetyRating !== undefined && <li>NHTSA overall safety rating: {model.safetyRating} of 5 stars</li>}
+            {model.safetyRating !== undefined && (
+              <li className="model-detail-safety">
+                <span className="model-detail-stars" aria-hidden="true">
+                  {"★".repeat(model.safetyRating)}
+                  <span className="model-detail-stars-empty">{"★".repeat(5 - model.safetyRating)}</span>
+                </span>
+                {model.safetyRating}-star NHTSA safety rating
+              </li>
+            )}
           </ul>
         </div>
       </header>
