@@ -43,6 +43,24 @@
   margin-right: auto;
 }
 
+.results-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.results-filters-count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 var(--space-1);
+  border-radius: 999px;
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  font-size: 0.75rem;
+}
+
 .sort-select {
   display: flex;
   align-items: center;
@@ -129,5 +147,39 @@
 
   .results-toolbar h1 {
     font-size: 1.375rem;
+  }
+}
+
+/* Phones: the count gets its own line, and Filters and Sort share the next
+   one at equal width, so both are easy to reach with a thumb. */
+@media (max-width: 560px) {
+  .results-toolbar h1 {
+    width: 100%;
+  }
+
+  .results-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .results-filters-button {
+    justify-content: center;
+  }
+
+  /* The chosen order ("Price, low to high") explains itself; the label stays for screen readers. */
+  .sort-select label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .sort-select select {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 999px;
   }
 }

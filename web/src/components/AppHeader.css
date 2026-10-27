@@ -26,6 +26,15 @@
   flex-shrink: 0;
 }
 
+/* The theme toggle sits at the far edge, away from the search box. */
+.app-header-inner > .button {
+  margin-left: auto;
+  flex-shrink: 0;
+  width: 40px;
+  justify-content: center;
+  padding: 0;
+}
+
 /* On phones the wordmark gives way to the search box. */
 @media (max-width: 560px) {
   .app-logo span {

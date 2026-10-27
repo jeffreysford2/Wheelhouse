@@ -68,10 +68,19 @@ function Results({ models }: { models: IndexModel[] }) {
           <h1 id="results-heading" aria-live="polite">
             {resultLabel}
           </h1>
-          <button type="button" className="button results-filters-button" onClick={() => setIsPanelOpen(true)}>
-            Filters{chips.length > 0 && ` (${chips.length})`}
-          </button>
-          <SortSelect value={sort} onChange={(order) => update(filters, order)} />
+          <div className="results-actions">
+            <button type="button" className="button results-filters-button" onClick={() => setIsPanelOpen(true)}>
+              <FiltersIcon />
+              Filters
+              {chips.length > 0 && (
+                <span className="results-filters-count figures">
+                  {chips.length}
+                  <span className="visually-hidden"> active</span>
+                </span>
+              )}
+            </button>
+            <SortSelect value={sort} onChange={(order) => update(filters, order)} />
+          </div>
         </div>
 
         <FilterChips chips={chips} filters={filters} onChange={update} onClearAll={clearAll} />
@@ -94,5 +103,17 @@ function Results({ models }: { models: IndexModel[] }) {
         )}
       </section>
     </div>
+  );
+}
+
+/** Three slider lines: the usual sign for "filters" on shopping sites. */
+function FiltersIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+      <path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" />
+      <circle cx="16" cy="6" r="2" />
+      <circle cx="10" cy="12" r="2" />
+      <circle cx="18" cy="18" r="2" />
+    </svg>
   );
 }

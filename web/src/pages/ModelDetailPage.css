@@ -15,6 +15,33 @@
   border-radius: var(--radius);
 }
 
+.model-detail-header > div:not(.car-image) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.model-detail-header p {
+  margin: 0;
+}
+
+.model-detail-safety {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.model-detail-stars {
+  flex-shrink: 0;
+  color: var(--color-accent);
+  letter-spacing: 0.1em;
+}
+
+.model-detail-stars-empty {
+  color: var(--color-border);
+}
+
 .model-detail-header h1 {
   font-size: clamp(2rem, 5vw, 3rem);
 }
@@ -58,6 +85,18 @@
 
 .trim-table tbody tr:last-child > * {
   border-bottom: 0;
+}
+
+/* The trim name stays in view while the rest of the row scrolls sideways on a phone. */
+.trim-table tbody th,
+.trim-table thead th:first-child {
+  position: sticky;
+  left: 0;
+  background: var(--color-surface);
+}
+
+.trim-table tbody tr:hover > * {
+  background: var(--color-surface-sunken);
 }
 
 @media (max-width: 720px) {
