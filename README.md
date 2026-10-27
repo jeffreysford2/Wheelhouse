@@ -108,8 +108,8 @@ to `main` and serves `web/dist`.
 
 Two files in the repo set it up:
 
-- **`wrangler.jsonc`** tells Cloudflare where the built files are and turns
-  on single-page-app mode. Pages such as `/cars/toyota-camry-2026` exist only
+- **`wrangler.jsonc`** runs `npm run build` before every deploy, tells
+  Cloudflare where the built files are and turns on single-page-app mode. Pages such as `/cars/toyota-camry-2026` exist only
   in the browser, so any path that isn't a real file gets `index.html`.
 - **`public/_headers`** sets how long browsers keep each file: hashed
   `/assets/` forever, `/data/index.json` for 5 minutes, model files for a day
@@ -135,7 +135,7 @@ Sources: [build limits](https://developers.cloudflare.com/workers/ci-cd/builds/l
    and connect GitHub with access to `jeffreysford2/wheelhouse` only.
 3. Name the Worker `wheelhouse` (it must match `name` in `wrangler.jsonc`).
 4. Under the Worker's **Settings > Build**, set:
-   - Build command: `npm run build`
+   - Build command: leave empty (`wrangler.jsonc` runs the build)
    - Deploy command: `npx wrangler deploy`
    - Root directory: `/`
    - Build variable: `NODE_VERSION` = `22`
