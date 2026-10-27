@@ -1,0 +1,124 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "subaru-forester-2026",
+    "make": "Subaru",
+    "name": "Forester",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "subaru-forester-2026-base",
+        "name": "Base",
+        "msrp": 29995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-premium",
+        "name": "Premium",
+        "msrp": 31995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-sport",
+        "name": "Sport",
+        "msrp": 34795,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-limited",
+        "name": "Limited",
+        "msrp": 35995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-sport-onyx-edition",
+        "name": "Sport Onyx Edition",
+        "msrp": 36495,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-wilderness",
+        "name": "Wilderness",
+        "msrp": 36995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-touring",
+        "name": "Touring",
+        "msrp": 39995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-premium-hybrid",
+        "name": "Premium Hybrid",
+        "msrp": 34730,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-sport-hybrid",
+        "name": "Sport Hybrid",
+        "msrp": 37930,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-limited-hybrid",
+        "name": "Limited Hybrid",
+        "msrp": 38995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-forester-2026-touring-hybrid",
+        "name": "Touring Hybrid",
+        "msrp": 41545,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      }
+    ]
+  }
+}

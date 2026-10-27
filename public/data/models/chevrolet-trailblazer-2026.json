@@ -1,0 +1,94 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "chevrolet-trailblazer-2026",
+    "make": "Chevrolet",
+    "name": "Trailblazer",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "chevrolet-trailblazer-2026-ls-fwd",
+        "name": "LS FWD",
+        "msrp": 23300,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trailblazer-2026-ls-awd",
+        "name": "LS AWD",
+        "msrp": 25300,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trailblazer-2026-lt-fwd",
+        "name": "LT FWD",
+        "msrp": 24500,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trailblazer-2026-lt-awd",
+        "name": "LT AWD",
+        "msrp": 26500,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trailblazer-2026-rs-fwd",
+        "name": "RS FWD",
+        "msrp": 27900,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trailblazer-2026-rs-awd",
+        "name": "RS AWD",
+        "msrp": 29500,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trailblazer-2026-activ-fwd",
+        "name": "Activ FWD",
+        "msrp": 27900,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trailblazer-2026-activ-awd",
+        "name": "Activ AWD",
+        "msrp": 29500,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      }
+    ]
+  }
+}

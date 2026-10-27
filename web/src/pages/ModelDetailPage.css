@@ -15,19 +15,8 @@
   border-radius: var(--radius);
 }
 
-.model-detail-header > div:not(.car-image) {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--space-2);
-}
-
-.model-detail-header p {
-  margin: 0;
-}
-
 .model-detail-safety {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: var(--space-2);
 }
@@ -87,14 +76,6 @@
   border-bottom: 0;
 }
 
-/* The trim name stays in view while the rest of the row scrolls sideways on a phone. */
-.trim-table tbody th,
-.trim-table thead th:first-child {
-  position: sticky;
-  left: 0;
-  background: var(--color-surface);
-}
-
 .trim-table tbody tr:hover > * {
   background: var(--color-surface-sunken);
 }
@@ -103,4 +84,63 @@
   .model-detail-header {
     grid-template-columns: 1fr;
   }
+}
+
+.model-detail-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.model-detail-summary p,
+.model-detail-facts {
+  margin: 0;
+}
+
+/* Facts read as one dot-separated line, like the specs on a results card. */
+.model-detail-facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  color: var(--color-ink-muted);
+}
+
+.model-detail-facts li + li::before {
+  content: "·";
+  padding: 0 var(--space-2);
+}
+
+.trim-section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-4);
+}
+
+.trim-section-heading p {
+  margin: 0;
+}
+
+/* The trim name and its compare button stay put while the specs scroll sideways on phones. */
+.trim-table thead th:first-child,
+.trim-table-name {
+  position: sticky;
+  left: 0;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+}
+
+.trim-table-name-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.trim-table-note {
+  margin: calc(-1 * var(--space-3)) 0 0;
+  font-size: 0.875rem;
 }

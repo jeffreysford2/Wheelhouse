@@ -1,0 +1,42 @@
+rank,make,model,sales_2025_units,body_type,sales_source,status
+1,Ford,F-150,828832,Pickup,F-Series total incl. Super Duty; carpro.com/blog/top-25-best-selling-models-of-2025,collected
+2,Chevrolet,Silverado 1500,558709,Pickup,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+3,Toyota,RAV4,479288,Compact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+4,Honda,CR-V,403768,Compact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+5,Ram,1500,374059,Pickup,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+6,GMC,Sierra 1500,356218,Pickup,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+7,Chevrolet,Equinox,332301,Compact SUV,accio.com/business/top-50-selling-cars-in-usa,collected
+8,Tesla,Model Y,317800,Compact SUV (EV),estimate; accio.com/business/top-50-selling-cars-in-usa,collected
+9,Toyota,Camry,316185,Midsize car,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+10,Toyota,Tacoma,274638,Pickup,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+11,Toyota,Corolla,248088,Compact car,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+12,Honda,Civic,238661,Compact car,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+13,Hyundai,Tucson,234230,Compact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+14,Ford,Explorer,222706,Midsize SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+15,Nissan,Rogue,217896,Compact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+16,Jeep,Grand Cherokee,210082,Midsize SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+17,Chevrolet,Trax,206339,Subcompact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+18,Subaru,Crosstrek,191724,Subcompact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+19,Kia,Sportage,182823,Compact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+20,Subaru,Forester,175070,Compact SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+21,Tesla,Model 3,172800,Midsize car (EV),estimate; carpro.com/blog/top-25-best-selling-models-of-2025,collected
+22,Jeep,Wrangler,167322,Midsize SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+23,Subaru,Outback,157716,Midsize SUV,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+24,Ford,Maverick,155051,Pickup,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+25,Nissan,Sentra,151621,Compact car,carpro.com/blog/top-25-best-selling-models-of-2025,collected
+26,Honda,Accord,150196,Midsize car,through Nov; goodcarbadcar.net passenger car 2025,collected
+27,Hyundai,Elantra,148200,Compact car,through Nov; goodcarbadcar.net passenger car 2025,collected
+28,Chevrolet,Traverse,148278,Midsize SUV,goodcarbadcar.net midsize SUV 2025,collected
+29,Toyota,Tundra,147610,Pickup,Toyota Motor North America 2025 sales release,collected
+30,Ford,Bronco,146007,Midsize SUV,goodcarbadcar.net midsize SUV 2025,collected
+31,Hyundai,Santa Fe,142404,Midsize SUV,goodcarbadcar.net midsize SUV 2025,collected
+32,Kia,K4,140514,Compact car,through Nov; goodcarbadcar.net passenger car 2025,collected
+33,Toyota,Grand Highlander,136801,Midsize SUV,Toyota Motor North America 2025 sales release,collected
+34,Ford,Bronco Sport,134493,Compact SUV,goodcarbadcar.net midsize SUV 2025,collected
+35,Honda,Pilot,124209,Midsize SUV,goodcarbadcar.net midsize SUV 2025,collected
+36,Hyundai,Palisade,123921,Midsize SUV,goodcarbadcar.net midsize SUV 2025,collected
+37,Kia,Telluride,123281,Midsize SUV,goodcarbadcar.net midsize SUV 2025,skipped: Kia sells no 2026 Telluride (went straight to the all-new 2027)
+38,Lexus,RX,113256,Midsize luxury SUV,Toyota Motor North America 2025 sales release,collected
+39,Toyota,Sienna,101486,Minivan,Toyota Motor North America 2025 sales release,collected
+40,Mazda,CX-5,,Compact SUV,"sales not verified; included as a likely top-40 seller, swap candidates: Chevrolet Trailblazer (101363), Toyota Corolla Cross (99798), Toyota 4Runner (98805)",collected
+41,Chevrolet,Trailblazer,101363,Subcompact SUV,goodcarbadcar.net midsize SUV 2025,collected (replaces Telluride)

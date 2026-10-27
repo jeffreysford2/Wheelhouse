@@ -1,0 +1,59 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "lexus-rx-2026",
+    "make": "Lexus",
+    "name": "RX",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "lexus-rx-2026-rx-350-fwd",
+        "name": "RX 350 FWD",
+        "msrp": 51175,
+        "priceSourceUrl": "https://www.motor1.com/features/770938/2026-lexus-prices/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "lexus-rx-2026-rx-350-awd",
+        "name": "RX 350 AWD",
+        "msrp": 52775,
+        "priceSourceUrl": "https://www.motor1.com/features/770938/2026-lexus-prices/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "lexus-rx-2026-rx-350h",
+        "name": "RX 350h",
+        "msrp": 53475,
+        "priceSourceUrl": "https://www.motor1.com/features/770938/2026-lexus-prices/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "lexus-rx-2026-rx-450h",
+        "name": "RX 450h+",
+        "msrp": 66680,
+        "priceSourceUrl": "https://www.motor1.com/features/770938/2026-lexus-prices/",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "lexus-rx-2026-rx-500h-f-sport-performance",
+        "name": "RX 500h F Sport Performance",
+        "msrp": 66850,
+        "priceSourceUrl": "https://www.motor1.com/features/770938/2026-lexus-prices/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      }
+    ]
+  }
+}

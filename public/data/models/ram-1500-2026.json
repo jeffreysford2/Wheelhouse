@@ -1,0 +1,150 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "ram-1500-2026",
+    "make": "Ram",
+    "name": "1500",
+    "year": 2026,
+    "bodyStyle": "truck",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "ram-1500-2026-tradesman-rwd",
+        "name": "Tradesman RWD",
+        "msrp": 42025,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "ram-1500-2026-tradesman-4wd",
+        "name": "Tradesman 4WD",
+        "msrp": 45425,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "ram-1500-2026-express-rwd",
+        "name": "Express RWD",
+        "msrp": 44150,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "ram-1500-2026-express-4wd",
+        "name": "Express 4WD",
+        "msrp": 47550,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "ram-1500-2026-big-horn-rwd",
+        "name": "Big Horn RWD",
+        "msrp": 47280,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "ram-1500-2026-big-horn-4wd",
+        "name": "Big Horn 4WD",
+        "msrp": 50680,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "ram-1500-2026-lone-star-rwd",
+        "name": "Lone Star RWD",
+        "msrp": 47280,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "ram-1500-2026-lone-star-4wd",
+        "name": "Lone Star 4WD",
+        "msrp": 50680,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "ram-1500-2026-warlock",
+        "name": "Warlock",
+        "msrp": 52865,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ram-1500-2026-laramie-rwd",
+        "name": "Laramie RWD",
+        "msrp": 61480,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "ram-1500-2026-laramie-4wd",
+        "name": "Laramie 4WD",
+        "msrp": 64880,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ram-1500-2026-rebel",
+        "name": "Rebel",
+        "msrp": 65445,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ram-1500-2026-rho",
+        "name": "RHO",
+        "msrp": 73795,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "ram-1500-2026-limited",
+        "name": "Limited",
+        "msrp": 76405,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ram-1500-2026-limited-longhorn",
+        "name": "Limited Longhorn",
+        "msrp": 76900,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ram-1500-2026-tungsten",
+        "name": "Tungsten",
+        "msrp": 88800,
+        "priceSourceUrl": "https://autofinder.com/cars/ram/ram-pickup-1500/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      }
+    ]
+  }
+}

@@ -62,13 +62,15 @@ export function FilterPanel({ models, available, filters, onChange }: Props) {
         onToggle={(value) => set("powertrains", toggleValue(filters.powertrains, value))}
       />
 
-      <MinimumSelect
-        label="Seats"
-        value={filters.minSeats}
-        choices={SEAT_CHOICES}
-        formatChoice={(value) => `${value} or more`}
-        onChange={(value) => set("minSeats", value)}
-      />
+      {available.hasSeats && (
+        <MinimumSelect
+          label="Seats"
+          value={filters.minSeats}
+          choices={SEAT_CHOICES}
+          formatChoice={(value) => `${value} or more`}
+          onChange={(value) => set("minSeats", value)}
+        />
+      )}
 
       <CheckboxGroup
         legend="Drivetrain"

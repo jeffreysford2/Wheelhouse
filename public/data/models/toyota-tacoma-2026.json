@@ -1,0 +1,91 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "toyota-tacoma-2026",
+    "make": "Toyota",
+    "name": "Tacoma",
+    "year": 2026,
+    "bodyStyle": "truck",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "toyota-tacoma-2026-sr",
+        "name": "SR",
+        "msrp": 32445,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "toyota-tacoma-2026-sr5",
+        "name": "SR5",
+        "msrp": 36535,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "toyota-tacoma-2026-trd-prerunner",
+        "name": "TRD PreRunner",
+        "msrp": 39035,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "toyota-tacoma-2026-trd-sport",
+        "name": "TRD Sport",
+        "msrp": 40315,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tacoma-2026-trd-off-road",
+        "name": "TRD Off-Road",
+        "msrp": 42715,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tacoma-2026-limited",
+        "name": "Limited",
+        "msrp": 53470,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tacoma-2026-trailhunter",
+        "name": "Trailhunter",
+        "msrp": 63650,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "hybrid",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tacoma-2026-trd-pro",
+        "name": "TRD Pro",
+        "msrp": 64650,
+        "destinationFee": 1745,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html",
+        "powertrain": "hybrid",
+        "drivetrain": "4WD",
+        "seats": 5
+      }
+    ]
+  }
+}

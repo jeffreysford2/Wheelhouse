@@ -13,6 +13,7 @@ export type AvailableFilters = {
   powertrains: Powertrain[];
   drivetrains: Drivetrain[];
   priceRange: { min: number; max: number };
+  hasSeats: boolean;
   hasMpg: boolean;
   hasElectricRange: boolean;
   hasSafetyRating: boolean;
@@ -36,6 +37,7 @@ export function findAvailableFilters(models: IndexModel[]): AvailableFilters {
     powertrains: present(POWERTRAIN_ORDER, trims.map((trim) => trim.powertrain)),
     drivetrains: present(DRIVETRAIN_ORDER, trims.map((trim) => trim.drivetrain)),
     priceRange: { min: Math.min(...prices), max: Math.max(...prices) },
+    hasSeats: trims.some((trim) => trim.seats !== undefined),
     hasMpg: trims.some((trim) => trim.mpgCombined !== undefined),
     hasElectricRange: trims.some((trim) => trim.electricRangeMiles !== undefined),
     hasSafetyRating: models.some((model) => model.safetyRating !== undefined),

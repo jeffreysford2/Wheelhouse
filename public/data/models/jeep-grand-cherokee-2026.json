@@ -1,0 +1,68 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "jeep-grand-cherokee-2026",
+    "make": "Jeep",
+    "name": "Grand Cherokee",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "jeep-grand-cherokee-2026-laredo",
+        "name": "Laredo",
+        "msrp": 40915,
+        "priceSourceUrl": "https://www.truecar.com/overview/jeep/grand-cherokee/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-grand-cherokee-2026-laredo-x",
+        "name": "Laredo X",
+        "msrp": 43410,
+        "priceSourceUrl": "https://www.truecar.com/overview/jeep/grand-cherokee/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-grand-cherokee-2026-limited",
+        "name": "Limited",
+        "msrp": 46315,
+        "priceSourceUrl": "https://www.truecar.com/overview/jeep/grand-cherokee/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-grand-cherokee-2026-laredo-altitude",
+        "name": "Laredo Altitude",
+        "msrp": 46355,
+        "priceSourceUrl": "https://www.truecar.com/overview/jeep/grand-cherokee/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-grand-cherokee-2026-limited-reserve",
+        "name": "Limited Reserve",
+        "msrp": 53910,
+        "priceSourceUrl": "https://www.truecar.com/overview/jeep/grand-cherokee/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-grand-cherokee-2026-summit",
+        "name": "Summit",
+        "msrp": 62595,
+        "priceSourceUrl": "https://www.truecar.com/overview/jeep/grand-cherokee/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      }
+    ]
+  }
+}

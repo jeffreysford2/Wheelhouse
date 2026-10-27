@@ -1,0 +1,86 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "honda-pilot-2026",
+    "make": "Honda",
+    "name": "Pilot",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "honda-pilot-2026-sport-fwd",
+        "name": "Sport FWD",
+        "msrp": 42395,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "honda-pilot-2026-sport-awd",
+        "name": "Sport AWD",
+        "msrp": 44495,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "honda-pilot-2026-ex-l-fwd",
+        "name": "EX-L FWD",
+        "msrp": 44695,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "honda-pilot-2026-ex-l-awd",
+        "name": "EX-L AWD",
+        "msrp": 46795,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "honda-pilot-2026-trailsport",
+        "name": "TrailSport",
+        "msrp": 50595,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "honda-pilot-2026-touring",
+        "name": "Touring",
+        "msrp": 51295,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "honda-pilot-2026-elite",
+        "name": "Elite",
+        "msrp": 53695,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "honda-pilot-2026-black-edition",
+        "name": "Black Edition",
+        "msrp": 55195,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      }
+    ]
+  }
+}

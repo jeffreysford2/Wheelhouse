@@ -1,0 +1,104 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "chevrolet-silverado-1500-2026",
+    "make": "Chevrolet",
+    "name": "Silverado 1500",
+    "year": 2026,
+    "bodyStyle": "truck",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "chevrolet-silverado-1500-2026-wt",
+        "name": "WT",
+        "msrp": 36900,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-custom",
+        "name": "Custom",
+        "msrp": 42400,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-custom-trail-boss",
+        "name": "Custom Trail Boss",
+        "msrp": 52800,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-lt",
+        "name": "LT",
+        "msrp": 47900,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-rst",
+        "name": "RST",
+        "msrp": 51300,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-lt-trail-boss",
+        "name": "LT Trail Boss",
+        "msrp": 59600,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-ltz",
+        "name": "LTZ",
+        "msrp": 58000,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-high-country",
+        "name": "High Country",
+        "msrp": 62900,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-zr2",
+        "name": "ZR2",
+        "msrp": 71700,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "chevrolet-silverado-1500-2026-zr2-bison",
+        "name": "ZR2 Bison",
+        "msrp": 80140,
+        "destinationFee": 2595,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      }
+    ]
+  }
+}

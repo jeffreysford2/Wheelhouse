@@ -13,9 +13,7 @@ export function ModelCard({ match }: Props) {
 
   // Describe the trims the visitor can actually buy under their filters.
   const powertrains = [...new Set(matchingTrims.map((trim) => trim.powertrain))];
-  const seatCounts = matchingTrims.map((trim) => trim.seats);
-  const minSeats = Math.min(...seatCounts);
-  const maxSeats = Math.max(...seatCounts);
+  const seatsText = describeSeats(matchingTrims.map((trim) => trim.seats));
   const efficiency = formatEfficiency(featuredTrim.mpgCombined, featuredTrim.powertrain);
 
   return (
@@ -51,7 +49,7 @@ export function ModelCard({ match }: Props) {
 
         <ul className="model-card-specs">
           <li>{BODY_STYLE_LABELS[model.bodyStyle]}</li>
-          <li>{minSeats === maxSeats ? `${minSeats} seats` : `${minSeats} to ${maxSeats} seats`}</li>
+          {seatsText && <li>{seatsText}</li>}
           {efficiency && <li>{efficiency}</li>}
           {featuredTrim.electricRangeMiles !== undefined && (
             <li>
@@ -62,4 +60,13 @@ export function ModelCard({ match }: Props) {
       </div>
     </Link>
   );
+}
+
+/** "5 seats" or "5 to 8 seats" from the trims whose seat count we know; nothing if we know none. */
+function describeSeats(seatCounts: (number | undefined)[]): string | undefined {
+  const known = seatCounts.filter((seats): seats is number => seats !== undefined);
+  if (known.length === 0) return undefined;
+  const minSeats = Math.min(...known);
+  const maxSeats = Math.max(...known);
+  return minSeats === maxSeats ? `${minSeats} seats` : `${minSeats} to ${maxSeats} seats`;
 }

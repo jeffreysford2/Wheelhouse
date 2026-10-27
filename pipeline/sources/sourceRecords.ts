@@ -14,13 +14,20 @@ export type CatalogTrimRecord = {
   model: string;
   trim: string;
   msrp: number;
+  destinationFee?: number;
   bodyStyle: BodyStyle;
   powertrain: Powertrain;
   drivetrain: Drivetrain;
-  seats: number;
+  seats?: number;
+  /** Only when the catalog states it; EPA's figure wins when both exist. */
+  electricRangeMiles?: number;
   towingLbs?: number;
   cargoCuFt?: number;
   imageUrl?: string;
+  /** Where the price came from, shown on the model page so visitors can check it. */
+  priceSourceUrl?: string;
+  /** ISO date the price was last checked against its source. */
+  priceCheckedOn?: string;
 };
 
 /**

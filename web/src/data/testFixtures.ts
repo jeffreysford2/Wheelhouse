@@ -1,5 +1,5 @@
-// Tiny hand-made models for unit tests. Kept separate from the sample
-// dataset so a change to the sample data never breaks a filter test.
+// Tiny hand-made models for unit tests. Kept separate from the published
+// data so a price refresh never breaks a filter test.
 
 import type { IndexModel, IndexTrim } from "../../../shared/carTypes";
 

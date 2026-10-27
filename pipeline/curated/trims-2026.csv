@@ -1,0 +1,358 @@
+year,make,model,trim,drive,powertrain,msrp_usd,destination_usd,seats,ev_range_mi,source_url,checked_on,notes
+2026,Toyota,RAV4,LE,FWD,Hybrid,31900,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,LE,AWD,Hybrid,33300,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,SE,FWD,Hybrid,34700,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,SE,AWD,Hybrid,36100,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,XLE Premium,FWD,Hybrid,36100,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,XLE Premium,AWD,Hybrid,37500,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,Woodland,AWD,Hybrid,39900,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,XSE,AWD,Hybrid,41300,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,Limited,AWD,Hybrid,43300,1450,5,,https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/,2026-10-26,
+2026,Toyota,RAV4,SE Plug-in Hybrid,AWD,Plug-in hybrid,41500,1450,5,52,https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/,2026-10-26,EV range is the lineup's 'up to' figure
+2026,Toyota,RAV4,Woodland Plug-in Hybrid,AWD,Plug-in hybrid,45300,1450,5,52,https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/,2026-10-26,EV range is the lineup's 'up to' figure
+2026,Toyota,RAV4,XSE Plug-in Hybrid,AWD,Plug-in hybrid,47200,1450,5,52,https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/,2026-10-26,"EV range is the lineup's 'up to' figure; an earlier Yahoo article said $48,685, needs a check"
+2026,Toyota,RAV4,GR Sport Plug-in Hybrid,AWD,Plug-in hybrid,48500,1450,5,52,https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/,2026-10-26,EV range is the lineup's 'up to' figure
+2026,Honda,CR-V,LX,FWD,Gas,30920,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,LX,AWD,Gas,32420,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,EX,FWD,Gas,33150,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,EX,AWD,Gas,34650,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,EX-L,FWD,Gas,35400,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,EX-L,AWD,Gas,36900,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,Sport Hybrid,FWD,Hybrid,35630,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,Sport Hybrid,AWD,Hybrid,37130,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,Sport-L Hybrid,FWD,Hybrid,38725,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,Sport-L Hybrid,AWD,Hybrid,40225,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,TrailSport Hybrid,AWD,Hybrid,38800,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Honda,CR-V,Sport Touring Hybrid,AWD,Hybrid,42250,1395,5,,https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/,2026-10-26,
+2026,Toyota,Camry,LE,FWD,Hybrid,29600,1295,5,,https://www.edmunds.com/car-news/2026-toyota-camry-pricing-guide.html,2026-10-26,AWD adds $1525
+2026,Toyota,Camry,SE,FWD,Hybrid,32100,1295,5,,https://www.edmunds.com/car-news/2026-toyota-camry-pricing-guide.html,2026-10-26,AWD adds $1525
+2026,Toyota,Camry,Nightshade,FWD,Hybrid,33100,1295,5,,https://www.edmunds.com/car-news/2026-toyota-camry-pricing-guide.html,2026-10-26,AWD adds $1525
+2026,Toyota,Camry,XLE,FWD,Hybrid,34800,1295,5,,https://www.edmunds.com/car-news/2026-toyota-camry-pricing-guide.html,2026-10-26,AWD adds $1525
+2026,Toyota,Camry,XSE,FWD,Hybrid,36000,1295,5,,https://www.edmunds.com/car-news/2026-toyota-camry-pricing-guide.html,2026-10-26,AWD adds $1525
+2026,Ford,F-150,XL,RWD,Gas,37290,2795,3,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,"Starting price is Regular Cab, short bed, 2.7L V6; 4x4 and other cabs cost more"
+2026,Ford,F-150,STX,RWD,Gas,44855,2795,6,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,"SuperCab or SuperCrew, short bed, turbo 2.7L V6; 4x4 costs more"
+2026,Ford,F-150,XLT,RWD,Gas,45695,2795,6,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,Short bed; 4x4 and other cabs cost more
+2026,Ford,F-150,Lariat,RWD,Gas,59560,2795,5,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,"SuperCrew only, 3.5L turbo V6"
+2026,Ford,F-150,Tremor,RWD,Gas,64915,2795,5,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,"Price as listed by Edmunds; Tremor is normally 4x4, needs a check"
+2026,Ford,F-150,King Ranch,RWD,Gas,65825,2795,5,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,SuperCrew only
+2026,Ford,F-150,Platinum,RWD,Gas,68800,2795,5,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,SuperCrew only
+2026,Ford,F-150,Raptor,4WD,Gas,79005,2795,5,,https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html,2026-10-26,"SuperCrew only, 450 hp; Raptor is 4x4 only (Edmunds said RWD, which looks wrong)"
+2026,Tesla,Model Y,Standard RWD,RWD,Electric,39990,1390,5,321,https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/,2026-10-26,
+2026,Tesla,Model Y,Standard AWD,AWD,Electric,41990,1390,5,294,https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/,2026-10-26,
+2026,Tesla,Model Y,Premium RWD,RWD,Electric,45990,1390,5,357,https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/,2026-10-26,
+2026,Tesla,Model Y,Premium AWD,AWD,Electric,49990,1390,5,327,https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/,2026-10-26,Optional third row seats 7
+2026,Tesla,Model Y,Performance AWD,AWD,Electric,57990,1390,5,306,https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/,2026-10-26,
+2026,Chevrolet,Silverado 1500,WT,RWD,Gas,36900,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Regular Cab standard bed 2.7L turbo I4; July 2025 pricing may have risen since
+2026,Chevrolet,Silverado 1500,Custom,RWD,Gas,42400,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Double Cab 2.7L turbo I4
+2026,Chevrolet,Silverado 1500,Custom Trail Boss,4WD,Gas,52800,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Crew Cab short bed
+2026,Chevrolet,Silverado 1500,LT,RWD,Gas,47900,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Double Cab 2.7L turbo I4
+2026,Chevrolet,Silverado 1500,RST,RWD,Gas,51300,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Crew Cab short bed
+2026,Chevrolet,Silverado 1500,LT Trail Boss,4WD,Gas,59600,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Crew Cab short bed
+2026,Chevrolet,Silverado 1500,LTZ,RWD,Gas,58000,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Crew Cab 5.3L V8
+2026,Chevrolet,Silverado 1500,High Country,RWD,Gas,62900,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Crew Cab 5.3L V8
+2026,Chevrolet,Silverado 1500,ZR2,4WD,Diesel,71700,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Crew Cab 3.0L turbo-diesel; 6.2L V8 costs more
+2026,Chevrolet,Silverado 1500,ZR2 Bison,4WD,Diesel,80140,2595,,,https://gmauthority.com/blog/2025/07/2026-chevy-silverado-1500-pricing-uncovered/,2026-10-26,Crew Cab 3.0L turbo-diesel
+2026,GMC,Sierra 1500,Pro,RWD,Gas,38300,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Regular Cab 2.7L turbo I4
+2026,GMC,Sierra 1500,SLE,RWD,Gas,48700,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Double Cab 2.7L turbo I4
+2026,GMC,Sierra 1500,Elevation,RWD,Gas,50500,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Double Cab 2.7L turbo I4
+2026,GMC,Sierra 1500,SLT,RWD,Gas,55100,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Crew Cab 5.3L V8
+2026,GMC,Sierra 1500,AT4,4WD,Diesel,67000,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Crew Cab 3.0L turbo-diesel; 6.2L V8 costs more
+2026,GMC,Sierra 1500,Denali,RWD,Gas,66595,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Crew Cab 5.3L V8
+2026,GMC,Sierra 1500,AT4X,4WD,Diesel,79600,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Crew Cab 3.0L turbo-diesel
+2026,GMC,Sierra 1500,AT4X AEV Edition,4WD,Diesel,86510,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Crew Cab 3.0L turbo-diesel
+2026,GMC,Sierra 1500,Denali Ultimate,4WD,Diesel,83395,2795,,,https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/,2026-10-26,Crew Cab 3.0L turbo-diesel
+2026,Chevrolet,Equinox,LT,FWD,Gas,28700,1795,5,,https://gmauthority.com/blog/2025/08/2026-chevy-equinox-gets-price-increase/,2026-10-26,
+2026,Chevrolet,Equinox,LT,AWD,Gas,30700,1795,5,,https://gmauthority.com/blog/2025/08/2026-chevy-equinox-gets-price-increase/,2026-10-26,
+2026,Chevrolet,Equinox,Activ,FWD,Gas,33600,1795,5,,https://gmauthority.com/blog/2025/08/2026-chevy-equinox-gets-price-increase/,2026-10-26,
+2026,Chevrolet,Equinox,Activ,AWD,Gas,35600,1795,5,,https://gmauthority.com/blog/2025/08/2026-chevy-equinox-gets-price-increase/,2026-10-26,
+2026,Chevrolet,Equinox,RS,FWD,Gas,33600,1795,5,,https://gmauthority.com/blog/2025/08/2026-chevy-equinox-gets-price-increase/,2026-10-26,
+2026,Chevrolet,Equinox,RS,AWD,Gas,35600,1795,5,,https://gmauthority.com/blog/2025/08/2026-chevy-equinox-gets-price-increase/,2026-10-26,
+2026,Toyota,Tacoma,SR,RWD,Gas,32445,1745,,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,Regular Cab shown; drive not stated by source
+2026,Toyota,Tacoma,SR5,RWD,Gas,36535,1745,,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,XtraCab or Double Cab; drive not stated by source
+2026,Toyota,Tacoma,TRD PreRunner,RWD,Gas,39035,1745,,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,XtraCab
+2026,Toyota,Tacoma,TRD Sport,RWD,Gas,40315,1745,5,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,Double Cab; 4WD and hybrid optional
+2026,Toyota,Tacoma,TRD Off-Road,4WD,Gas,42715,1745,5,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,Double Cab; hybrid optional
+2026,Toyota,Tacoma,Limited,4WD,Gas,53470,1745,5,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,Hybrid optional
+2026,Toyota,Tacoma,Trailhunter,4WD,Hybrid,63650,1745,5,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,
+2026,Toyota,Tacoma,TRD Pro,4WD,Hybrid,64650,1745,5,,https://www.edmunds.com/car-news/2026-toyota-tacoma-price-guide.html,2026-10-26,
+2026,Hyundai,Tucson,SE,FWD,Gas,29200,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,SE,AWD,Gas,30700,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,SEL,FWD,Gas,30550,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,SEL,AWD,Gas,32050,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,XRT,FWD,Gas,33225,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,XRT,AWD,Gas,34725,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,SEL Premium,FWD,Gas,33550,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,SEL Premium,AWD,Gas,35050,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,Limited,FWD,Gas,39175,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,Limited,AWD,Gas,40675,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,Hybrid Blue SE,AWD,Hybrid,32200,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,Hybrid SEL,AWD,Hybrid,33650,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,Hybrid SEL Convenience,AWD,Hybrid,34650,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,Hybrid Limited,AWD,Hybrid,41825,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Tucson,Plug-in Hybrid SEL,AWD,Plug-in hybrid,40075,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,EV range not in source
+2026,Hyundai,Tucson,Plug-in Hybrid Limited,AWD,Plug-in hybrid,48300,1600,5,,https://www.hyundainews.com/assets/documents/original/68231-26MYTucsonPricingSheet4Sep2025.pdf,2026-10-26,EV range not in source
+2026,Honda,Civic,LX Sedan,FWD,Gas,24695,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-cf005034e20eb27505fd8e6bbb05a2e4-2026-honda-civic-sedan-pricing-and-epa-ratings-3,2026-10-26,Jan 2026 release
+2026,Honda,Civic,Sport Sedan,FWD,Gas,26695,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-cf005034e20eb27505fd8e6bbb05a2e4-2026-honda-civic-sedan-pricing-and-epa-ratings-3,2026-10-26,Jan 2026 release
+2026,Honda,Civic,Sport Hybrid Sedan,FWD,Hybrid,29395,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-cf005034e20eb27505fd8e6bbb05a2e4-2026-honda-civic-sedan-pricing-and-epa-ratings-3,2026-10-26,Jan 2026 release
+2026,Honda,Civic,Sport Touring Hybrid Sedan,FWD,Hybrid,32395,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-cf005034e20eb27505fd8e6bbb05a2e4-2026-honda-civic-sedan-pricing-and-epa-ratings-3,2026-10-26,Jan 2026 release
+2026,Honda,Civic,Sport Hatchback,FWD,Gas,27795,1150,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-64ae4ec0bee558cf2824dfc0fa00760a-2026-honda-civic-hatchback-pricing-and-epa-ratings,2026-10-26,July 2025 release; later releases may have changed price and destination
+2026,Honda,Civic,Sport Hybrid Hatchback,FWD,Hybrid,30495,1150,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-64ae4ec0bee558cf2824dfc0fa00760a-2026-honda-civic-hatchback-pricing-and-epa-ratings,2026-10-26,July 2025 release; later releases may have changed price and destination
+2026,Honda,Civic,Sport Touring Hybrid Hatchback,FWD,Hybrid,33495,1150,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-64ae4ec0bee558cf2824dfc0fa00760a-2026-honda-civic-hatchback-pricing-and-epa-ratings,2026-10-26,July 2025 release; later releases may have changed price and destination
+2026,Honda,Civic,Si,FWD,Gas,31495,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-cf005034e20eb27505fd8e6bbb0586b6-2026-honda-civic-si-pricing-and-epa-ratings-3,2026-10-26,"Sedan, 6-speed manual"
+2026,Honda,Civic,Type R,FWD,Gas,46895,1195,4,,https://hondanews.com/en-US/honda-automobiles/releases/release-cf005034e20eb27505fd8e6bbb057e9d-2026-honda-civic-type-r-pricing-and-epa-ratings,2026-10-26,6-speed manual
+2026,Nissan,Rogue,S,FWD,Gas,29490,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,S,AWD,Gas,30890,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,SV,FWD,Gas,30490,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,SV,AWD,Gas,31890,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,Dark Armor,FWD,Gas,33340,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,Dark Armor,AWD,Gas,34740,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,Rock Creek,AWD,Gas,34390,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,Platinum,AWD,Gas,39390,1575,5,,https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade,2026-10-26,2026.5 model
+2026,Nissan,Rogue,SL Plug-in Hybrid,AWD,Plug-in hybrid,45990,1575,5,38,https://usa.nissannews.com/en-US/releases/2026-nissan-rogue-plug-in-hybrid-pricing-starts-at-45990,2026-10-26,
+2026,Nissan,Rogue,Platinum Plug-in Hybrid,AWD,Plug-in hybrid,49990,1575,5,38,https://usa.nissannews.com/en-US/releases/2026-nissan-rogue-plug-in-hybrid-pricing-starts-at-45990,2026-10-26,
+2026,Ford,Explorer,Active,RWD,Gas,38465,1695,7,,https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/,2026-10-26,"Lowest price is the 100A package; 4WD optional (drive from general knowledge, check)"
+2026,Ford,Explorer,ST-Line,RWD,Gas,45155,1695,7,,https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/,2026-10-26,"4WD optional (drive from general knowledge, check)"
+2026,Ford,Explorer,Tremor,4WD,Gas,48465,1695,7,,https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/,2026-10-26,Drive from general knowledge; check
+2026,Ford,Explorer,Platinum,RWD,Gas,50965,1695,7,,https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/,2026-10-26,Drive not stated by source; check
+2026,Ford,Explorer,ST,RWD,Gas,54905,1695,7,,https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/,2026-10-26,
+2026,Ford,Explorer,ST,AWD,Gas,56905,1695,7,,https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/,2026-10-26,
+2026,Ram,1500,Tradesman,RWD,Gas,42025,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,"Aggregator source; Quad Cab 6.4ft bed; destination not stated, check against Ram"
+2026,Ram,1500,Tradesman,4WD,Gas,45425,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; Quad Cab; destination not stated
+2026,Ram,1500,Express,RWD,Gas,44150,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; Quad Cab; destination not stated
+2026,Ram,1500,Express,4WD,Gas,47550,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Big Horn,RWD,Gas,47280,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; Quad Cab; destination not stated
+2026,Ram,1500,Big Horn,4WD,Gas,50680,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Lone Star,RWD,Gas,47280,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Lone Star,4WD,Gas,50680,,,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Warlock,4WD,Gas,52865,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; Crew Cab; destination not stated
+2026,Ram,1500,Laramie,RWD,Gas,61480,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; Crew Cab; destination not stated
+2026,Ram,1500,Laramie,4WD,Gas,64880,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Rebel,4WD,Gas,65445,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,RHO,AWD,Gas,73795,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Limited,4WD,Gas,76405,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Limited Longhorn,4WD,Gas,76900,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Ram,1500,Tungsten,4WD,Gas,88800,,5,,https://autofinder.com/cars/ram/ram-pickup-1500/2026,2026-10-26,Aggregator source; destination not stated
+2026,Hyundai,Elantra,SE,FWD,Gas,22625,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,April 2026 price sheet
+2026,Hyundai,Elantra,SEL Sport,FWD,Gas,23750,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Elantra,SEL Sport Premium,FWD,Gas,25075,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Elantra,Limited,FWD,Gas,27175,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Elantra,N Line,FWD,Gas,29400,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,1.6L turbo
+2026,Hyundai,Elantra,Hybrid Blue,FWD,Hybrid,25450,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Elantra,Hybrid SEL Sport,FWD,Hybrid,27425,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Elantra,Hybrid Limited,FWD,Hybrid,29800,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Elantra,N (manual),FWD,Gas,35100,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,2.0L turbo
+2026,Hyundai,Elantra,N (DCT),FWD,Gas,36600,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,2.0L turbo
+2026,Hyundai,Elantra,N TCR Edition (manual),FWD,Gas,39250,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Elantra,N TCR Edition (DCT),FWD,Gas,40750,1245,5,,https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,SE,FWD,Gas,34800,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,2.5L turbo; seats from general knowledge
+2026,Hyundai,Santa Fe,SE,AWD,Gas,36600,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,SEL,FWD,Gas,37340,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,SEL,AWD,Gas,39140,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,XRT,AWD,Gas,41790,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,Limited,FWD,Gas,44350,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,Seats from general knowledge
+2026,Hyundai,Santa Fe,Limited,AWD,Gas,46150,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,Calligraphy,FWD,Gas,47350,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,Calligraphy,AWD,Gas,49150,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,SE Hybrid,FWD,Hybrid,36150,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,SE Hybrid,AWD,Hybrid,37950,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,SEL Hybrid,FWD,Hybrid,38440,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,SEL Hybrid,AWD,Hybrid,40240,1600,7,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,Limited Hybrid,FWD,Hybrid,45450,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,Limited Hybrid,AWD,Hybrid,47250,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,Calligraphy Hybrid,FWD,Hybrid,48450,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Hyundai,Santa Fe,Calligraphy Hybrid,AWD,Hybrid,50250,1600,6,,https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf,2026-10-26,
+2026,Kia,Sportage,LX,FWD,Gas,28790,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,LX,AWD,Gas,30590,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,EX,FWD,Gas,30590,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,EX,AWD,Gas,32390,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,X-Line,AWD,Gas,33090,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,SX,FWD,Gas,34390,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,SX-Prestige,FWD,Gas,36390,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,SX-Prestige,AWD,Gas,38190,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,X-Pro Prestige,AWD,Gas,39690,1495,5,,https://www.kiamedia.com/us/en/models/sportage/2026/pricing,2026-10-26,
+2026,Kia,Sportage,LX Hybrid,FWD,Hybrid,30490,1495,5,,https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing,2026-10-26,
+2026,Kia,Sportage,S Hybrid,AWD,Hybrid,32790,1495,5,,https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing,2026-10-26,
+2026,Kia,Sportage,EX Hybrid,AWD,Hybrid,33790,1495,5,,https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing,2026-10-26,
+2026,Kia,Sportage,X-Line Hybrid,AWD,Hybrid,35690,1495,5,,https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing,2026-10-26,
+2026,Kia,Sportage,SX-Prestige Hybrid,AWD,Hybrid,40590,1495,5,,https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing,2026-10-26,
+2026,Kia,Sportage,X-Line Plug-in Hybrid,AWD,Plug-in hybrid,40490,1495,5,,https://www.kiamedia.com/us/en/models/sportage-phev/2026/pricing,2026-10-26,EV range not in source
+2026,Kia,Sportage,X-Line Prestige Plug-in Hybrid,AWD,Plug-in hybrid,47190,1495,5,,https://www.kiamedia.com/us/en/models/sportage-phev/2026/pricing,2026-10-26,EV range not in source
+2026,Kia,K4,LX,FWD,Gas,22290,1245,5,,https://www.kiamedia.com/us/en/models/k4/2026/pricing,2026-10-26,
+2026,Kia,K4,LXS,FWD,Gas,23390,1245,5,,https://www.kiamedia.com/us/en/models/k4/2026/pricing,2026-10-26,
+2026,Kia,K4,EX,FWD,Gas,24490,1245,5,,https://www.kiamedia.com/us/en/models/k4/2026/pricing,2026-10-26,
+2026,Kia,K4,GT-Line,FWD,Gas,25490,1245,5,,https://www.kiamedia.com/us/en/models/k4/2026/pricing,2026-10-26,
+2026,Kia,K4,GT-Line Turbo,FWD,Gas,28390,1245,5,,https://www.kiamedia.com/us/en/models/k4/2026/pricing,2026-10-26,1.6L turbo
+2026,Hyundai,Palisade,SE,FWD,Gas,39435,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,SE,AWD,Gas,41435,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,SEL,FWD,Gas,41940,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,SEL,AWD,Gas,43940,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,SEL Convenience,FWD,Gas,43370,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,SEL Convenience,AWD,Gas,45370,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,SEL Premium,FWD,Gas,45300,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,SEL Premium,AWD,Gas,47300,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,XRT PRO,AWD,Gas,49870,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Limited,FWD,Gas,49770,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Limited,AWD,Gas,51770,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Calligraphy,FWD,Gas,54560,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Calligraphy,AWD,Gas,56560,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Hybrid Blue SEL,FWD,Hybrid,44160,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,Hybrid SEL,AWD,Hybrid,46160,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,Hybrid Blue SEL Premium,FWD,Hybrid,47520,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,Hybrid SEL Premium,AWD,Hybrid,49520,1600,8,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,7 or 8 seats at same price
+2026,Hyundai,Palisade,Hybrid Limited,FWD,Hybrid,51990,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Hybrid Limited,AWD,Hybrid,53990,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Hybrid Calligraphy,FWD,Hybrid,56780,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Hyundai,Palisade,Hybrid Calligraphy,AWD,Hybrid,58780,1600,,,https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf,2026-10-26,
+2026,Honda,Accord,LX,FWD,Gas,28395,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings,2026-10-26,1.5L turbo
+2026,Honda,Accord,SE,FWD,Gas,30695,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings,2026-10-26,1.5L turbo
+2026,Honda,Accord,Sport Hybrid,FWD,Hybrid,33795,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings,2026-10-26,
+2026,Honda,Accord,EX-L Hybrid,FWD,Hybrid,35095,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings,2026-10-26,
+2026,Honda,Accord,Sport-L Hybrid,FWD,Hybrid,35495,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings,2026-10-26,Release total with destination is off by $10; check
+2026,Honda,Accord,Touring Hybrid,FWD,Hybrid,39495,1195,5,,https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings,2026-10-26,Release total with destination is off by $45; check
+2026,Honda,Pilot,Sport,FWD,Gas,42395,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,May 2026 release
+2026,Honda,Pilot,Sport,AWD,Gas,44495,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,
+2026,Honda,Pilot,EX-L,FWD,Gas,44695,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,
+2026,Honda,Pilot,EX-L,AWD,Gas,46795,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,
+2026,Honda,Pilot,TrailSport,AWD,Gas,50595,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,
+2026,Honda,Pilot,Touring,AWD,Gas,51295,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,
+2026,Honda,Pilot,Elite,AWD,Gas,53695,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,
+2026,Honda,Pilot,Black Edition,AWD,Gas,55195,1495,,,https://hondanews.com/en-US/releases/release-9ae8fd80ef03b3feea8a56d257005f9e-2026-honda-pilot-pricing-and-epa-ratings-5-1,2026-10-26,
+2026,Subaru,Forester,Base,AWD,Gas,29995,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,Feb 2026 updated pricing
+2026,Subaru,Forester,Premium,AWD,Gas,31995,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Sport,AWD,Gas,34795,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Limited,AWD,Gas,35995,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Sport Onyx Edition,AWD,Gas,36495,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Wilderness,AWD,Gas,36995,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Touring,AWD,Gas,39995,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Premium Hybrid,AWD,Hybrid,34730,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,Hybrid destination assumed same as gas
+2026,Subaru,Forester,Sport Hybrid,AWD,Hybrid,37930,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Limited Hybrid,AWD,Hybrid,38995,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Forester,Touring Hybrid,AWD,Hybrid,41545,1450,5,,https://media.subaru.com/pressrelease/2421/1/subaru-focuses-consumer-affordability-excellent-value-updated-pricing,2026-10-26,
+2026,Subaru,Crosstrek,Base,AWD,Gas,26995,1420,5,,https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026,2026-10-26,
+2026,Subaru,Crosstrek,Premium,AWD,Gas,27995,1420,5,,https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026,2026-10-26,
+2026,Subaru,Crosstrek,Sport,AWD,Gas,30625,1420,5,,https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026,2026-10-26,
+2026,Subaru,Crosstrek,Limited,AWD,Gas,32995,1420,5,,https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026,2026-10-26,
+2026,Subaru,Crosstrek,Wilderness,AWD,Gas,33795,1420,5,,https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026,2026-10-26,
+2026,Subaru,Crosstrek,Sport Hybrid,AWD,Hybrid,33995,1420,5,,https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026,2026-10-26,
+2026,Subaru,Crosstrek,Limited Hybrid,AWD,Hybrid,34995,1420,5,,https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026,2026-10-26,
+2026,Subaru,Outback,Premium,AWD,Gas,34995,1450,5,,https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv,2026-10-26,
+2026,Subaru,Outback,Limited,AWD,Gas,41715,1450,5,,https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv,2026-10-26,
+2026,Subaru,Outback,Limited XT,AWD,Gas,44365,1450,5,,https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv,2026-10-26,Turbo
+2026,Subaru,Outback,Wilderness,AWD,Gas,44995,1450,5,,https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv,2026-10-26,Turbo
+2026,Subaru,Outback,Touring,AWD,Gas,45395,1450,5,,https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv,2026-10-26,
+2026,Subaru,Outback,Touring XT,AWD,Gas,47995,1450,5,,https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv,2026-10-26,Turbo
+2026,Nissan,Sentra,S,FWD,Gas,22600,1245,5,,https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600,2026-10-26,
+2026,Nissan,Sentra,SV,FWD,Gas,23370,1245,5,,https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600,2026-10-26,
+2026,Nissan,Sentra,SR,FWD,Gas,25000,1245,5,,https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600,2026-10-26,
+2026,Nissan,Sentra,SL,FWD,Gas,27990,1245,5,,https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600,2026-10-26,
+2026,Chevrolet,Trax,LS,FWD,Gas,21700,1795,5,,https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/,2026-10-26,Oct 2026 prices
+2026,Chevrolet,Trax,1RS,FWD,Gas,23200,1795,5,,https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/,2026-10-26,
+2026,Chevrolet,Trax,LT,FWD,Gas,23200,1795,5,,https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/,2026-10-26,
+2026,Chevrolet,Trax,2RS,FWD,Gas,25700,1795,5,,https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/,2026-10-26,
+2026,Chevrolet,Trax,Activ,FWD,Gas,25700,1795,5,,https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/,2026-10-26,
+2026,Chevrolet,Traverse,LT,FWD,Gas,40800,1995,8,,https://gmauthority.com/blog/2026/01/2026-chevy-traverse-gets-destination-freight-charge-increase/,2026-10-26,Seats from general knowledge
+2026,Chevrolet,Traverse,LT,AWD,Gas,42800,1995,8,,https://gmauthority.com/blog/2026/01/2026-chevy-traverse-gets-destination-freight-charge-increase/,2026-10-26,
+2026,Chevrolet,Traverse,Z71,AWD,Gas,48900,1995,7,,https://gmauthority.com/blog/2026/01/2026-chevy-traverse-gets-destination-freight-charge-increase/,2026-10-26,
+2026,Chevrolet,Traverse,High Country,FWD,Gas,55100,1995,7,,https://gmauthority.com/blog/2026/01/2026-chevy-traverse-gets-destination-freight-charge-increase/,2026-10-26,
+2026,Chevrolet,Traverse,High Country,AWD,Gas,57100,1995,7,,https://gmauthority.com/blog/2026/01/2026-chevy-traverse-gets-destination-freight-charge-increase/,2026-10-26,
+2026,Chevrolet,Traverse,RS,FWD,Gas,55400,1995,7,,https://gmauthority.com/blog/2026/01/2026-chevy-traverse-gets-destination-freight-charge-increase/,2026-10-26,
+2026,Chevrolet,Traverse,RS,AWD,Gas,57400,1995,7,,https://gmauthority.com/blog/2026/01/2026-chevy-traverse-gets-destination-freight-charge-increase/,2026-10-26,
+2026,Ford,Maverick,XL,FWD,Gas,27145,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,EcoBoost
+2026,Ford,Maverick,XL Hybrid,AWD,Hybrid,28145,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,
+2026,Ford,Maverick,XLT,FWD,Gas,29645,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,EcoBoost
+2026,Ford,Maverick,XLT Hybrid,AWD,Hybrid,30645,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,
+2026,Ford,Maverick,Lariat,FWD,Gas,35870,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,EcoBoost
+2026,Ford,Maverick,Lariat Hybrid,AWD,Hybrid,38090,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,
+2026,Ford,Maverick,Lobo,FWD,Gas,35930,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,Price is the 402A package; drive not stated
+2026,Ford,Maverick,Tremor,AWD,Gas,40645,1695,5,,https://fordauthority.com/2025/11/2026-ford-maverick-prices-drop-especially-for-lariat/,2026-10-26,Drive from general knowledge; check
+2026,Ford,Bronco,Base 2-Door,4WD,Gas,40495,1995,4,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,Source lists the same price for 2-door and 4-door; check
+2026,Ford,Bronco,Base 4-Door,4WD,Gas,40495,1995,5,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco,Big Bend 4-Door,4WD,Gas,40995,1995,5,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco,Outer Banks 4-Door,4WD,Gas,48090,1995,5,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco,Badlands 2-Door,4WD,Gas,48890,1995,4,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco,Badlands 4-Door,4WD,Gas,48890,1995,5,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco,Heritage Edition 4-Door,4WD,Gas,51625,1995,5,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco,Stroppe Edition 4-Door,4WD,Gas,69995,1995,5,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco,Raptor 4-Door,4WD,Gas,79995,1995,5,,https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/,2026-10-26,
+2026,Ford,Bronco Sport,Big Bend,AWD,Gas,31845,1995,5,,https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/,2026-10-26,
+2026,Ford,Bronco Sport,Heritage,AWD,Gas,34145,1995,5,,https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/,2026-10-26,
+2026,Ford,Bronco Sport,Outer Banks,AWD,Gas,36945,1995,5,,https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/,2026-10-26,
+2026,Ford,Bronco Sport,Badlands,AWD,Gas,40265,1995,5,,https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/,2026-10-26,
+2026,Tesla,Model 3,Standard RWD,RWD,Electric,36990,1390,5,321,https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html,2026-10-26,Source prices include $1390 destination and $250 order fee; both removed
+2026,Tesla,Model 3,Premium RWD,RWD,Electric,42490,1390,5,363,https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html,2026-10-26,
+2026,Tesla,Model 3,Premium AWD,AWD,Electric,47490,1390,5,346,https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html,2026-10-26,
+2026,Tesla,Model 3,Performance AWD,AWD,Electric,54990,1390,5,309,https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html,2026-10-26,
+2026,Toyota,Corolla,LE,FWD,Gas,23125,1295,5,,https://www.truecar.com/overview/toyota/corolla/2026,2026-10-26,Destination amount inferred from Edmunds' matching price gap; check
+2026,Toyota,Corolla,SE,FWD,Gas,25565,1295,5,,https://www.truecar.com/overview/toyota/corolla/2026,2026-10-26,Destination inferred; check
+2026,Toyota,Corolla,XSE,FWD,Gas,28840,1295,5,,https://www.truecar.com/overview/toyota/corolla/2026,2026-10-26,Destination inferred; check
+2026,Toyota,Corolla,Hybrid LE,FWD,Hybrid,24975,1295,5,,https://www.truecar.com/overview/toyota/corolla/2026,2026-10-26,Destination inferred; AWD available on some hybrid grades
+2026,Toyota,Corolla,Hybrid SE,FWD,Hybrid,27415,1295,5,,https://www.truecar.com/overview/toyota/corolla/2026,2026-10-26,Destination inferred; AWD available on some hybrid grades
+2026,Toyota,Corolla,Hybrid XLE,FWD,Hybrid,29340,1295,5,,https://www.truecar.com/overview/toyota/corolla/2026,2026-10-26,Destination inferred
+2026,Toyota,Grand Highlander,LE,FWD,Gas,41360,1495,8,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,LE,AWD,Gas,42960,1495,8,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,AWD price calculated from the +$1600 option
+2026,Toyota,Grand Highlander,XLE,FWD,Gas,44130,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,XLE,AWD,Gas,45730,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,AWD price calculated
+2026,Toyota,Grand Highlander,Limited,FWD,Gas,48860,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,Limited,AWD,Gas,50460,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,AWD price calculated
+2026,Toyota,Grand Highlander,Platinum,AWD,Gas,54545,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,Hybrid LE,AWD,Hybrid,44710,1495,8,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,Hybrid XLE,FWD,Hybrid,45880,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,Hybrid XLE,AWD,Hybrid,47480,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,AWD price calculated
+2026,Toyota,Grand Highlander,Hybrid Limited,AWD,Hybrid,52210,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,Hybrid Nightshade,AWD,Hybrid,53190,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,
+2026,Toyota,Grand Highlander,Hybrid MAX Limited,AWD,Hybrid,55190,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,Price calculated from the +$2980 option
+2026,Toyota,Grand Highlander,Hybrid MAX Platinum,AWD,Hybrid,59275,1495,7,,https://www.cars.com/research/toyota-grand_highlander-2026/,2026-10-26,Seats from general knowledge throughout; check
+2026,Toyota,Tundra,SR,RWD,Gas,41260,2095,,,https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/,2026-10-26,Double Cab 6.5ft bed; destination assumed excluded (listed separately); check
+2026,Toyota,Tundra,SR5,RWD,Gas,46510,2095,,,https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/,2026-10-26,Double Cab; destination assumed excluded
+2026,Toyota,Tundra,Limited,RWD,Gas,54860,2095,5,,https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/,2026-10-26,CrewMax; hybrid i-FORCE MAX optional
+2026,Toyota,Tundra,Platinum,RWD,Gas,63695,2095,5,,https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/,2026-10-26,CrewMax
+2026,Toyota,Tundra,1794 Edition,RWD,Gas,64380,2095,5,,https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/,2026-10-26,CrewMax
+2026,Toyota,Tundra,TRD Pro,4WD,Hybrid,72565,2095,5,,https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/,2026-10-26,i-FORCE MAX hybrid
+2026,Toyota,Tundra,Capstone,4WD,Hybrid,80800,2095,5,,https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/,2026-10-26,i-FORCE MAX hybrid
+2026,Jeep,Wrangler,Sport 2-Door,4WD,Gas,36035,,4,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,Source is unclear whether destination is included; check all Wrangler rows
+2026,Jeep,Wrangler,Sport 4-Door,4WD,Gas,39040,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Sport S 2-Door,4WD,Gas,39685,,4,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Sport S 4-Door,4WD,Gas,41440,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Willys 2-Door,4WD,Gas,43755,,4,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Willys 4-Door,4WD,Gas,44940,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Sahara 4-Door,4WD,Gas,48910,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Rubicon 2-Door,4WD,Gas,45815,,4,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Rubicon 4-Door,4WD,Gas,49740,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Rubicon X 2-Door,4WD,Gas,55765,,4,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Rubicon X 4-Door,4WD,Gas,60435,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,
+2026,Jeep,Wrangler,Willys 392 4-Door,4WD,Gas,69995,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,V8
+2026,Jeep,Wrangler,Moab 392 4-Door,4WD,Gas,79995,,5,,https://www.edmunds.com/jeep/wrangler/2026,2026-10-26,V8
+2026,Jeep,Grand Cherokee,Laredo,RWD,Gas,40915,,5,,https://www.truecar.com/overview/jeep/grand-cherokee/,2026-10-26,Aggregator; destination unclear; drive types approximate; check all Grand Cherokee rows
+2026,Jeep,Grand Cherokee,Laredo X,RWD,Gas,43410,,5,,https://www.truecar.com/overview/jeep/grand-cherokee/,2026-10-26,
+2026,Jeep,Grand Cherokee,Limited,RWD,Gas,46315,,5,,https://www.truecar.com/overview/jeep/grand-cherokee/,2026-10-26,
+2026,Jeep,Grand Cherokee,Laredo Altitude,RWD,Gas,46355,,5,,https://www.truecar.com/overview/jeep/grand-cherokee/,2026-10-26,May be 4WD
+2026,Jeep,Grand Cherokee,Limited Reserve,4WD,Gas,53910,,5,,https://www.truecar.com/overview/jeep/grand-cherokee/,2026-10-26,
+2026,Jeep,Grand Cherokee,Summit,4WD,Gas,62595,,5,,https://www.truecar.com/overview/jeep/grand-cherokee/,2026-10-26,
+2026,Mazda,CX-5,2.5 S,AWD,Gas,29990,1595,5,,https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5,2026-10-26,
+2026,Mazda,CX-5,2.5 S Select,AWD,Gas,31990,1595,5,,https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5,2026-10-26,
+2026,Mazda,CX-5,2.5 S Preferred,AWD,Gas,34250,1595,5,,https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5,2026-10-26,
+2026,Mazda,CX-5,2.5 S Premium,AWD,Gas,36900,1595,5,,https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5,2026-10-26,
+2026,Mazda,CX-5,2.5 S Premium Plus,AWD,Gas,38990,1595,5,,https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5,2026-10-26,
+2026,Toyota,Sienna,LE,FWD,Hybrid,40120,1495,8,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,Seats from general knowledge for all Sienna rows; check
+2026,Toyota,Sienna,LE,AWD,Hybrid,42120,1495,8,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Toyota,Sienna,XLE,FWD,Hybrid,44820,1495,8,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Toyota,Sienna,XLE,AWD,Hybrid,46820,1495,8,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Toyota,Sienna,XSE,FWD,Hybrid,48045,1495,7,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Toyota,Sienna,XSE,AWD,Hybrid,48935,1495,7,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,AWD premium looks small vs other trims; check
+2026,Toyota,Sienna,Woodland,AWD,Hybrid,50900,1495,7,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Toyota,Sienna,Limited,FWD,Hybrid,50805,1495,7,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Toyota,Sienna,Limited,AWD,Hybrid,52805,1495,7,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Toyota,Sienna,Platinum,AWD,Hybrid,57510,1495,7,,https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/,2026-10-26,
+2026,Lexus,RX,RX 350,FWD,Gas,51175,,5,,https://www.motor1.com/features/770938/2026-lexus-prices/,2026-10-26,Destination not stated; drive inferred; check all RX rows
+2026,Lexus,RX,RX 350,AWD,Gas,52775,,5,,https://www.motor1.com/features/770938/2026-lexus-prices/,2026-10-26,
+2026,Lexus,RX,RX 350h,AWD,Hybrid,53475,,5,,https://www.motor1.com/features/770938/2026-lexus-prices/,2026-10-26,
+2026,Lexus,RX,RX 450h+,AWD,Plug-in hybrid,66680,,5,,https://www.motor1.com/features/770938/2026-lexus-prices/,2026-10-26,"Source text also quotes $73,310 for the Luxury grade"
+2026,Lexus,RX,RX 500h F Sport Performance,AWD,Hybrid,66850,,5,,https://www.motor1.com/features/770938/2026-lexus-prices/,2026-10-26,
+2026,Chevrolet,Trailblazer,LS,FWD,Gas,23300,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,Jan 2026 prices; a further increase was reported in Oct 2026
+2026,Chevrolet,Trailblazer,LS,AWD,Gas,25300,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,
+2026,Chevrolet,Trailblazer,LT,FWD,Gas,24500,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,
+2026,Chevrolet,Trailblazer,LT,AWD,Gas,26500,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,
+2026,Chevrolet,Trailblazer,RS,FWD,Gas,27900,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,
+2026,Chevrolet,Trailblazer,RS,AWD,Gas,29500,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,
+2026,Chevrolet,Trailblazer,Activ,FWD,Gas,27900,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,
+2026,Chevrolet,Trailblazer,Activ,AWD,Gas,29500,1795,5,,https://gmauthority.com/blog/2026/01/2026-chevy-trailblazer-gets-third-price-increase/,2026-10-26,

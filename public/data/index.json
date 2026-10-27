@@ -1,76 +1,514 @@
 {
-  "updatedAt": "2026-10-01",
-  "version": "20261001000000000",
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
   "models": [
     {
-      "id": "chevrolet-corvette-2026",
+      "id": "chevrolet-equinox-2026",
       "make": "Chevrolet",
-      "name": "Corvette",
+      "name": "Equinox",
       "year": 2026,
-      "bodyStyle": "coupe",
+      "bodyStyle": "suv",
       "imageUrl": "/images/placeholder-car.svg",
       "trims": [
         {
-          "id": "chevrolet-corvette-2026-stingray-1lt",
-          "name": "Stingray 1LT",
-          "msrp": 70000,
+          "id": "chevrolet-equinox-2026-lt-fwd",
+          "name": "LT FWD",
+          "msrp": 28700,
           "powertrain": "gas",
-          "drivetrain": "RWD",
-          "seats": 2,
-          "mpgCombined": 19,
-          "cargoCuFt": 12.6
+          "drivetrain": "FWD",
+          "seats": 5
         },
         {
-          "id": "chevrolet-corvette-2026-e-ray-1lz",
-          "name": "E-Ray 1LZ",
-          "msrp": 108600,
-          "powertrain": "hybrid",
+          "id": "chevrolet-equinox-2026-lt-awd",
+          "name": "LT AWD",
+          "msrp": 30700,
+          "powertrain": "gas",
           "drivetrain": "AWD",
-          "seats": 2,
-          "mpgCombined": 19,
-          "cargoCuFt": 12.6
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-equinox-2026-activ-fwd",
+          "name": "Activ FWD",
+          "msrp": 33600,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-equinox-2026-activ-awd",
+          "name": "Activ AWD",
+          "msrp": 35600,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-equinox-2026-rs-fwd",
+          "name": "RS FWD",
+          "msrp": 33600,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-equinox-2026-rs-awd",
+          "name": "RS AWD",
+          "msrp": 35600,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
         }
       ]
     },
     {
-      "id": "chrysler-pacifica-2025",
-      "make": "Chrysler",
-      "name": "Pacifica",
-      "year": 2025,
-      "bodyStyle": "minivan",
+      "id": "chevrolet-silverado-1500-2026",
+      "make": "Chevrolet",
+      "name": "Silverado 1500",
+      "year": 2026,
+      "bodyStyle": "truck",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 4,
       "trims": [
         {
-          "id": "chrysler-pacifica-2025-select",
-          "name": "Select",
-          "msrp": 43000,
+          "id": "chevrolet-silverado-1500-2026-wt",
+          "name": "WT",
+          "msrp": 36900,
           "powertrain": "gas",
-          "drivetrain": "FWD",
-          "seats": 7,
-          "mpgCombined": 22,
-          "cargoCuFt": 32.3
+          "drivetrain": "RWD"
         },
         {
-          "id": "chrysler-pacifica-2025-limited-awd",
-          "name": "Limited AWD",
-          "msrp": 50500,
+          "id": "chevrolet-silverado-1500-2026-custom",
+          "name": "Custom",
+          "msrp": 42400,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-custom-trail-boss",
+          "name": "Custom Trail Boss",
+          "msrp": 52800,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-lt",
+          "name": "LT",
+          "msrp": 47900,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-rst",
+          "name": "RST",
+          "msrp": 51300,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-lt-trail-boss",
+          "name": "LT Trail Boss",
+          "msrp": 59600,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-ltz",
+          "name": "LTZ",
+          "msrp": 58000,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-high-country",
+          "name": "High Country",
+          "msrp": 62900,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-zr2",
+          "name": "ZR2",
+          "msrp": 71700,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "chevrolet-silverado-1500-2026-zr2-bison",
+          "name": "ZR2 Bison",
+          "msrp": 80140,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        }
+      ]
+    },
+    {
+      "id": "chevrolet-trailblazer-2026",
+      "make": "Chevrolet",
+      "name": "Trailblazer",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "chevrolet-trailblazer-2026-ls-fwd",
+          "name": "LS FWD",
+          "msrp": 23300,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trailblazer-2026-ls-awd",
+          "name": "LS AWD",
+          "msrp": 25300,
           "powertrain": "gas",
           "drivetrain": "AWD",
-          "seats": 7,
-          "mpgCombined": 19,
-          "cargoCuFt": 32.3
+          "seats": 5
         },
         {
-          "id": "chrysler-pacifica-2025-plug-in-hybrid-pinnacle",
-          "name": "Plug-in Hybrid Pinnacle",
-          "msrp": 62000,
-          "powertrain": "plug-in hybrid",
+          "id": "chevrolet-trailblazer-2026-lt-fwd",
+          "name": "LT FWD",
+          "msrp": 24500,
+          "powertrain": "gas",
           "drivetrain": "FWD",
-          "seats": 7,
-          "mpgCombined": 82,
-          "electricRangeMiles": 32,
-          "cargoCuFt": 32.3
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trailblazer-2026-lt-awd",
+          "name": "LT AWD",
+          "msrp": 26500,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trailblazer-2026-rs-fwd",
+          "name": "RS FWD",
+          "msrp": 27900,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trailblazer-2026-rs-awd",
+          "name": "RS AWD",
+          "msrp": 29500,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trailblazer-2026-activ-fwd",
+          "name": "Activ FWD",
+          "msrp": 27900,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trailblazer-2026-activ-awd",
+          "name": "Activ AWD",
+          "msrp": 29500,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "chevrolet-traverse-2026",
+      "make": "Chevrolet",
+      "name": "Traverse",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "chevrolet-traverse-2026-lt-fwd",
+          "name": "LT FWD",
+          "msrp": 40800,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 8
+        },
+        {
+          "id": "chevrolet-traverse-2026-lt-awd",
+          "name": "LT AWD",
+          "msrp": 42800,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 8
+        },
+        {
+          "id": "chevrolet-traverse-2026-z71",
+          "name": "Z71",
+          "msrp": 48900,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "chevrolet-traverse-2026-high-country-fwd",
+          "name": "High Country FWD",
+          "msrp": 55100,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "chevrolet-traverse-2026-high-country-awd",
+          "name": "High Country AWD",
+          "msrp": 57100,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "chevrolet-traverse-2026-rs-fwd",
+          "name": "RS FWD",
+          "msrp": 55400,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "chevrolet-traverse-2026-rs-awd",
+          "name": "RS AWD",
+          "msrp": 57400,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        }
+      ]
+    },
+    {
+      "id": "chevrolet-trax-2026",
+      "make": "Chevrolet",
+      "name": "Trax",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "chevrolet-trax-2026-ls",
+          "name": "LS",
+          "msrp": 21700,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trax-2026-1rs",
+          "name": "1RS",
+          "msrp": 23200,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trax-2026-lt",
+          "name": "LT",
+          "msrp": 23200,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trax-2026-2rs",
+          "name": "2RS",
+          "msrp": 25700,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "chevrolet-trax-2026-activ",
+          "name": "Activ",
+          "msrp": 25700,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "ford-bronco-2026",
+      "make": "Ford",
+      "name": "Bronco",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "ford-bronco-2026-base-2-door",
+          "name": "Base 2-Door",
+          "msrp": 40495,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 4
+        },
+        {
+          "id": "ford-bronco-2026-base-4-door",
+          "name": "Base 4-Door",
+          "msrp": 40495,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-2026-big-bend-4-door",
+          "name": "Big Bend 4-Door",
+          "msrp": 40995,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-2026-outer-banks-4-door",
+          "name": "Outer Banks 4-Door",
+          "msrp": 48090,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-2026-badlands-2-door",
+          "name": "Badlands 2-Door",
+          "msrp": 48890,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 4
+        },
+        {
+          "id": "ford-bronco-2026-badlands-4-door",
+          "name": "Badlands 4-Door",
+          "msrp": 48890,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-2026-heritage-edition-4-door",
+          "name": "Heritage Edition 4-Door",
+          "msrp": 51625,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-2026-stroppe-edition-4-door",
+          "name": "Stroppe Edition 4-Door",
+          "msrp": 69995,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-2026-raptor-4-door",
+          "name": "Raptor 4-Door",
+          "msrp": 79995,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "ford-bronco-sport-2026",
+      "make": "Ford",
+      "name": "Bronco Sport",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "ford-bronco-sport-2026-big-bend",
+          "name": "Big Bend",
+          "msrp": 31845,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-sport-2026-heritage",
+          "name": "Heritage",
+          "msrp": 34145,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-sport-2026-outer-banks",
+          "name": "Outer Banks",
+          "msrp": 36945,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-bronco-sport-2026-badlands",
+          "name": "Badlands",
+          "msrp": 40265,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "ford-explorer-2026",
+      "make": "Ford",
+      "name": "Explorer",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "ford-explorer-2026-active",
+          "name": "Active",
+          "msrp": 38465,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 7
+        },
+        {
+          "id": "ford-explorer-2026-st-line",
+          "name": "ST-Line",
+          "msrp": 45155,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 7
+        },
+        {
+          "id": "ford-explorer-2026-tremor",
+          "name": "Tremor",
+          "msrp": 48465,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 7
+        },
+        {
+          "id": "ford-explorer-2026-platinum",
+          "name": "Platinum",
+          "msrp": 50965,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 7
+        },
+        {
+          "id": "ford-explorer-2026-st-rwd",
+          "name": "ST RWD",
+          "msrp": 54905,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 7
+        },
+        {
+          "id": "ford-explorer-2026-st-awd",
+          "name": "ST AWD",
+          "msrp": 56905,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
         }
       ]
     },
@@ -81,37 +519,275 @@
       "year": 2026,
       "bodyStyle": "truck",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 4,
       "trims": [
         {
-          "id": "ford-f-150-2026-xl-regular-cab",
-          "name": "XL Regular Cab",
-          "msrp": 38800,
+          "id": "ford-f-150-2026-xl",
+          "name": "XL",
+          "msrp": 37290,
           "powertrain": "gas",
           "drivetrain": "RWD",
-          "seats": 3,
-          "mpgCombined": 20,
-          "towingLbs": 8200
+          "seats": 3
         },
         {
-          "id": "ford-f-150-2026-xlt-powerboost",
-          "name": "XLT PowerBoost",
-          "msrp": 55000,
-          "powertrain": "hybrid",
-          "drivetrain": "4WD",
-          "seats": 6,
-          "mpgCombined": 23,
-          "towingLbs": 12700
+          "id": "ford-f-150-2026-stx",
+          "name": "STX",
+          "msrp": 44855,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 6
+        },
+        {
+          "id": "ford-f-150-2026-xlt",
+          "name": "XLT",
+          "msrp": 45695,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 6
         },
         {
           "id": "ford-f-150-2026-lariat",
           "name": "Lariat",
-          "msrp": 64000,
+          "msrp": 59560,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-f-150-2026-tremor",
+          "name": "Tremor",
+          "msrp": 64915,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-f-150-2026-king-ranch",
+          "name": "King Ranch",
+          "msrp": 65825,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-f-150-2026-platinum",
+          "name": "Platinum",
+          "msrp": 68800,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-f-150-2026-raptor",
+          "name": "Raptor",
+          "msrp": 79005,
           "powertrain": "gas",
           "drivetrain": "4WD",
-          "seats": 5,
-          "mpgCombined": 19,
-          "towingLbs": 13000
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "ford-maverick-2026",
+      "make": "Ford",
+      "name": "Maverick",
+      "year": 2026,
+      "bodyStyle": "truck",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "ford-maverick-2026-xl",
+          "name": "XL",
+          "msrp": 27145,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-maverick-2026-xl-hybrid",
+          "name": "XL Hybrid",
+          "msrp": 28145,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-maverick-2026-xlt",
+          "name": "XLT",
+          "msrp": 29645,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-maverick-2026-xlt-hybrid",
+          "name": "XLT Hybrid",
+          "msrp": 30645,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-maverick-2026-lariat",
+          "name": "Lariat",
+          "msrp": 35870,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-maverick-2026-lariat-hybrid",
+          "name": "Lariat Hybrid",
+          "msrp": 38090,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-maverick-2026-lobo",
+          "name": "Lobo",
+          "msrp": 35930,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "ford-maverick-2026-tremor",
+          "name": "Tremor",
+          "msrp": 40645,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "gmc-sierra-1500-2026",
+      "make": "GMC",
+      "name": "Sierra 1500",
+      "year": 2026,
+      "bodyStyle": "truck",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "gmc-sierra-1500-2026-pro",
+          "name": "Pro",
+          "msrp": 38300,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-sle",
+          "name": "SLE",
+          "msrp": 48700,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-elevation",
+          "name": "Elevation",
+          "msrp": 50500,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-slt",
+          "name": "SLT",
+          "msrp": 55100,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-at4",
+          "name": "AT4",
+          "msrp": 67000,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-denali",
+          "name": "Denali",
+          "msrp": 66595,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-at4x",
+          "name": "AT4X",
+          "msrp": 79600,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-at4x-aev-edition",
+          "name": "AT4X AEV Edition",
+          "msrp": 86510,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "gmc-sierra-1500-2026-denali-ultimate",
+          "name": "Denali Ultimate",
+          "msrp": 83395,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        }
+      ]
+    },
+    {
+      "id": "honda-accord-2026",
+      "make": "Honda",
+      "name": "Accord",
+      "year": 2026,
+      "bodyStyle": "sedan",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "honda-accord-2026-lx",
+          "name": "LX",
+          "msrp": 28395,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-accord-2026-se",
+          "name": "SE",
+          "msrp": 30695,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-accord-2026-sport-hybrid",
+          "name": "Sport Hybrid",
+          "msrp": 33795,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-accord-2026-ex-l-hybrid",
+          "name": "EX-L Hybrid",
+          "msrp": 35095,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-accord-2026-sport-l-hybrid",
+          "name": "Sport-L Hybrid",
+          "msrp": 35495,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-accord-2026-touring-hybrid",
+          "name": "Touring Hybrid",
+          "msrp": 39495,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
         }
       ]
     },
@@ -122,37 +798,78 @@
       "year": 2026,
       "bodyStyle": "sedan",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
       "trims": [
         {
-          "id": "honda-civic-2026-lx",
-          "name": "LX",
-          "msrp": 24600,
+          "id": "honda-civic-2026-lx-sedan",
+          "name": "LX Sedan",
+          "msrp": 24695,
           "powertrain": "gas",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 36,
-          "cargoCuFt": 14.8
+          "seats": 5
         },
         {
-          "id": "honda-civic-2026-sport-hybrid",
-          "name": "Sport Hybrid",
-          "msrp": 29800,
-          "powertrain": "hybrid",
+          "id": "honda-civic-2026-sport-sedan",
+          "name": "Sport Sedan",
+          "msrp": 26695,
+          "powertrain": "gas",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 49,
-          "cargoCuFt": 14.8
+          "seats": 5
         },
         {
-          "id": "honda-civic-2026-sport-touring-hybrid",
-          "name": "Sport Touring Hybrid",
-          "msrp": 32800,
+          "id": "honda-civic-2026-sport-hybrid-sedan",
+          "name": "Sport Hybrid Sedan",
+          "msrp": 29395,
           "powertrain": "hybrid",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 47,
-          "cargoCuFt": 14.8
+          "seats": 5
+        },
+        {
+          "id": "honda-civic-2026-sport-touring-hybrid-sedan",
+          "name": "Sport Touring Hybrid Sedan",
+          "msrp": 32395,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-civic-2026-sport-hatchback",
+          "name": "Sport Hatchback",
+          "msrp": 27795,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-civic-2026-sport-hybrid-hatchback",
+          "name": "Sport Hybrid Hatchback",
+          "msrp": 30495,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-civic-2026-sport-touring-hybrid-hatchback",
+          "name": "Sport Touring Hybrid Hatchback",
+          "msrp": 33495,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-civic-2026-si",
+          "name": "Si",
+          "msrp": 31495,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-civic-2026-type-r",
+          "name": "Type R",
+          "msrp": 46895,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 4
         }
       ]
     },
@@ -163,183 +880,1611 @@
       "year": 2026,
       "bodyStyle": "suv",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
       "trims": [
         {
-          "id": "honda-cr-v-2026-lx",
-          "name": "LX",
-          "msrp": 30900,
+          "id": "honda-cr-v-2026-lx-fwd",
+          "name": "LX FWD",
+          "msrp": 30920,
           "powertrain": "gas",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 30,
-          "towingLbs": 1500,
-          "cargoCuFt": 39.3
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-lx-awd",
+          "name": "LX AWD",
+          "msrp": 32420,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-ex-fwd",
+          "name": "EX FWD",
+          "msrp": 33150,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
         },
         {
           "id": "honda-cr-v-2026-ex-awd",
           "name": "EX AWD",
-          "msrp": 34000,
+          "msrp": 34650,
           "powertrain": "gas",
           "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 29,
-          "towingLbs": 1500,
-          "cargoCuFt": 39.3
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-ex-l-fwd",
+          "name": "EX-L FWD",
+          "msrp": 35400,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-ex-l-awd",
+          "name": "EX-L AWD",
+          "msrp": 36900,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-sport-hybrid-fwd",
+          "name": "Sport Hybrid FWD",
+          "msrp": 35630,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
         },
         {
           "id": "honda-cr-v-2026-sport-hybrid-awd",
           "name": "Sport Hybrid AWD",
-          "msrp": 35500,
+          "msrp": 37130,
           "powertrain": "hybrid",
           "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 37,
-          "towingLbs": 1000,
-          "cargoCuFt": 39.3
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-sport-l-hybrid-fwd",
+          "name": "Sport-L Hybrid FWD",
+          "msrp": 38725,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-sport-l-hybrid-awd",
+          "name": "Sport-L Hybrid AWD",
+          "msrp": 40225,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "honda-cr-v-2026-trailsport-hybrid",
+          "name": "TrailSport Hybrid",
+          "msrp": 38800,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
         },
         {
           "id": "honda-cr-v-2026-sport-touring-hybrid",
           "name": "Sport Touring Hybrid",
-          "msrp": 42000,
+          "msrp": 42250,
           "powertrain": "hybrid",
           "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 37,
-          "towingLbs": 1000,
-          "cargoCuFt": 39.3
+          "seats": 5
         }
       ]
     },
     {
-      "id": "hyundai-ioniq-5-2026",
+      "id": "honda-pilot-2026",
+      "make": "Honda",
+      "name": "Pilot",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "honda-pilot-2026-sport-fwd",
+          "name": "Sport FWD",
+          "msrp": 42395,
+          "powertrain": "gas",
+          "drivetrain": "FWD"
+        },
+        {
+          "id": "honda-pilot-2026-sport-awd",
+          "name": "Sport AWD",
+          "msrp": 44495,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "honda-pilot-2026-ex-l-fwd",
+          "name": "EX-L FWD",
+          "msrp": 44695,
+          "powertrain": "gas",
+          "drivetrain": "FWD"
+        },
+        {
+          "id": "honda-pilot-2026-ex-l-awd",
+          "name": "EX-L AWD",
+          "msrp": 46795,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "honda-pilot-2026-trailsport",
+          "name": "TrailSport",
+          "msrp": 50595,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "honda-pilot-2026-touring",
+          "name": "Touring",
+          "msrp": 51295,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "honda-pilot-2026-elite",
+          "name": "Elite",
+          "msrp": 53695,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "honda-pilot-2026-black-edition",
+          "name": "Black Edition",
+          "msrp": 55195,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        }
+      ]
+    },
+    {
+      "id": "hyundai-elantra-2026",
       "make": "Hyundai",
-      "name": "Ioniq 5",
+      "name": "Elantra",
       "year": 2026,
-      "bodyStyle": "suv",
+      "bodyStyle": "sedan",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
       "trims": [
         {
-          "id": "hyundai-ioniq-5-2026-se-rwd",
-          "name": "SE RWD",
-          "msrp": 42600,
-          "powertrain": "electric",
-          "drivetrain": "RWD",
-          "seats": 5,
-          "mpgCombined": 114,
-          "electricRangeMiles": 318,
-          "towingLbs": 2000,
-          "cargoCuFt": 59.3
-        },
-        {
-          "id": "hyundai-ioniq-5-2026-limited-awd",
-          "name": "Limited AWD",
-          "msrp": 54000,
-          "powertrain": "electric",
-          "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 98,
-          "electricRangeMiles": 259,
-          "towingLbs": 2000,
-          "cargoCuFt": 59.3
-        }
-      ]
-    },
-    {
-      "id": "kia-carnival-2026",
-      "make": "Kia",
-      "name": "Carnival",
-      "year": 2026,
-      "bodyStyle": "minivan",
-      "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
-      "trims": [
-        {
-          "id": "kia-carnival-2026-lx",
-          "name": "LX",
-          "msrp": 37400,
+          "id": "hyundai-elantra-2026-se",
+          "name": "SE",
+          "msrp": 22625,
           "powertrain": "gas",
           "drivetrain": "FWD",
-          "seats": 8,
-          "mpgCombined": 22,
-          "towingLbs": 3500,
-          "cargoCuFt": 40.2
+          "seats": 5
         },
         {
-          "id": "kia-carnival-2026-sx-hybrid",
-          "name": "SX Hybrid",
-          "msrp": 47500,
+          "id": "hyundai-elantra-2026-sel-sport",
+          "name": "SEL Sport",
+          "msrp": 23750,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-sel-sport-premium",
+          "name": "SEL Sport Premium",
+          "msrp": 25075,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-limited",
+          "name": "Limited",
+          "msrp": 27175,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-n-line",
+          "name": "N Line",
+          "msrp": 29400,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-hybrid-blue",
+          "name": "Hybrid Blue",
+          "msrp": 25450,
           "powertrain": "hybrid",
           "drivetrain": "FWD",
-          "seats": 7,
-          "mpgCombined": 33,
-          "towingLbs": 3500,
-          "cargoCuFt": 40.2
-        }
-      ]
-    },
-    {
-      "id": "mazda-mx-5-miata-2026",
-      "make": "Mazda",
-      "name": "MX-5 Miata",
-      "year": 2026,
-      "bodyStyle": "convertible",
-      "imageUrl": "/images/placeholder-car.svg",
-      "trims": [
-        {
-          "id": "mazda-mx-5-miata-2026-sport",
-          "name": "Sport",
-          "msrp": 30000,
-          "powertrain": "gas",
-          "drivetrain": "RWD",
-          "seats": 2,
-          "mpgCombined": 29,
-          "cargoCuFt": 4.6
+          "seats": 5
         },
         {
-          "id": "mazda-mx-5-miata-2026-grand-touring",
-          "name": "Grand Touring",
-          "msrp": 35500,
+          "id": "hyundai-elantra-2026-hybrid-sel-sport",
+          "name": "Hybrid SEL Sport",
+          "msrp": 27425,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-hybrid-limited",
+          "name": "Hybrid Limited",
+          "msrp": 29800,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-n-manual",
+          "name": "N (manual)",
+          "msrp": 35100,
           "powertrain": "gas",
-          "drivetrain": "RWD",
-          "seats": 2,
-          "mpgCombined": 29,
-          "cargoCuFt": 4.6
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-n-dct",
+          "name": "N (DCT)",
+          "msrp": 36600,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-n-tcr-edition-manual",
+          "name": "N TCR Edition (manual)",
+          "msrp": 39250,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-elantra-2026-n-tcr-edition-dct",
+          "name": "N TCR Edition (DCT)",
+          "msrp": 40750,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
         }
       ]
     },
     {
-      "id": "rivian-r1s-2026",
-      "make": "Rivian",
-      "name": "R1S",
+      "id": "hyundai-palisade-2026",
+      "make": "Hyundai",
+      "name": "Palisade",
       "year": 2026,
       "bodyStyle": "suv",
       "imageUrl": "/images/placeholder-car.svg",
       "trims": [
         {
-          "id": "rivian-r1s-2026-dual-standard",
-          "name": "Dual Standard",
-          "msrp": 77000,
-          "powertrain": "electric",
-          "drivetrain": "AWD",
-          "seats": 7,
-          "mpgCombined": 69,
-          "electricRangeMiles": 270,
-          "towingLbs": 7700,
-          "cargoCuFt": 104.7
+          "id": "hyundai-palisade-2026-se-fwd",
+          "name": "SE FWD",
+          "msrp": 39435,
+          "powertrain": "gas",
+          "drivetrain": "FWD"
         },
         {
-          "id": "rivian-r1s-2026-tri-max",
-          "name": "Tri Max",
-          "msrp": 106000,
-          "powertrain": "electric",
+          "id": "hyundai-palisade-2026-se-awd",
+          "name": "SE AWD",
+          "msrp": 41435,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-sel-fwd",
+          "name": "SEL FWD",
+          "msrp": 41940,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-sel-awd",
+          "name": "SEL AWD",
+          "msrp": 43940,
+          "powertrain": "gas",
           "drivetrain": "AWD",
-          "seats": 7,
-          "mpgCombined": 66,
-          "electricRangeMiles": 374,
-          "towingLbs": 7700,
-          "cargoCuFt": 104.7
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-sel-convenience-fwd",
+          "name": "SEL Convenience FWD",
+          "msrp": 43370,
+          "powertrain": "gas",
+          "drivetrain": "FWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-sel-convenience-awd",
+          "name": "SEL Convenience AWD",
+          "msrp": 45370,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-sel-premium-fwd",
+          "name": "SEL Premium FWD",
+          "msrp": 45300,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-sel-premium-awd",
+          "name": "SEL Premium AWD",
+          "msrp": 47300,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-xrt-pro",
+          "name": "XRT PRO",
+          "msrp": 49870,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-limited-fwd",
+          "name": "Limited FWD",
+          "msrp": 49770,
+          "powertrain": "gas",
+          "drivetrain": "FWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-limited-awd",
+          "name": "Limited AWD",
+          "msrp": 51770,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-calligraphy-fwd",
+          "name": "Calligraphy FWD",
+          "msrp": 54560,
+          "powertrain": "gas",
+          "drivetrain": "FWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-calligraphy-awd",
+          "name": "Calligraphy AWD",
+          "msrp": 56560,
+          "powertrain": "gas",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-blue-sel",
+          "name": "Hybrid Blue SEL",
+          "msrp": 44160,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-sel",
+          "name": "Hybrid SEL",
+          "msrp": 46160,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-blue-sel-premium",
+          "name": "Hybrid Blue SEL Premium",
+          "msrp": 47520,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-sel-premium",
+          "name": "Hybrid SEL Premium",
+          "msrp": 49520,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 8
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-limited-fwd",
+          "name": "Hybrid Limited FWD",
+          "msrp": 51990,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-limited-awd",
+          "name": "Hybrid Limited AWD",
+          "msrp": 53990,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-calligraphy-fwd",
+          "name": "Hybrid Calligraphy FWD",
+          "msrp": 56780,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD"
+        },
+        {
+          "id": "hyundai-palisade-2026-hybrid-calligraphy-awd",
+          "name": "Hybrid Calligraphy AWD",
+          "msrp": 58780,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD"
+        }
+      ]
+    },
+    {
+      "id": "hyundai-santa-fe-2026",
+      "make": "Hyundai",
+      "name": "Santa Fe",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "hyundai-santa-fe-2026-se-fwd",
+          "name": "SE FWD",
+          "msrp": 34800,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-se-awd",
+          "name": "SE AWD",
+          "msrp": 36600,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-sel-fwd",
+          "name": "SEL FWD",
+          "msrp": 37340,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-sel-awd",
+          "name": "SEL AWD",
+          "msrp": 39140,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-xrt",
+          "name": "XRT",
+          "msrp": 41790,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-limited-fwd",
+          "name": "Limited FWD",
+          "msrp": 44350,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 6
+        },
+        {
+          "id": "hyundai-santa-fe-2026-limited-awd",
+          "name": "Limited AWD",
+          "msrp": 46150,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 6
+        },
+        {
+          "id": "hyundai-santa-fe-2026-calligraphy-fwd",
+          "name": "Calligraphy FWD",
+          "msrp": 47350,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 6
+        },
+        {
+          "id": "hyundai-santa-fe-2026-calligraphy-awd",
+          "name": "Calligraphy AWD",
+          "msrp": 49150,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 6
+        },
+        {
+          "id": "hyundai-santa-fe-2026-se-hybrid-fwd",
+          "name": "SE Hybrid FWD",
+          "msrp": 36150,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-se-hybrid-awd",
+          "name": "SE Hybrid AWD",
+          "msrp": 37950,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-sel-hybrid-fwd",
+          "name": "SEL Hybrid FWD",
+          "msrp": 38440,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-sel-hybrid-awd",
+          "name": "SEL Hybrid AWD",
+          "msrp": 40240,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "hyundai-santa-fe-2026-limited-hybrid-fwd",
+          "name": "Limited Hybrid FWD",
+          "msrp": 45450,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 6
+        },
+        {
+          "id": "hyundai-santa-fe-2026-limited-hybrid-awd",
+          "name": "Limited Hybrid AWD",
+          "msrp": 47250,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 6
+        },
+        {
+          "id": "hyundai-santa-fe-2026-calligraphy-hybrid-fwd",
+          "name": "Calligraphy Hybrid FWD",
+          "msrp": 48450,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 6
+        },
+        {
+          "id": "hyundai-santa-fe-2026-calligraphy-hybrid-awd",
+          "name": "Calligraphy Hybrid AWD",
+          "msrp": 50250,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 6
+        }
+      ]
+    },
+    {
+      "id": "hyundai-tucson-2026",
+      "make": "Hyundai",
+      "name": "Tucson",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "hyundai-tucson-2026-se-fwd",
+          "name": "SE FWD",
+          "msrp": 29200,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-se-awd",
+          "name": "SE AWD",
+          "msrp": 30700,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-sel-fwd",
+          "name": "SEL FWD",
+          "msrp": 30550,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-sel-awd",
+          "name": "SEL AWD",
+          "msrp": 32050,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-xrt-fwd",
+          "name": "XRT FWD",
+          "msrp": 33225,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-xrt-awd",
+          "name": "XRT AWD",
+          "msrp": 34725,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-sel-premium-fwd",
+          "name": "SEL Premium FWD",
+          "msrp": 33550,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-sel-premium-awd",
+          "name": "SEL Premium AWD",
+          "msrp": 35050,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-limited-fwd",
+          "name": "Limited FWD",
+          "msrp": 39175,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-limited-awd",
+          "name": "Limited AWD",
+          "msrp": 40675,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-hybrid-blue-se",
+          "name": "Hybrid Blue SE",
+          "msrp": 32200,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-hybrid-sel",
+          "name": "Hybrid SEL",
+          "msrp": 33650,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-hybrid-sel-convenience",
+          "name": "Hybrid SEL Convenience",
+          "msrp": 34650,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-hybrid-limited",
+          "name": "Hybrid Limited",
+          "msrp": 41825,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-plug-in-hybrid-sel",
+          "name": "Plug-in Hybrid SEL",
+          "msrp": 40075,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "hyundai-tucson-2026-plug-in-hybrid-limited",
+          "name": "Plug-in Hybrid Limited",
+          "msrp": 48300,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "jeep-grand-cherokee-2026",
+      "make": "Jeep",
+      "name": "Grand Cherokee",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "jeep-grand-cherokee-2026-laredo",
+          "name": "Laredo",
+          "msrp": 40915,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-grand-cherokee-2026-laredo-x",
+          "name": "Laredo X",
+          "msrp": 43410,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-grand-cherokee-2026-limited",
+          "name": "Limited",
+          "msrp": 46315,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-grand-cherokee-2026-laredo-altitude",
+          "name": "Laredo Altitude",
+          "msrp": 46355,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-grand-cherokee-2026-limited-reserve",
+          "name": "Limited Reserve",
+          "msrp": 53910,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-grand-cherokee-2026-summit",
+          "name": "Summit",
+          "msrp": 62595,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "jeep-wrangler-2026",
+      "make": "Jeep",
+      "name": "Wrangler",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "jeep-wrangler-2026-sport-2-door",
+          "name": "Sport 2-Door",
+          "msrp": 36035,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 4
+        },
+        {
+          "id": "jeep-wrangler-2026-sport-4-door",
+          "name": "Sport 4-Door",
+          "msrp": 39040,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-wrangler-2026-sport-s-2-door",
+          "name": "Sport S 2-Door",
+          "msrp": 39685,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 4
+        },
+        {
+          "id": "jeep-wrangler-2026-sport-s-4-door",
+          "name": "Sport S 4-Door",
+          "msrp": 41440,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-wrangler-2026-willys-2-door",
+          "name": "Willys 2-Door",
+          "msrp": 43755,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 4
+        },
+        {
+          "id": "jeep-wrangler-2026-willys-4-door",
+          "name": "Willys 4-Door",
+          "msrp": 44940,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-wrangler-2026-sahara-4-door",
+          "name": "Sahara 4-Door",
+          "msrp": 48910,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-wrangler-2026-rubicon-2-door",
+          "name": "Rubicon 2-Door",
+          "msrp": 45815,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 4
+        },
+        {
+          "id": "jeep-wrangler-2026-rubicon-4-door",
+          "name": "Rubicon 4-Door",
+          "msrp": 49740,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-wrangler-2026-rubicon-x-2-door",
+          "name": "Rubicon X 2-Door",
+          "msrp": 55765,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 4
+        },
+        {
+          "id": "jeep-wrangler-2026-rubicon-x-4-door",
+          "name": "Rubicon X 4-Door",
+          "msrp": 60435,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-wrangler-2026-willys-392-4-door",
+          "name": "Willys 392 4-Door",
+          "msrp": 69995,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "jeep-wrangler-2026-moab-392-4-door",
+          "name": "Moab 392 4-Door",
+          "msrp": 79995,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "kia-k4-2026",
+      "make": "Kia",
+      "name": "K4",
+      "year": 2026,
+      "bodyStyle": "sedan",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "kia-k4-2026-lx",
+          "name": "LX",
+          "msrp": 22290,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-k4-2026-lxs",
+          "name": "LXS",
+          "msrp": 23390,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-k4-2026-ex",
+          "name": "EX",
+          "msrp": 24490,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-k4-2026-gt-line",
+          "name": "GT-Line",
+          "msrp": 25490,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-k4-2026-gt-line-turbo",
+          "name": "GT-Line Turbo",
+          "msrp": 28390,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "kia-sportage-2026",
+      "make": "Kia",
+      "name": "Sportage",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "kia-sportage-2026-lx-fwd",
+          "name": "LX FWD",
+          "msrp": 28790,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-lx-awd",
+          "name": "LX AWD",
+          "msrp": 30590,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-ex-fwd",
+          "name": "EX FWD",
+          "msrp": 30590,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-ex-awd",
+          "name": "EX AWD",
+          "msrp": 32390,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-x-line",
+          "name": "X-Line",
+          "msrp": 33090,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-sx",
+          "name": "SX",
+          "msrp": 34390,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-sx-prestige-fwd",
+          "name": "SX-Prestige FWD",
+          "msrp": 36390,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-sx-prestige-awd",
+          "name": "SX-Prestige AWD",
+          "msrp": 38190,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-x-pro-prestige",
+          "name": "X-Pro Prestige",
+          "msrp": 39690,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-lx-hybrid",
+          "name": "LX Hybrid",
+          "msrp": 30490,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-s-hybrid",
+          "name": "S Hybrid",
+          "msrp": 32790,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-ex-hybrid",
+          "name": "EX Hybrid",
+          "msrp": 33790,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-x-line-hybrid",
+          "name": "X-Line Hybrid",
+          "msrp": 35690,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-sx-prestige-hybrid",
+          "name": "SX-Prestige Hybrid",
+          "msrp": 40590,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-x-line-plug-in-hybrid",
+          "name": "X-Line Plug-in Hybrid",
+          "msrp": 40490,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "kia-sportage-2026-x-line-prestige-plug-in-hybrid",
+          "name": "X-Line Prestige Plug-in Hybrid",
+          "msrp": 47190,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "lexus-rx-2026",
+      "make": "Lexus",
+      "name": "RX",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "lexus-rx-2026-rx-350-fwd",
+          "name": "RX 350 FWD",
+          "msrp": 51175,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "lexus-rx-2026-rx-350-awd",
+          "name": "RX 350 AWD",
+          "msrp": 52775,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "lexus-rx-2026-rx-350h",
+          "name": "RX 350h",
+          "msrp": 53475,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "lexus-rx-2026-rx-450h",
+          "name": "RX 450h+",
+          "msrp": 66680,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "lexus-rx-2026-rx-500h-f-sport-performance",
+          "name": "RX 500h F Sport Performance",
+          "msrp": 66850,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "mazda-cx-5-2026",
+      "make": "Mazda",
+      "name": "CX-5",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "mazda-cx-5-2026-2-5-s",
+          "name": "2.5 S",
+          "msrp": 29990,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "mazda-cx-5-2026-2-5-s-select",
+          "name": "2.5 S Select",
+          "msrp": 31990,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "mazda-cx-5-2026-2-5-s-preferred",
+          "name": "2.5 S Preferred",
+          "msrp": 34250,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "mazda-cx-5-2026-2-5-s-premium",
+          "name": "2.5 S Premium",
+          "msrp": 36900,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "mazda-cx-5-2026-2-5-s-premium-plus",
+          "name": "2.5 S Premium Plus",
+          "msrp": 38990,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "nissan-rogue-2026",
+      "make": "Nissan",
+      "name": "Rogue",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "nissan-rogue-2026-s-fwd",
+          "name": "S FWD",
+          "msrp": 29490,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-s-awd",
+          "name": "S AWD",
+          "msrp": 30890,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-sv-fwd",
+          "name": "SV FWD",
+          "msrp": 30490,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-sv-awd",
+          "name": "SV AWD",
+          "msrp": 31890,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-dark-armor-fwd",
+          "name": "Dark Armor FWD",
+          "msrp": 33340,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-dark-armor-awd",
+          "name": "Dark Armor AWD",
+          "msrp": 34740,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-rock-creek",
+          "name": "Rock Creek",
+          "msrp": 34390,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-platinum",
+          "name": "Platinum",
+          "msrp": 39390,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-rogue-2026-sl-plug-in-hybrid",
+          "name": "SL Plug-in Hybrid",
+          "msrp": 45990,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 38
+        },
+        {
+          "id": "nissan-rogue-2026-platinum-plug-in-hybrid",
+          "name": "Platinum Plug-in Hybrid",
+          "msrp": 49990,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 38
+        }
+      ]
+    },
+    {
+      "id": "nissan-sentra-2026",
+      "make": "Nissan",
+      "name": "Sentra",
+      "year": 2026,
+      "bodyStyle": "sedan",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "nissan-sentra-2026-s",
+          "name": "S",
+          "msrp": 22600,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-sentra-2026-sv",
+          "name": "SV",
+          "msrp": 23370,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-sentra-2026-sr",
+          "name": "SR",
+          "msrp": 25000,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "nissan-sentra-2026-sl",
+          "name": "SL",
+          "msrp": 27990,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "ram-1500-2026",
+      "make": "Ram",
+      "name": "1500",
+      "year": 2026,
+      "bodyStyle": "truck",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "ram-1500-2026-tradesman-rwd",
+          "name": "Tradesman RWD",
+          "msrp": 42025,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "ram-1500-2026-tradesman-4wd",
+          "name": "Tradesman 4WD",
+          "msrp": 45425,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "ram-1500-2026-express-rwd",
+          "name": "Express RWD",
+          "msrp": 44150,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "ram-1500-2026-express-4wd",
+          "name": "Express 4WD",
+          "msrp": 47550,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "ram-1500-2026-big-horn-rwd",
+          "name": "Big Horn RWD",
+          "msrp": 47280,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "ram-1500-2026-big-horn-4wd",
+          "name": "Big Horn 4WD",
+          "msrp": 50680,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "ram-1500-2026-lone-star-rwd",
+          "name": "Lone Star RWD",
+          "msrp": 47280,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "ram-1500-2026-lone-star-4wd",
+          "name": "Lone Star 4WD",
+          "msrp": 50680,
+          "powertrain": "gas",
+          "drivetrain": "4WD"
+        },
+        {
+          "id": "ram-1500-2026-warlock",
+          "name": "Warlock",
+          "msrp": 52865,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ram-1500-2026-laramie-rwd",
+          "name": "Laramie RWD",
+          "msrp": 61480,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "ram-1500-2026-laramie-4wd",
+          "name": "Laramie 4WD",
+          "msrp": 64880,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ram-1500-2026-rebel",
+          "name": "Rebel",
+          "msrp": 65445,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ram-1500-2026-rho",
+          "name": "RHO",
+          "msrp": 73795,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "ram-1500-2026-limited",
+          "name": "Limited",
+          "msrp": 76405,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ram-1500-2026-limited-longhorn",
+          "name": "Limited Longhorn",
+          "msrp": 76900,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "ram-1500-2026-tungsten",
+          "name": "Tungsten",
+          "msrp": 88800,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "subaru-crosstrek-2026",
+      "make": "Subaru",
+      "name": "Crosstrek",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "subaru-crosstrek-2026-base",
+          "name": "Base",
+          "msrp": 26995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-crosstrek-2026-premium",
+          "name": "Premium",
+          "msrp": 27995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-crosstrek-2026-sport",
+          "name": "Sport",
+          "msrp": 30625,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-crosstrek-2026-limited",
+          "name": "Limited",
+          "msrp": 32995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-crosstrek-2026-wilderness",
+          "name": "Wilderness",
+          "msrp": 33795,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-crosstrek-2026-sport-hybrid",
+          "name": "Sport Hybrid",
+          "msrp": 33995,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-crosstrek-2026-limited-hybrid",
+          "name": "Limited Hybrid",
+          "msrp": 34995,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "subaru-forester-2026",
+      "make": "Subaru",
+      "name": "Forester",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "subaru-forester-2026-base",
+          "name": "Base",
+          "msrp": 29995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-premium",
+          "name": "Premium",
+          "msrp": 31995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-sport",
+          "name": "Sport",
+          "msrp": 34795,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-limited",
+          "name": "Limited",
+          "msrp": 35995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-sport-onyx-edition",
+          "name": "Sport Onyx Edition",
+          "msrp": 36495,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-wilderness",
+          "name": "Wilderness",
+          "msrp": 36995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-touring",
+          "name": "Touring",
+          "msrp": 39995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-premium-hybrid",
+          "name": "Premium Hybrid",
+          "msrp": 34730,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-sport-hybrid",
+          "name": "Sport Hybrid",
+          "msrp": 37930,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-limited-hybrid",
+          "name": "Limited Hybrid",
+          "msrp": 38995,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-forester-2026-touring-hybrid",
+          "name": "Touring Hybrid",
+          "msrp": 41545,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
         }
       ]
     },
@@ -348,31 +2493,102 @@
       "make": "Subaru",
       "name": "Outback",
       "year": 2026,
-      "bodyStyle": "wagon",
+      "bodyStyle": "suv",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
       "trims": [
         {
           "id": "subaru-outback-2026-premium",
           "name": "Premium",
-          "msrp": 31000,
+          "msrp": 34995,
           "powertrain": "gas",
           "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 28,
-          "towingLbs": 2700,
-          "cargoCuFt": 32.6
+          "seats": 5
+        },
+        {
+          "id": "subaru-outback-2026-limited",
+          "name": "Limited",
+          "msrp": 41715,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-outback-2026-limited-xt",
+          "name": "Limited XT",
+          "msrp": 44365,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
         },
         {
           "id": "subaru-outback-2026-wilderness",
           "name": "Wilderness",
-          "msrp": 41500,
+          "msrp": 44995,
           "powertrain": "gas",
           "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-outback-2026-touring",
+          "name": "Touring",
+          "msrp": 45395,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "subaru-outback-2026-touring-xt",
+          "name": "Touring XT",
+          "msrp": 47995,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "tesla-model-3-2026",
+      "make": "Tesla",
+      "name": "Model 3",
+      "year": 2026,
+      "bodyStyle": "sedan",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "tesla-model-3-2026-standard-rwd",
+          "name": "Standard RWD",
+          "msrp": 36990,
+          "powertrain": "electric",
+          "drivetrain": "RWD",
           "seats": 5,
-          "mpgCombined": 24,
-          "towingLbs": 3500,
-          "cargoCuFt": 32.6
+          "electricRangeMiles": 321
+        },
+        {
+          "id": "tesla-model-3-2026-premium-rwd",
+          "name": "Premium RWD",
+          "msrp": 42490,
+          "powertrain": "electric",
+          "drivetrain": "RWD",
+          "seats": 5,
+          "electricRangeMiles": 363
+        },
+        {
+          "id": "tesla-model-3-2026-premium-awd",
+          "name": "Premium AWD",
+          "msrp": 47490,
+          "powertrain": "electric",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 346
+        },
+        {
+          "id": "tesla-model-3-2026-performance-awd",
+          "name": "Performance AWD",
+          "msrp": 54990,
+          "powertrain": "electric",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 309
         }
       ]
     },
@@ -383,43 +2599,51 @@
       "year": 2026,
       "bodyStyle": "suv",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
       "trims": [
         {
-          "id": "tesla-model-y-2026-long-range-rwd",
-          "name": "Long Range RWD",
-          "msrp": 45000,
+          "id": "tesla-model-y-2026-standard-rwd",
+          "name": "Standard RWD",
+          "msrp": 39990,
           "powertrain": "electric",
           "drivetrain": "RWD",
           "seats": 5,
-          "mpgCombined": 123,
-          "electricRangeMiles": 357,
-          "towingLbs": 3500,
-          "cargoCuFt": 76
+          "electricRangeMiles": 321
         },
         {
-          "id": "tesla-model-y-2026-long-range-awd",
-          "name": "Long Range AWD",
-          "msrp": 49000,
+          "id": "tesla-model-y-2026-standard-awd",
+          "name": "Standard AWD",
+          "msrp": 41990,
           "powertrain": "electric",
           "drivetrain": "AWD",
           "seats": 5,
-          "mpgCombined": 117,
-          "electricRangeMiles": 327,
-          "towingLbs": 3500,
-          "cargoCuFt": 76
+          "electricRangeMiles": 294
         },
         {
-          "id": "tesla-model-y-2026-performance",
-          "name": "Performance",
-          "msrp": 57500,
+          "id": "tesla-model-y-2026-premium-rwd",
+          "name": "Premium RWD",
+          "msrp": 45990,
+          "powertrain": "electric",
+          "drivetrain": "RWD",
+          "seats": 5,
+          "electricRangeMiles": 357
+        },
+        {
+          "id": "tesla-model-y-2026-premium-awd",
+          "name": "Premium AWD",
+          "msrp": 49990,
           "powertrain": "electric",
           "drivetrain": "AWD",
           "seats": 5,
-          "mpgCombined": 107,
-          "electricRangeMiles": 306,
-          "towingLbs": 3500,
-          "cargoCuFt": 76
+          "electricRangeMiles": 327
+        },
+        {
+          "id": "tesla-model-y-2026-performance-awd",
+          "name": "Performance AWD",
+          "msrp": 57990,
+          "powertrain": "electric",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 306
         }
       ]
     },
@@ -430,122 +2654,569 @@
       "year": 2026,
       "bodyStyle": "sedan",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
       "trims": [
         {
           "id": "toyota-camry-2026-le",
           "name": "LE",
-          "msrp": 28400,
+          "msrp": 29600,
           "powertrain": "hybrid",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 51,
-          "cargoCuFt": 15
+          "seats": 5
         },
         {
           "id": "toyota-camry-2026-se",
           "name": "SE",
-          "msrp": 31000,
+          "msrp": 32100,
           "powertrain": "hybrid",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 47,
-          "cargoCuFt": 15
+          "seats": 5
         },
         {
-          "id": "toyota-camry-2026-xle-awd",
-          "name": "XLE AWD",
-          "msrp": 35000,
+          "id": "toyota-camry-2026-nightshade",
+          "name": "Nightshade",
+          "msrp": 33100,
           "powertrain": "hybrid",
-          "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 44,
-          "cargoCuFt": 15
+          "drivetrain": "FWD",
+          "seats": 5
         },
         {
-          "id": "toyota-camry-2026-xse-awd",
-          "name": "XSE AWD",
+          "id": "toyota-camry-2026-xle",
+          "name": "XLE",
+          "msrp": 34800,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-camry-2026-xse",
+          "name": "XSE",
           "msrp": 36000,
           "powertrain": "hybrid",
-          "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 44,
-          "cargoCuFt": 15
+          "drivetrain": "FWD",
+          "seats": 5
         }
       ]
     },
     {
-      "id": "toyota-rav4-2025",
+      "id": "toyota-corolla-2026",
       "make": "Toyota",
-      "name": "RAV4",
-      "year": 2025,
-      "bodyStyle": "suv",
+      "name": "Corolla",
+      "year": 2026,
+      "bodyStyle": "sedan",
       "imageUrl": "/images/placeholder-car.svg",
-      "safetyRating": 5,
       "trims": [
         {
-          "id": "toyota-rav4-2025-le",
+          "id": "toyota-corolla-2026-le",
           "name": "LE",
-          "msrp": 29300,
+          "msrp": 23125,
           "powertrain": "gas",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 30,
-          "towingLbs": 1500,
-          "cargoCuFt": 37.6
+          "seats": 5
         },
         {
-          "id": "toyota-rav4-2025-xle-hybrid",
-          "name": "XLE Hybrid",
-          "msrp": 34000,
+          "id": "toyota-corolla-2026-se",
+          "name": "SE",
+          "msrp": 25565,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-corolla-2026-xse",
+          "name": "XSE",
+          "msrp": 28840,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-corolla-2026-hybrid-le",
+          "name": "Hybrid LE",
+          "msrp": 24975,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-corolla-2026-hybrid-se",
+          "name": "Hybrid SE",
+          "msrp": 27415,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-corolla-2026-hybrid-xle",
+          "name": "Hybrid XLE",
+          "msrp": 29340,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "toyota-grand-highlander-2026",
+      "make": "Toyota",
+      "name": "Grand Highlander",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "toyota-grand-highlander-2026-le-fwd",
+          "name": "LE FWD",
+          "msrp": 41360,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 8
+        },
+        {
+          "id": "toyota-grand-highlander-2026-le-awd",
+          "name": "LE AWD",
+          "msrp": 42960,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 8
+        },
+        {
+          "id": "toyota-grand-highlander-2026-xle-fwd",
+          "name": "XLE FWD",
+          "msrp": 44130,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-xle-awd",
+          "name": "XLE AWD",
+          "msrp": 45730,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-limited-fwd",
+          "name": "Limited FWD",
+          "msrp": 48860,
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-limited-awd",
+          "name": "Limited AWD",
+          "msrp": 50460,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-platinum",
+          "name": "Platinum",
+          "msrp": 54545,
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-hybrid-le",
+          "name": "Hybrid LE",
+          "msrp": 44710,
           "powertrain": "hybrid",
           "drivetrain": "AWD",
-          "seats": 5,
-          "mpgCombined": 39,
-          "towingLbs": 1750,
-          "cargoCuFt": 37.6
+          "seats": 8
         },
         {
-          "id": "toyota-rav4-2025-prime-xse",
-          "name": "Prime XSE",
-          "msrp": 43700,
+          "id": "toyota-grand-highlander-2026-hybrid-xle-fwd",
+          "name": "Hybrid XLE FWD",
+          "msrp": 45880,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-hybrid-xle-awd",
+          "name": "Hybrid XLE AWD",
+          "msrp": 47480,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-hybrid-limited",
+          "name": "Hybrid Limited",
+          "msrp": 52210,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-hybrid-nightshade",
+          "name": "Hybrid Nightshade",
+          "msrp": 53190,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-hybrid-max-limited",
+          "name": "Hybrid MAX Limited",
+          "msrp": 55190,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-grand-highlander-2026-hybrid-max-platinum",
+          "name": "Hybrid MAX Platinum",
+          "msrp": 59275,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        }
+      ]
+    },
+    {
+      "id": "toyota-rav4-2026",
+      "make": "Toyota",
+      "name": "RAV4",
+      "year": 2026,
+      "bodyStyle": "suv",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "toyota-rav4-2026-le-fwd",
+          "name": "LE FWD",
+          "msrp": 31900,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-le-awd",
+          "name": "LE AWD",
+          "msrp": 33300,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-se-fwd",
+          "name": "SE FWD",
+          "msrp": 34700,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-se-awd",
+          "name": "SE AWD",
+          "msrp": 36100,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-xle-premium-fwd",
+          "name": "XLE Premium FWD",
+          "msrp": 36100,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-xle-premium-awd",
+          "name": "XLE Premium AWD",
+          "msrp": 37500,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-woodland",
+          "name": "Woodland",
+          "msrp": 39900,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-xse",
+          "name": "XSE",
+          "msrp": 41300,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-limited",
+          "name": "Limited",
+          "msrp": 43300,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-rav4-2026-se-plug-in-hybrid",
+          "name": "SE Plug-in Hybrid",
+          "msrp": 41500,
           "powertrain": "plug-in hybrid",
           "drivetrain": "AWD",
           "seats": 5,
-          "mpgCombined": 94,
-          "electricRangeMiles": 42,
-          "towingLbs": 2500,
-          "cargoCuFt": 33.5
+          "electricRangeMiles": 52
+        },
+        {
+          "id": "toyota-rav4-2026-woodland-plug-in-hybrid",
+          "name": "Woodland Plug-in Hybrid",
+          "msrp": 45300,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 52
+        },
+        {
+          "id": "toyota-rav4-2026-xse-plug-in-hybrid",
+          "name": "XSE Plug-in Hybrid",
+          "msrp": 47200,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 52
+        },
+        {
+          "id": "toyota-rav4-2026-gr-sport-plug-in-hybrid",
+          "name": "GR Sport Plug-in Hybrid",
+          "msrp": 48500,
+          "powertrain": "plug-in hybrid",
+          "drivetrain": "AWD",
+          "seats": 5,
+          "electricRangeMiles": 52
         }
       ]
     },
     {
-      "id": "volkswagen-golf-gti-2026",
-      "make": "Volkswagen",
-      "name": "Golf GTI",
+      "id": "toyota-sienna-2026",
+      "make": "Toyota",
+      "name": "Sienna",
       "year": 2026,
-      "bodyStyle": "hatchback",
+      "bodyStyle": "minivan",
       "imageUrl": "/images/placeholder-car.svg",
       "trims": [
         {
-          "id": "volkswagen-golf-gti-2026-s",
-          "name": "S",
-          "msrp": 33700,
-          "powertrain": "gas",
+          "id": "toyota-sienna-2026-le-fwd",
+          "name": "LE FWD",
+          "msrp": 40120,
+          "powertrain": "hybrid",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 27,
-          "cargoCuFt": 19.9
+          "seats": 8
         },
         {
-          "id": "volkswagen-golf-gti-2026-autobahn",
-          "name": "Autobahn",
-          "msrp": 40800,
-          "powertrain": "gas",
+          "id": "toyota-sienna-2026-le-awd",
+          "name": "LE AWD",
+          "msrp": 42120,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 8
+        },
+        {
+          "id": "toyota-sienna-2026-xle-fwd",
+          "name": "XLE FWD",
+          "msrp": 44820,
+          "powertrain": "hybrid",
           "drivetrain": "FWD",
-          "seats": 5,
-          "mpgCombined": 27,
-          "cargoCuFt": 19.9
+          "seats": 8
+        },
+        {
+          "id": "toyota-sienna-2026-xle-awd",
+          "name": "XLE AWD",
+          "msrp": 46820,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 8
+        },
+        {
+          "id": "toyota-sienna-2026-xse-fwd",
+          "name": "XSE FWD",
+          "msrp": 48045,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-sienna-2026-xse-awd",
+          "name": "XSE AWD",
+          "msrp": 48935,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-sienna-2026-woodland",
+          "name": "Woodland",
+          "msrp": 50900,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-sienna-2026-limited-fwd",
+          "name": "Limited FWD",
+          "msrp": 50805,
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-sienna-2026-limited-awd",
+          "name": "Limited AWD",
+          "msrp": 52805,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        },
+        {
+          "id": "toyota-sienna-2026-platinum",
+          "name": "Platinum",
+          "msrp": 57510,
+          "powertrain": "hybrid",
+          "drivetrain": "AWD",
+          "seats": 7
+        }
+      ]
+    },
+    {
+      "id": "toyota-tacoma-2026",
+      "make": "Toyota",
+      "name": "Tacoma",
+      "year": 2026,
+      "bodyStyle": "truck",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "toyota-tacoma-2026-sr",
+          "name": "SR",
+          "msrp": 32445,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "toyota-tacoma-2026-sr5",
+          "name": "SR5",
+          "msrp": 36535,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "toyota-tacoma-2026-trd-prerunner",
+          "name": "TRD PreRunner",
+          "msrp": 39035,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "toyota-tacoma-2026-trd-sport",
+          "name": "TRD Sport",
+          "msrp": 40315,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tacoma-2026-trd-off-road",
+          "name": "TRD Off-Road",
+          "msrp": 42715,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tacoma-2026-limited",
+          "name": "Limited",
+          "msrp": 53470,
+          "powertrain": "gas",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tacoma-2026-trailhunter",
+          "name": "Trailhunter",
+          "msrp": 63650,
+          "powertrain": "hybrid",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tacoma-2026-trd-pro",
+          "name": "TRD Pro",
+          "msrp": 64650,
+          "powertrain": "hybrid",
+          "drivetrain": "4WD",
+          "seats": 5
+        }
+      ]
+    },
+    {
+      "id": "toyota-tundra-2026",
+      "make": "Toyota",
+      "name": "Tundra",
+      "year": 2026,
+      "bodyStyle": "truck",
+      "imageUrl": "/images/placeholder-car.svg",
+      "trims": [
+        {
+          "id": "toyota-tundra-2026-sr",
+          "name": "SR",
+          "msrp": 41260,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "toyota-tundra-2026-sr5",
+          "name": "SR5",
+          "msrp": 46510,
+          "powertrain": "gas",
+          "drivetrain": "RWD"
+        },
+        {
+          "id": "toyota-tundra-2026-limited",
+          "name": "Limited",
+          "msrp": 54860,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tundra-2026-platinum",
+          "name": "Platinum",
+          "msrp": 63695,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tundra-2026-1794-edition",
+          "name": "1794 Edition",
+          "msrp": 64380,
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tundra-2026-trd-pro",
+          "name": "TRD Pro",
+          "msrp": 72565,
+          "powertrain": "hybrid",
+          "drivetrain": "4WD",
+          "seats": 5
+        },
+        {
+          "id": "toyota-tundra-2026-capstone",
+          "name": "Capstone",
+          "msrp": 80800,
+          "powertrain": "hybrid",
+          "drivetrain": "4WD",
+          "seats": 5
         }
       ]
     }
