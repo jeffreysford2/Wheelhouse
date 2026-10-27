@@ -1,19 +1,24 @@
-// A first version of the model page: header and a plain trim table.
-// Phase 3 adds the summary, charging section and "Add to compare".
+// The model page: header with the starting price, then every trim with its
+// specs and an "Add to compare" button.
 //
 // A column only appears when at least one trim has a figure for it, the same
 // rule the filters follow, so a model with no towing data has no column of
 // dashes.
 
 import { Link, useParams } from "react-router-dom";
-import type { Trim } from "../../../shared/carTypes";
 import { CarImage } from "../components/CarImage";
 import { PowertrainLabel } from "../components/PowertrainIcon";
-import { formatEfficiency, formatNumber, formatPrice } from "../data/format";
+import { CompareButton } from "../compare/CompareButton";
+import { MAX_COMPARE_TRIMS } from "../compare/compareList";
+import { BODY_STYLE_LABELS, formatPrice } from "../data/format";
 import { startingPrice } from "../data/filters";
 import { loadModel, ModelNotFoundError } from "../data/loadData";
+import { buildSpecRows, TRIM_SPECS } from "../data/trimSpecs";
 import { useAsync } from "../data/useAsync";
 import "./ModelDetailPage.css";
+
+// Body style and safety rating are the same for every trim, so the header shows them once.
+const TRIM_TABLE_SPECS = TRIM_SPECS.filter((spec) => !spec.isModelWide);
 
 export function ModelDetailPage() {
   const { modelId = "" } = useParams();
@@ -36,15 +41,14 @@ export function ModelDetailPage() {
   const { model } = file.data;
   const fullName = `${model.year} ${model.make} ${model.name}`;
   const trimsByPrice = [...model.trims].sort((a, b) => a.msrp - b.msrp);
-  const anyTrimHas = (field: keyof Trim) => model.trims.some((trim) => trim[field] !== undefined);
-  const show = {
-    destination: anyTrimHas("destinationFee"),
-    seats: anyTrimHas("seats"),
-    efficiency: anyTrimHas("mpgCombined"),
-    range: anyTrimHas("electricRangeMiles"),
-    towing: anyTrimHas("towingLbs"),
-    source: anyTrimHas("priceSourceUrl"),
-  };
+
+  // One row per trim and one column per spec. buildSpecRows gives one row
+  // per spec, and drops specs no trim has, so columns come from its labels.
+  const specColumns = buildSpecRows(
+    trimsByPrice.map((trim) => ({ trim, model })),
+    TRIM_TABLE_SPECS,
+  );
+  const showSource = model.trims.some((trim) => trim.priceSourceUrl !== undefined);
 
   return (
     <article className="page model-detail">
@@ -53,7 +57,7 @@ export function ModelDetailPage() {
       </Link>
       <header className="model-detail-header">
         <CarImage imageUrl={model.imageUrl} alt={fullName} />
-        <div>
+        <div className="model-detail-summary">
           <p className="muted">
             {model.year} {model.make}
           </p>
@@ -61,11 +65,20 @@ export function ModelDetailPage() {
           <p className="model-detail-price">
             From <span className="figures">{formatPrice(startingPrice(model))}</span>
           </p>
-          {model.safetyRating !== undefined && <p>NHTSA overall safety rating: {model.safetyRating} of 5 stars</p>}
+          <ul className="model-detail-facts">
+            <li>{BODY_STYLE_LABELS[model.bodyStyle]}</li>
+            <li>
+              {model.trims.length} {model.trims.length === 1 ? "trim" : "trims"}
+            </li>
+            {model.safetyRating !== undefined && <li>NHTSA overall safety rating: {model.safetyRating} of 5 stars</li>}
+          </ul>
         </div>
       </header>
 
-      <h2>Trims</h2>
+      <div className="trim-section-heading">
+        <h2>Trims</h2>
+        <p className="muted">Add up to {MAX_COMPARE_TRIMS} trims, from any cars, to compare them side by side.</p>
+      </div>
       <div className="trim-table-wrapper">
         <table className="trim-table">
           <caption className="visually-hidden">Trims of the {fullName}</caption>
@@ -73,33 +86,30 @@ export function ModelDetailPage() {
             <tr>
               <th scope="col">Trim</th>
               <th scope="col">MSRP</th>
-              {show.destination && <th scope="col">Destination fee</th>}
-              <th scope="col">Powertrain</th>
-              <th scope="col">Drivetrain</th>
-              {show.seats && <th scope="col">Seats</th>}
-              {show.efficiency && <th scope="col">Fuel economy</th>}
-              {show.range && <th scope="col">Electric range</th>}
-              {show.towing && <th scope="col">Towing</th>}
-              {show.source && <th scope="col">Price source</th>}
+              {specColumns.map((column) => (
+                <th key={column.id} scope="col">
+                  {column.label}
+                </th>
+              ))}
+              {showSource && <th scope="col">Price source</th>}
             </tr>
           </thead>
           <tbody>
-            {trimsByPrice.map((trim) => (
+            {trimsByPrice.map((trim, row) => (
               <tr key={trim.id}>
-                <th scope="row">{trim.name}</th>
+                <th scope="row" className="trim-table-name">
+                  <div className="trim-table-name-inner">
+                    <span>{trim.name}</span>
+                    <CompareButton trimId={trim.id} trimLabel={`${model.name} ${trim.name}`} />
+                  </div>
+                </th>
                 <td className="figures">{formatPrice(trim.msrp)}</td>
-                {show.destination && (
-                  <td className="figures">{trim.destinationFee !== undefined ? formatPrice(trim.destinationFee) : "—"}</td>
-                )}
-                <td>
-                  <PowertrainLabel powertrain={trim.powertrain} />
-                </td>
-                <td>{trim.drivetrain}</td>
-                {show.seats && <td>{trim.seats ?? "—"}</td>}
-                {show.efficiency && <td>{formatEfficiency(trim.mpgCombined, trim.powertrain) ?? "—"}</td>}
-                {show.range && <td>{trim.electricRangeMiles !== undefined ? `${trim.electricRangeMiles} mi` : "—"}</td>}
-                {show.towing && <td>{trim.towingLbs !== undefined ? `${formatNumber(trim.towingLbs)} lbs` : "—"}</td>}
-                {show.source && (
+                {specColumns.map((column) => (
+                  <td key={column.id}>
+                    {column.id === "powertrain" ? <PowertrainLabel powertrain={trim.powertrain} /> : (column.values[row] ?? "—")}
+                  </td>
+                ))}
+                {showSource && (
                   <td>
                     {trim.priceSourceUrl ? (
                       <a href={trim.priceSourceUrl} target="_blank" rel="noreferrer">
@@ -115,6 +125,7 @@ export function ModelDetailPage() {
           </tbody>
         </table>
       </div>
+      <p className="muted trim-table-note">MSRP is before the destination fee.</p>
     </article>
   );
 }

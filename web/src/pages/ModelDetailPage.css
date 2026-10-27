@@ -65,3 +65,52 @@
     grid-template-columns: 1fr;
   }
 }
+
+.model-detail-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.model-detail-summary p,
+.model-detail-facts {
+  margin: 0;
+}
+
+.model-detail-facts {
+  padding-left: 1.1em;
+  color: var(--color-ink-muted);
+}
+
+.trim-section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-4);
+}
+
+.trim-section-heading p {
+  margin: 0;
+}
+
+/* The trim name and its compare button stay put while the specs scroll sideways on phones. */
+.trim-table thead th:first-child,
+.trim-table-name {
+  position: sticky;
+  left: 0;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+}
+
+.trim-table-name-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.trim-table-note {
+  margin: calc(-1 * var(--space-3)) 0 0;
+  font-size: 0.875rem;
+}

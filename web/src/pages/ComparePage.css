@@ -1,0 +1,206 @@
+.compare-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.compare-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-5);
+}
+
+.compare-count {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.compare-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.compare-toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--color-accent);
+}
+
+.compare-toggle.is-disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.compare-toolbar-actions {
+  display: flex;
+  gap: var(--space-2);
+  margin-left: auto;
+}
+
+/*
+ * The table scrolls inside its own box, both ways. That lets the trim
+ * headers stick to the top and the spec names stick to the left at the same
+ * time; a page-level scroll can't do both once the table scrolls sideways.
+ * The height leaves room for the site header (about 65px) and a margin.
+ */
+.compare-scroller {
+  overflow: auto;
+  max-height: calc(100dvh - 96px);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  overscroll-behavior-x: contain;
+}
+
+.compare-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 100%;
+  font-size: 0.9375rem;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+/* Spec names: fixed on the left while the trims scroll sideways. */
+.compare-table tbody th,
+.compare-corner {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  width: 160px;
+  min-width: 140px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-ink-muted);
+  border-right: 1px solid var(--color-border);
+}
+
+/* Trim headers: fixed at the top while the specs scroll down. */
+.compare-table thead th,
+.compare-corner {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+/* The corner sits above both sticky edges. */
+.compare-corner {
+  z-index: 3;
+  border-bottom-width: 2px;
+}
+
+.compare-trim-header {
+  position: relative;
+  min-width: 180px;
+  width: 200px;
+  font-weight: 400;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.compare-trim-header > span {
+  display: block;
+}
+
+.compare-trim-header .car-image {
+  border-radius: var(--radius-small);
+  margin-bottom: var(--space-2);
+}
+
+.compare-model-name {
+  font-size: 0.875rem;
+}
+
+.compare-model-name a {
+  font-weight: 600;
+}
+
+.compare-trim-name {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.compare-price {
+  display: inline-block !important;
+  margin-top: var(--space-1);
+  padding: 0 var(--space-2);
+  background: var(--color-sticker);
+  border: 1px dashed var(--color-accent);
+  border-radius: var(--radius-small);
+}
+
+.compare-remove {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  z-index: 1;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-surface);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.compare-remove:hover {
+  border-color: var(--color-ink-muted);
+}
+
+/*
+ * Rows where the trims differ get a thin accent edge on the spec name. A
+ * full-row fill was too loud: across different cars nearly every row differs.
+ */
+.compare-table tr.is-different > th {
+  box-shadow: inset 3px 0 0 var(--color-accent);
+}
+
+.compare-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.compare-note {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+/* Phones: narrower columns and a smaller photo so more fits on screen. */
+@media (max-width: 640px) {
+  .compare-toolbar-actions {
+    margin-left: 0;
+  }
+
+  .compare-table th,
+  .compare-table td {
+    padding: var(--space-2) var(--space-3);
+  }
+
+  .compare-table tbody th,
+  .compare-corner {
+    width: 104px;
+    min-width: 104px;
+    white-space: normal;
+  }
+
+  .compare-trim-header {
+    min-width: 150px;
+    width: 150px;
+  }
+
+  .compare-trim-header .car-image {
+    width: 70%;
+  }
+}

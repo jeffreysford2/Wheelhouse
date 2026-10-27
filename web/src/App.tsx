@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import { AppFooter } from "./components/AppFooter";
 import { AppHeader } from "./components/AppHeader";
+import { CompareProvider } from "./compare/CompareContext";
+import { CompareTray } from "./compare/CompareTray";
 import { ComparePage } from "./pages/ComparePage";
 import { ModelDetailPage } from "./pages/ModelDetailPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
@@ -8,7 +10,7 @@ import { ResultsPage } from "./pages/ResultsPage";
 
 export function App() {
   return (
-    <>
+    <CompareProvider>
       <AppHeader />
       <main>
         <Routes>
@@ -19,6 +21,7 @@ export function App() {
         </Routes>
       </main>
       <AppFooter />
-    </>
+      <CompareTray />
+    </CompareProvider>
   );
 }

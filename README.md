@@ -2,7 +2,7 @@
 
 A research site for new cars sold in the US (model year 2026 for now).
 Visitors filter every model by what matters to them, open a model to see its
-trims, and (soon) compare up to six trims side by side.
+trims, and compare up to six trims side by side.
 
 There are two separate pieces, and keeping them apart is what keeps the
 system simple:
