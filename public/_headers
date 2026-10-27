@@ -1,7 +1,7 @@
-# Response headers for Cloudflare Pages. Vite copies this file into web/dist
-# unchanged, and Pages reads it from there. Without a rule, Pages sends
+# Response headers for Cloudflare. Vite copies this file into web/dist
+# unchanged, and Cloudflare reads it from there. Without a rule, it sends
 # "max-age=0, must-revalidate", so the browser re-checks every file each visit.
-# https://developers.cloudflare.com/pages/configuration/headers/
+# https://developers.cloudflare.com/workers/static-assets/headers/
 
 /*
   X-Content-Type-Options: nosniff

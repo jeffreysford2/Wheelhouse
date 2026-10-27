@@ -102,47 +102,42 @@ A filter only appears when some car has data for it. A field we can't source
 
 ## Hosting
 
-The site is hosted on **Cloudflare Pages, free plan**. Pages builds the site
-from GitHub on every push and serves `web/dist`.
+The site is hosted on **Cloudflare Workers, free plan**, as static files
+only (no server code). Cloudflare builds the site from GitHub on every push
+to `main` and serves `web/dist`.
 
-Two files make it work, and neither needs any Cloudflare setting:
+Two files in the repo set it up:
 
-- **Deep links.** Pages such as `/cars/toyota-camry-2026` exist only in the
-  browser. Pages serves `index.html` for any path that isn't a real file, as
-  long as the site has **no top-level `404.html`**. Don't add one; a test
-  (`web/src/hostingConfig.test.ts`) fails if you do.
-- **Caching.** `public/_headers` sets how long browsers keep each file:
-  hashed `/assets/` forever, `/data/index.json` for 5 minutes, model files
-  for a day (their URLs change every month anyway).
+- **`wrangler.jsonc`** tells Cloudflare where the built files are and turns
+  on single-page-app mode. Pages such as `/cars/toyota-camry-2026` exist only
+  in the browser, so any path that isn't a real file gets `index.html`.
+- **`public/_headers`** sets how long browsers keep each file: hashed
+  `/assets/` forever, `/data/index.json` for 5 minutes, model files for a day
+  (their URLs change every month anyway).
 
-### Free plan limits (checked 2026-10-26)
+`web/src/hostingConfig.test.ts` fails if either setting is lost.
 
-- 500 builds a month, one at a time, 20 minutes each at most. Every push to
-  any branch counts, previews included. A build here takes under a minute.
+### Free plan limits (checked 2026-10-27)
+
+- 3,000 build minutes a month, one build at a time, 20 minutes each at most.
+  A build here takes well under a minute.
 - Requests and bandwidth for static files are free and unlimited.
-- 20,000 files per site, 25 MiB per file. Today the site is about 20 files.
 
-Sources: [Pages limits](https://developers.cloudflare.com/pages/platform/limits/),
-[Pages pricing](https://developers.cloudflare.com/pages/functions/pricing/),
-[serving Pages](https://developers.cloudflare.com/pages/configuration/serving-pages/).
+Sources: [build limits](https://developers.cloudflare.com/workers/ci-cd/builds/limits-and-pricing/),
+[Workers pricing](https://developers.cloudflare.com/workers/platform/pricing/),
+[SPA mode](https://developers.cloudflare.com/workers/static-assets/routing/single-page-application/),
+[headers](https://developers.cloudflare.com/workers/static-assets/headers/).
 
 ### Connecting the repo (one time, in your own Cloudflare account)
 
 1. Sign in or sign up (free) at https://dash.cloudflare.com.
-2. Go to **Workers & Pages**, then **Create**, choose the **Pages** tab, then
-   **Import an existing Git repository** (the wording moves around a little;
-   pick Pages, not Workers).
-3. Connect GitHub and allow access to `jeffreysford2/wheelhouse` only.
-4. Pick the repo, then set:
-   - Production branch: `main`
-   - Framework preset: **None**
+2. Go to **Workers & Pages**, then **Create**, then **Import a repository**,
+   and connect GitHub with access to `jeffreysford2/wheelhouse` only.
+3. Name the Worker `wheelhouse` (it must match `name` in `wrangler.jsonc`).
+4. Under the Worker's **Settings > Build**, set:
    - Build command: `npm run build`
-   - Build output directory: `web/dist`
-   - Root directory: leave empty
-   - Environment variable: `NODE_VERSION` = `22` (Pages also reads `.nvmrc`,
-     this just makes it explicit)
-5. **Save and Deploy.** The site goes live at `https://<project>.pages.dev`.
-
-After that, every push to `main` updates the site and every other branch gets
-its own preview URL. To stop previews using up builds, set
-**Settings > Builds > Branch control** to production only.
+   - Deploy command: `npx wrangler deploy`
+   - Root directory: `/`
+   - Build variable: `NODE_VERSION` = `22`
+5. Push to `main` (or press **Retry deployment**). The site goes live at
+   `https://wheelhouse.<your-subdomain>.workers.dev`.
