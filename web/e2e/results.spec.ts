@@ -7,7 +7,11 @@ test("filtering by AWD keeps models whose base trim is FWD", async ({ page }) =>
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "40 cars" })).toBeVisible();
 
-  await page.getByRole("checkbox", { name: /AWD/ }).check();
+  // click() rather than check(): the filter list redraws as the counts
+  // change, and check() rereads the box before React has finished.
+  const awd = page.getByRole("checkbox", { name: /AWD/ });
+  await awd.click();
+  await expect(awd).toBeChecked();
 
   // The CR-V's cheapest trim is FWD, so the card names the AWD trim instead.
   const crv = page.getByRole("link", { name: /CR-V/ });
