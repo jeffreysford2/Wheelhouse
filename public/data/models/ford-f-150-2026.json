@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-01",
-  "version": "20261001000000000",
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
   "model": {
     "id": "ford-f-150-2026",
     "make": "Ford",
@@ -8,37 +8,86 @@
     "year": 2026,
     "bodyStyle": "truck",
     "imageUrl": "/images/placeholder-car.svg",
-    "safetyRating": 4,
     "trims": [
       {
-        "id": "ford-f-150-2026-xl-regular-cab",
-        "name": "XL Regular Cab",
-        "msrp": 38800,
+        "id": "ford-f-150-2026-xl",
+        "name": "XL",
+        "msrp": 37290,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
         "powertrain": "gas",
         "drivetrain": "RWD",
-        "seats": 3,
-        "mpgCombined": 20,
-        "towingLbs": 8200
+        "seats": 3
       },
       {
-        "id": "ford-f-150-2026-xlt-powerboost",
-        "name": "XLT PowerBoost",
-        "msrp": 55000,
-        "powertrain": "hybrid",
-        "drivetrain": "4WD",
-        "seats": 6,
-        "mpgCombined": 23,
-        "towingLbs": 12700
+        "id": "ford-f-150-2026-stx",
+        "name": "STX",
+        "msrp": 44855,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 6
+      },
+      {
+        "id": "ford-f-150-2026-xlt",
+        "name": "XLT",
+        "msrp": 45695,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 6
       },
       {
         "id": "ford-f-150-2026-lariat",
         "name": "Lariat",
-        "msrp": 64000,
+        "msrp": 59560,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "ford-f-150-2026-tremor",
+        "name": "Tremor",
+        "msrp": 64915,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "ford-f-150-2026-king-ranch",
+        "name": "King Ranch",
+        "msrp": 65825,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "ford-f-150-2026-platinum",
+        "name": "Platinum",
+        "msrp": 68800,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "ford-f-150-2026-raptor",
+        "name": "Raptor",
+        "msrp": 79005,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/2026-ford-f-150-pricing-guide.html",
         "powertrain": "gas",
         "drivetrain": "4WD",
-        "seats": 5,
-        "mpgCombined": 19,
-        "towingLbs": 13000
+        "seats": 5
       }
     ]
   }

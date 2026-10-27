@@ -41,9 +41,12 @@ export type Trim = {
   id: string; // "toyota-camry-2026-xse"
   name: string; // "XSE"
   msrp: number; // US dollars, before destination
+  destinationFee?: number; // US dollars, when the source states it
+  /** Link to where the price came from, so visitors can check it. */
+  priceSourceUrl?: string;
   powertrain: Powertrain;
   drivetrain: Drivetrain;
-  seats: number;
+  seats?: number;
   mpgCombined?: number; // MPG, or MPGe for electric trims
   electricRangeMiles?: number;
   fastChargeKw?: number;
@@ -57,10 +60,11 @@ export type Trim = {
 //
 // index.json is loaded on every first visit, so it carries only what the
 // results grid needs to filter, sort and draw a card. Charging details are
-// left out because no filter uses them; they arrive with the model file.
+// left out because no filter uses them, and so are the destination fee and
+// price source link; they arrive with the model file.
 // ---------------------------------------------------------------------------
 
-export type IndexTrim = Omit<Trim, "fastChargeKw" | "chargeTimeHours">;
+export type IndexTrim = Omit<Trim, "fastChargeKw" | "chargeTimeHours" | "destinationFee" | "priceSourceUrl">;
 
 export type IndexModel = Omit<Model, "trims"> & { trims: IndexTrim[] };
 

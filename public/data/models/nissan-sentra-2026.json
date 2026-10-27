@@ -1,0 +1,54 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "nissan-sentra-2026",
+    "make": "Nissan",
+    "name": "Sentra",
+    "year": 2026,
+    "bodyStyle": "sedan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "nissan-sentra-2026-s",
+        "name": "S",
+        "msrp": 22600,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-sentra-2026-sv",
+        "name": "SV",
+        "msrp": 23370,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-sentra-2026-sr",
+        "name": "SR",
+        "msrp": 25000,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-sentra-2026-sl",
+        "name": "SL",
+        "msrp": 27990,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/all-new-2026-nissan-sentra-offers-incredible-value-with-pricing-from-22600",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      }
+    ]
+  }
+}

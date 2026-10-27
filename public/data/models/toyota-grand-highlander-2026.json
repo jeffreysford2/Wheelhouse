@@ -1,0 +1,154 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "toyota-grand-highlander-2026",
+    "make": "Toyota",
+    "name": "Grand Highlander",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "toyota-grand-highlander-2026-le-fwd",
+        "name": "LE FWD",
+        "msrp": 41360,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 8
+      },
+      {
+        "id": "toyota-grand-highlander-2026-le-awd",
+        "name": "LE AWD",
+        "msrp": 42960,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "toyota-grand-highlander-2026-xle-fwd",
+        "name": "XLE FWD",
+        "msrp": 44130,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-xle-awd",
+        "name": "XLE AWD",
+        "msrp": 45730,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-limited-fwd",
+        "name": "Limited FWD",
+        "msrp": 48860,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-limited-awd",
+        "name": "Limited AWD",
+        "msrp": 50460,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-platinum",
+        "name": "Platinum",
+        "msrp": 54545,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-hybrid-le",
+        "name": "Hybrid LE",
+        "msrp": 44710,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "toyota-grand-highlander-2026-hybrid-xle-fwd",
+        "name": "Hybrid XLE FWD",
+        "msrp": 45880,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-hybrid-xle-awd",
+        "name": "Hybrid XLE AWD",
+        "msrp": 47480,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-hybrid-limited",
+        "name": "Hybrid Limited",
+        "msrp": 52210,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-hybrid-nightshade",
+        "name": "Hybrid Nightshade",
+        "msrp": 53190,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-hybrid-max-limited",
+        "name": "Hybrid MAX Limited",
+        "msrp": 55190,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-grand-highlander-2026-hybrid-max-platinum",
+        "name": "Hybrid MAX Platinum",
+        "msrp": 59275,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.cars.com/research/toyota-grand_highlander-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-01",
-  "version": "20261001000000000",
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
   "model": {
     "id": "honda-cr-v-2026",
     "make": "Honda",
@@ -8,51 +8,126 @@
     "year": 2026,
     "bodyStyle": "suv",
     "imageUrl": "/images/placeholder-car.svg",
-    "safetyRating": 5,
     "trims": [
       {
-        "id": "honda-cr-v-2026-lx",
-        "name": "LX",
-        "msrp": 30900,
+        "id": "honda-cr-v-2026-lx-fwd",
+        "name": "LX FWD",
+        "msrp": 30920,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
         "powertrain": "gas",
         "drivetrain": "FWD",
-        "seats": 5,
-        "mpgCombined": 30,
-        "towingLbs": 1500,
-        "cargoCuFt": 39.3
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-lx-awd",
+        "name": "LX AWD",
+        "msrp": 32420,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-ex-fwd",
+        "name": "EX FWD",
+        "msrp": 33150,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
       },
       {
         "id": "honda-cr-v-2026-ex-awd",
         "name": "EX AWD",
-        "msrp": 34000,
+        "msrp": 34650,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
         "powertrain": "gas",
         "drivetrain": "AWD",
-        "seats": 5,
-        "mpgCombined": 29,
-        "towingLbs": 1500,
-        "cargoCuFt": 39.3
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-ex-l-fwd",
+        "name": "EX-L FWD",
+        "msrp": 35400,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-ex-l-awd",
+        "name": "EX-L AWD",
+        "msrp": 36900,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-sport-hybrid-fwd",
+        "name": "Sport Hybrid FWD",
+        "msrp": 35630,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
       },
       {
         "id": "honda-cr-v-2026-sport-hybrid-awd",
         "name": "Sport Hybrid AWD",
-        "msrp": 35500,
+        "msrp": 37130,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
         "powertrain": "hybrid",
         "drivetrain": "AWD",
-        "seats": 5,
-        "mpgCombined": 37,
-        "towingLbs": 1000,
-        "cargoCuFt": 39.3
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-sport-l-hybrid-fwd",
+        "name": "Sport-L Hybrid FWD",
+        "msrp": 38725,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-sport-l-hybrid-awd",
+        "name": "Sport-L Hybrid AWD",
+        "msrp": 40225,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-cr-v-2026-trailsport-hybrid",
+        "name": "TrailSport Hybrid",
+        "msrp": 38800,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
       },
       {
         "id": "honda-cr-v-2026-sport-touring-hybrid",
         "name": "Sport Touring Hybrid",
-        "msrp": 42000,
+        "msrp": 42250,
+        "destinationFee": 1395,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-honda-cr-v-starts-at-32315/",
         "powertrain": "hybrid",
         "drivetrain": "AWD",
-        "seats": 5,
-        "mpgCombined": 37,
-        "towingLbs": 1000,
-        "cargoCuFt": 39.3
+        "seats": 5
       }
     ]
   }

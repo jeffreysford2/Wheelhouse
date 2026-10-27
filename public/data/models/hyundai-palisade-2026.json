@@ -1,0 +1,211 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "hyundai-palisade-2026",
+    "make": "Hyundai",
+    "name": "Palisade",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "hyundai-palisade-2026-se-fwd",
+        "name": "SE FWD",
+        "msrp": 39435,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-se-awd",
+        "name": "SE AWD",
+        "msrp": 41435,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-sel-fwd",
+        "name": "SEL FWD",
+        "msrp": 41940,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-sel-awd",
+        "name": "SEL AWD",
+        "msrp": 43940,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-sel-convenience-fwd",
+        "name": "SEL Convenience FWD",
+        "msrp": 43370,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-sel-convenience-awd",
+        "name": "SEL Convenience AWD",
+        "msrp": 45370,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-sel-premium-fwd",
+        "name": "SEL Premium FWD",
+        "msrp": 45300,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-sel-premium-awd",
+        "name": "SEL Premium AWD",
+        "msrp": 47300,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-xrt-pro",
+        "name": "XRT PRO",
+        "msrp": 49870,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-limited-fwd",
+        "name": "Limited FWD",
+        "msrp": 49770,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-limited-awd",
+        "name": "Limited AWD",
+        "msrp": 51770,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-calligraphy-fwd",
+        "name": "Calligraphy FWD",
+        "msrp": 54560,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-calligraphy-awd",
+        "name": "Calligraphy AWD",
+        "msrp": 56560,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-blue-sel",
+        "name": "Hybrid Blue SEL",
+        "msrp": 44160,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-sel",
+        "name": "Hybrid SEL",
+        "msrp": 46160,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-blue-sel-premium",
+        "name": "Hybrid Blue SEL Premium",
+        "msrp": 47520,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-sel-premium",
+        "name": "Hybrid SEL Premium",
+        "msrp": 49520,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-limited-fwd",
+        "name": "Hybrid Limited FWD",
+        "msrp": 51990,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-limited-awd",
+        "name": "Hybrid Limited AWD",
+        "msrp": 53990,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-calligraphy-fwd",
+        "name": "Hybrid Calligraphy FWD",
+        "msrp": 56780,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD"
+      },
+      {
+        "id": "hyundai-palisade-2026-hybrid-calligraphy-awd",
+        "name": "Hybrid Calligraphy AWD",
+        "msrp": 58780,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68409-26MYPalisadePricing01Oct2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD"
+      }
+    ]
+  }
+}

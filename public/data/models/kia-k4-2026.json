@@ -1,0 +1,64 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "kia-k4-2026",
+    "make": "Kia",
+    "name": "K4",
+    "year": 2026,
+    "bodyStyle": "sedan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "kia-k4-2026-lx",
+        "name": "LX",
+        "msrp": 22290,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/k4/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-k4-2026-lxs",
+        "name": "LXS",
+        "msrp": 23390,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/k4/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-k4-2026-ex",
+        "name": "EX",
+        "msrp": 24490,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/k4/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-k4-2026-gt-line",
+        "name": "GT-Line",
+        "msrp": 25490,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/k4/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-k4-2026-gt-line-turbo",
+        "name": "GT-Line Turbo",
+        "msrp": 28390,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/k4/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      }
+    ]
+  }
+}

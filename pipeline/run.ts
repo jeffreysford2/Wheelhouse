@@ -1,35 +1,36 @@
-// The monthly pipeline: fetch every source, merge, validate, write files.
+// The pipeline: read the catalog, merge, validate, write files.
 //
-// DO NOT RUN until Jeff has approved the cost estimate. Every source checks
-// for WHEELHOUSE_COST_APPROVED=yes before touching the network, and the
-// adapters are still stubs, so running this today just prints why it
-// stopped. To work on the site, use `npm run sample-data` instead.
+// Today the catalog is the hand-collected CSVs in pipeline/curated, which
+// are local files, so this run is offline and free. EPA fuel economy and
+// NHTSA safety ratings are free too but not wired in yet (their adapters are
+// still stubs), so MPG and safety filters stay hidden until they are.
+//
+// Paid sources (CarAPI) still refuse to run without cost approval; see
+// sources/notApproved.ts.
 
 import { makeBuildStamp, validateAndWrite } from "./build";
 import { mergeSources } from "./match";
-import { CarApiCatalogSource } from "./sources/carApiCatalog";
-import { EpaFuelEconomySource } from "./sources/epaFuelEconomy";
-import { NhtsaSafetySource } from "./sources/nhtsaSafety";
-import type { ModelYearRequest } from "./sources/sourceRecords";
+import { CuratedCatalogSource } from "./sources/curatedCatalog";
+import type { CatalogTrimRecord, ModelYearRequest } from "./sources/sourceRecords";
 
-const MODEL_YEARS: ModelYearRequest = [2025, 2026];
+// Jeff chose 2026 only for the first version (2026-10-26).
+const MODEL_YEARS: ModelYearRequest = [2026];
+
+/**
+ * The site says "Prices updated on <date>". With hand-collected prices that
+ * must be the oldest check date, not the run date, so no price is presented
+ * as fresher than it is.
+ */
+function oldestCheckDate(records: CatalogTrimRecord[]): string | undefined {
+  const dates = records.map((record) => record.priceCheckedOn).filter((date): date is string => Boolean(date));
+  return dates.sort()[0];
+}
 
 async function runPipeline(): Promise<void> {
-  const catalogSource = new CarApiCatalogSource();
-  const fuelEconomySource = new EpaFuelEconomySource();
-  const safetySource = new NhtsaSafetySource();
+  const catalog = await new CuratedCatalogSource().fetchTrims(MODEL_YEARS);
+  const models = mergeSources(catalog, [], []);
 
-  // The catalog goes first and alone: if it fails we have nothing to
-  // publish, so there is no point spending calls on the other sources.
-  const catalog = await catalogSource.fetchTrims(MODEL_YEARS);
-  const [fuelEconomy, safety] = await Promise.all([
-    fuelEconomySource.fetchFuelEconomy(MODEL_YEARS),
-    safetySource.fetchSafetyRatings(MODEL_YEARS),
-  ]);
-
-  const models = mergeSources(catalog, fuelEconomy, safety);
-
-  const wrote = await validateAndWrite(models, makeBuildStamp(new Date()));
+  const wrote = await validateAndWrite(models, makeBuildStamp(new Date(), oldestCheckDate(catalog)));
   if (!wrote) process.exit(1);
 }
 

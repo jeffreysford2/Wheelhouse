@@ -1,0 +1,58 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "tesla-model-3-2026",
+    "make": "Tesla",
+    "name": "Model 3",
+    "year": 2026,
+    "bodyStyle": "sedan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "tesla-model-3-2026-standard-rwd",
+        "name": "Standard RWD",
+        "msrp": 36990,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html",
+        "powertrain": "electric",
+        "drivetrain": "RWD",
+        "seats": 5,
+        "electricRangeMiles": 321
+      },
+      {
+        "id": "tesla-model-3-2026-premium-rwd",
+        "name": "Premium RWD",
+        "msrp": 42490,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html",
+        "powertrain": "electric",
+        "drivetrain": "RWD",
+        "seats": 5,
+        "electricRangeMiles": 363
+      },
+      {
+        "id": "tesla-model-3-2026-premium-awd",
+        "name": "Premium AWD",
+        "msrp": 47490,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html",
+        "powertrain": "electric",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 346
+      },
+      {
+        "id": "tesla-model-3-2026-performance-awd",
+        "name": "Performance AWD",
+        "msrp": 54990,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://www.edmunds.com/car-news/tesla-model-y-3-s-x-cybertruck-price.html",
+        "powertrain": "electric",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 309
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "hyundai-santa-fe-2026",
+    "make": "Hyundai",
+    "name": "Santa Fe",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "hyundai-santa-fe-2026-se-fwd",
+        "name": "SE FWD",
+        "msrp": 34800,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-se-awd",
+        "name": "SE AWD",
+        "msrp": 36600,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-sel-fwd",
+        "name": "SEL FWD",
+        "msrp": 37340,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-sel-awd",
+        "name": "SEL AWD",
+        "msrp": 39140,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-xrt",
+        "name": "XRT",
+        "msrp": 41790,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-limited-fwd",
+        "name": "Limited FWD",
+        "msrp": 44350,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 6
+      },
+      {
+        "id": "hyundai-santa-fe-2026-limited-awd",
+        "name": "Limited AWD",
+        "msrp": 46150,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 6
+      },
+      {
+        "id": "hyundai-santa-fe-2026-calligraphy-fwd",
+        "name": "Calligraphy FWD",
+        "msrp": 47350,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 6
+      },
+      {
+        "id": "hyundai-santa-fe-2026-calligraphy-awd",
+        "name": "Calligraphy AWD",
+        "msrp": 49150,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 6
+      },
+      {
+        "id": "hyundai-santa-fe-2026-se-hybrid-fwd",
+        "name": "SE Hybrid FWD",
+        "msrp": 36150,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-se-hybrid-awd",
+        "name": "SE Hybrid AWD",
+        "msrp": 37950,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-sel-hybrid-fwd",
+        "name": "SEL Hybrid FWD",
+        "msrp": 38440,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-sel-hybrid-awd",
+        "name": "SEL Hybrid AWD",
+        "msrp": 40240,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "hyundai-santa-fe-2026-limited-hybrid-fwd",
+        "name": "Limited Hybrid FWD",
+        "msrp": 45450,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 6
+      },
+      {
+        "id": "hyundai-santa-fe-2026-limited-hybrid-awd",
+        "name": "Limited Hybrid AWD",
+        "msrp": 47250,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 6
+      },
+      {
+        "id": "hyundai-santa-fe-2026-calligraphy-hybrid-fwd",
+        "name": "Calligraphy Hybrid FWD",
+        "msrp": 48450,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 6
+      },
+      {
+        "id": "hyundai-santa-fe-2026-calligraphy-hybrid-awd",
+        "name": "Calligraphy Hybrid AWD",
+        "msrp": 50250,
+        "destinationFee": 1600,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/documents/original/68230-26MYSantaFePricingSheet4Sep2025.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 6
+      }
+    ]
+  }
+}

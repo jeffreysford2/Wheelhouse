@@ -1,0 +1,148 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "toyota-rav4-2026",
+    "make": "Toyota",
+    "name": "RAV4",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "toyota-rav4-2026-le-fwd",
+        "name": "LE FWD",
+        "msrp": 31900,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-le-awd",
+        "name": "LE AWD",
+        "msrp": 33300,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-se-fwd",
+        "name": "SE FWD",
+        "msrp": 34700,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-se-awd",
+        "name": "SE AWD",
+        "msrp": 36100,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-xle-premium-fwd",
+        "name": "XLE Premium FWD",
+        "msrp": 36100,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-xle-premium-awd",
+        "name": "XLE Premium AWD",
+        "msrp": 37500,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-woodland",
+        "name": "Woodland",
+        "msrp": 39900,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-xse",
+        "name": "XSE",
+        "msrp": 41300,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-limited",
+        "name": "Limited",
+        "msrp": 43300,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-costs-950-less-than-predecessor-in-a-way/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-rav4-2026-se-plug-in-hybrid",
+        "name": "SE Plug-in Hybrid",
+        "msrp": 41500,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 52
+      },
+      {
+        "id": "toyota-rav4-2026-woodland-plug-in-hybrid",
+        "name": "Woodland Plug-in Hybrid",
+        "msrp": 45300,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 52
+      },
+      {
+        "id": "toyota-rav4-2026-xse-plug-in-hybrid",
+        "name": "XSE Plug-in Hybrid",
+        "msrp": 47200,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 52
+      },
+      {
+        "id": "toyota-rav4-2026-gr-sport-plug-in-hybrid",
+        "name": "GR Sport Plug-in Hybrid",
+        "msrp": 48500,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://www.kbb.com/car-news/2026-toyota-rav4-plug-in-hybrid-arrives-with-lower-price/",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 52
+      }
+    ]
+  }
+}

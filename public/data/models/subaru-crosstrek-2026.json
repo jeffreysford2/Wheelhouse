@@ -1,0 +1,84 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "subaru-crosstrek-2026",
+    "make": "Subaru",
+    "name": "Crosstrek",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "subaru-crosstrek-2026-base",
+        "name": "Base",
+        "msrp": 26995,
+        "destinationFee": 1420,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-crosstrek-2026-premium",
+        "name": "Premium",
+        "msrp": 27995,
+        "destinationFee": 1420,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-crosstrek-2026-sport",
+        "name": "Sport",
+        "msrp": 30625,
+        "destinationFee": 1420,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-crosstrek-2026-limited",
+        "name": "Limited",
+        "msrp": 32995,
+        "destinationFee": 1420,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-crosstrek-2026-wilderness",
+        "name": "Wilderness",
+        "msrp": 33795,
+        "destinationFee": 1420,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-crosstrek-2026-sport-hybrid",
+        "name": "Sport Hybrid",
+        "msrp": 33995,
+        "destinationFee": 1420,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-crosstrek-2026-limited-hybrid",
+        "name": "Limited Hybrid",
+        "msrp": 34995,
+        "destinationFee": 1420,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      }
+    ]
+  }
+}

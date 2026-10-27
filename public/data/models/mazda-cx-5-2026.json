@@ -1,0 +1,64 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "mazda-cx-5-2026",
+    "make": "Mazda",
+    "name": "CX-5",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "mazda-cx-5-2026-2-5-s",
+        "name": "2.5 S",
+        "msrp": 29990,
+        "destinationFee": 1595,
+        "priceSourceUrl": "https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "mazda-cx-5-2026-2-5-s-select",
+        "name": "2.5 S Select",
+        "msrp": 31990,
+        "destinationFee": 1595,
+        "priceSourceUrl": "https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "mazda-cx-5-2026-2-5-s-preferred",
+        "name": "2.5 S Preferred",
+        "msrp": 34250,
+        "destinationFee": 1595,
+        "priceSourceUrl": "https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "mazda-cx-5-2026-2-5-s-premium",
+        "name": "2.5 S Premium",
+        "msrp": 36900,
+        "destinationFee": 1595,
+        "priceSourceUrl": "https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "mazda-cx-5-2026-2-5-s-premium-plus",
+        "name": "2.5 S Premium Plus",
+        "msrp": 38990,
+        "destinationFee": 1595,
+        "priceSourceUrl": "https://news.mazdausa.com/2026-01-13-Mazda-Announces-Pricing-and-Packaging-for-All-New-2026-Mazda-CX-5",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      }
+    ]
+  }
+}

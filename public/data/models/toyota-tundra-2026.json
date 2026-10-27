@@ -1,0 +1,82 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "toyota-tundra-2026",
+    "make": "Toyota",
+    "name": "Tundra",
+    "year": 2026,
+    "bodyStyle": "truck",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "toyota-tundra-2026-sr",
+        "name": "SR",
+        "msrp": 41260,
+        "destinationFee": 2095,
+        "priceSourceUrl": "https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "toyota-tundra-2026-sr5",
+        "name": "SR5",
+        "msrp": 46510,
+        "destinationFee": 2095,
+        "priceSourceUrl": "https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "toyota-tundra-2026-limited",
+        "name": "Limited",
+        "msrp": 54860,
+        "destinationFee": 2095,
+        "priceSourceUrl": "https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tundra-2026-platinum",
+        "name": "Platinum",
+        "msrp": 63695,
+        "destinationFee": 2095,
+        "priceSourceUrl": "https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tundra-2026-1794-edition",
+        "name": "1794 Edition",
+        "msrp": 64380,
+        "destinationFee": 2095,
+        "priceSourceUrl": "https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tundra-2026-trd-pro",
+        "name": "TRD Pro",
+        "msrp": 72565,
+        "destinationFee": 2095,
+        "priceSourceUrl": "https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/",
+        "powertrain": "hybrid",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-tundra-2026-capstone",
+        "name": "Capstone",
+        "msrp": 80800,
+        "destinationFee": 2095,
+        "priceSourceUrl": "https://pickuptrucktalk.com/2025/12/2026-toyota-tundra-pricing-holds-with-a-catch/",
+        "powertrain": "hybrid",
+        "drivetrain": "4WD",
+        "seats": 5
+      }
+    ]
+  }
+}

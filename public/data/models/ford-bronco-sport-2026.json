@@ -1,0 +1,54 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "ford-bronco-sport-2026",
+    "make": "Ford",
+    "name": "Bronco Sport",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "ford-bronco-sport-2026-big-bend",
+        "name": "Big Bend",
+        "msrp": 31845,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-sport-2026-heritage",
+        "name": "Heritage",
+        "msrp": 34145,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-sport-2026-outer-banks",
+        "name": "Outer Banks",
+        "msrp": 36945,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-sport-2026-badlands",
+        "name": "Badlands",
+        "msrp": 40265,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2026/10/ford-bronco-sport-discount-lease-finance-deals-incentives-offers-october-2026/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      }
+    ]
+  }
+}

@@ -38,4 +38,10 @@ describe("validateModels", () => {
     model.trims[0] = { ...model.trims[0]!, powertrain: "gas", electricRangeMiles: 40 };
     expect(validateModels([model]).ok).toBe(false);
   });
+
+  it("rejects a price source that isn't an https link", () => {
+    const model = makeModel();
+    model.trims[0]!.priceSourceUrl = "kbb.com/some-article";
+    expect(validateModels([model]).ok).toBe(false);
+  });
 });
