@@ -3,7 +3,8 @@
 
 import { Link, useParams } from "react-router-dom";
 import { CarImage } from "../components/CarImage";
-import { formatEfficiency, formatNumber, formatPrice, POWERTRAIN_LABELS } from "../data/format";
+import { PowertrainLabel } from "../components/PowertrainIcon";
+import { formatEfficiency, formatNumber, formatPrice } from "../data/format";
 import { startingPrice } from "../data/filters";
 import { loadModel, ModelNotFoundError } from "../data/loadData";
 import { useAsync } from "../data/useAsync";
@@ -71,7 +72,9 @@ export function ModelDetailPage() {
               <tr key={trim.id}>
                 <th scope="row">{trim.name}</th>
                 <td className="figures">{formatPrice(trim.msrp)}</td>
-                <td>{POWERTRAIN_LABELS[trim.powertrain]}</td>
+                <td>
+                  <PowertrainLabel powertrain={trim.powertrain} />
+                </td>
                 <td>{trim.drivetrain}</td>
                 <td>{trim.seats}</td>
                 <td>{formatEfficiency(trim.mpgCombined, trim.powertrain) ?? "—"}</td>

@@ -35,6 +35,9 @@
   --color-accent-soft: #fde7da;
   --color-focus: #1d4ed8;
   --color-sticker: #fffbea;
+  /* Powertrain icon colors: green leaf for hybrids, blue bolt for electric. */
+  --color-hybrid: #15803d;
+  --color-electric: #1d4ed8;
   --shadow-card: 0 1px 2px rgb(27 26 23 / 0.06), 0 4px 12px rgb(27 26 23 / 0.05);
 
   color-scheme: light;
@@ -54,6 +57,8 @@
     --color-accent-soft: #3a2418;
     --color-focus: #93b4ff;
     --color-sticker: #25231b;
+    --color-hybrid: #4ade80;
+    --color-electric: #7aa2ff;
     --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
     color-scheme: dark;
   }
@@ -71,6 +76,8 @@
   --color-accent-soft: #3a2418;
   --color-focus: #93b4ff;
   --color-sticker: #25231b;
+  --color-hybrid: #4ade80;
+  --color-electric: #7aa2ff;
   --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
   color-scheme: dark;
 }

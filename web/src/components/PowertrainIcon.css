@@ -1,0 +1,20 @@
+.powertrain-label {
+  white-space: nowrap;
+}
+
+/* Sits on the text line like a letter, so the label lines up with plain text beside it. */
+.powertrain-icon {
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.3em;
+  vertical-align: -0.2em;
+}
+
+.powertrain-icon--hybrid,
+.powertrain-icon--plug-in-hybrid {
+  color: var(--color-hybrid);
+}
+
+.powertrain-icon--electric {
+  color: var(--color-electric);
+}
