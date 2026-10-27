@@ -1,0 +1,27 @@
+# Response headers for Cloudflare. Vite copies this file into web/dist
+# unchanged, and Cloudflare reads it from there. Without a rule, it sends
+# "max-age=0, must-revalidate", so the browser re-checks every file each visit.
+# https://developers.cloudflare.com/workers/static-assets/headers/
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Vite puts a content hash in every file name under /assets/, so a changed
+# file always gets a new URL and the old one can be cached forever.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The index changes once a month. A short cache saves a round trip on quick
+# repeat visits, and a fresh month shows up within five minutes.
+/data/index.json
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Model files are always fetched as models/{id}.json?v={index version}
+# (see web/src/data/loadData.ts), so a monthly refresh is a new URL anyway.
+# One day rather than forever, in case a file is ever fixed without a new version.
+/data/models/*
+  Cache-Control: public, max-age=86400
+
+/images/*
+  Cache-Control: public, max-age=86400

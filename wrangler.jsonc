@@ -1,0 +1,17 @@
+// Cloudflare Workers config. The site is static files only: no Worker
+// script runs, Cloudflare just serves what `npm run build` put in web/dist.
+// https://developers.cloudflare.com/workers/static-assets/
+{
+  // Must match the Worker's name in the Cloudflare dashboard, or deploys fail.
+  "name": "wheelhouse",
+  "compatibility_date": "2026-10-26",
+  // Build before every deploy, so the site builds even when the dashboard's
+  // build command is left empty.
+  "build": { "command": "npm run build" },
+  "assets": {
+    "directory": "./web/dist",
+    // Pages such as /cars/<id> exist only in the browser, so any path that
+    // isn't a real file gets index.html and React Router takes it from there.
+    "not_found_handling": "single-page-application"
+  }
+}

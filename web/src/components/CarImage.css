@@ -1,0 +1,17 @@
+.car-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--color-surface-sunken);
+}
+
+.car-image-placeholder {
+  display: grid;
+  place-items: center;
+  color: var(--color-ink);
+}
+
+.car-image-placeholder svg {
+  width: 62%;
+}

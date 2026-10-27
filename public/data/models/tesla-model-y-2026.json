@@ -1,0 +1,57 @@
+{
+  "updatedAt": "2026-10-01",
+  "version": "20261001000000000",
+  "model": {
+    "id": "tesla-model-y-2026",
+    "make": "Tesla",
+    "name": "Model Y",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "safetyRating": 5,
+    "trims": [
+      {
+        "id": "tesla-model-y-2026-long-range-rwd",
+        "name": "Long Range RWD",
+        "msrp": 45000,
+        "powertrain": "electric",
+        "drivetrain": "RWD",
+        "seats": 5,
+        "mpgCombined": 123,
+        "electricRangeMiles": 357,
+        "fastChargeKw": 250,
+        "chargeTimeHours": 8,
+        "towingLbs": 3500,
+        "cargoCuFt": 76
+      },
+      {
+        "id": "tesla-model-y-2026-long-range-awd",
+        "name": "Long Range AWD",
+        "msrp": 49000,
+        "powertrain": "electric",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "mpgCombined": 117,
+        "electricRangeMiles": 327,
+        "fastChargeKw": 250,
+        "chargeTimeHours": 8,
+        "towingLbs": 3500,
+        "cargoCuFt": 76
+      },
+      {
+        "id": "tesla-model-y-2026-performance",
+        "name": "Performance",
+        "msrp": 57500,
+        "powertrain": "electric",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "mpgCombined": 107,
+        "electricRangeMiles": 306,
+        "fastChargeKw": 250,
+        "chargeTimeHours": 8,
+        "towingLbs": 3500,
+        "cargoCuFt": 76
+      }
+    ]
+  }
+}

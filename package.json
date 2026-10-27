@@ -1,0 +1,22 @@
+{
+  "name": "wheelhouse",
+  "private": true,
+  "description": "Research site for new US cars. A monthly pipeline writes static JSON; the React site filters it in the browser.",
+  "type": "module",
+  "workspaces": [
+    "pipeline",
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace web",
+    "build": "npm run build --workspace web",
+    "test": "vitest run",
+    "test:e2e": "npm run test:e2e --workspace web",
+    "typecheck": "tsc -p pipeline && tsc -p web",
+    "sample-data": "npm run sample-data --workspace pipeline"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.0"
+  }
+}

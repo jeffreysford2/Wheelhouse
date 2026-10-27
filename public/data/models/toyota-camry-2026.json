@@ -1,0 +1,55 @@
+{
+  "updatedAt": "2026-10-01",
+  "version": "20261001000000000",
+  "model": {
+    "id": "toyota-camry-2026",
+    "make": "Toyota",
+    "name": "Camry",
+    "year": 2026,
+    "bodyStyle": "sedan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "safetyRating": 5,
+    "trims": [
+      {
+        "id": "toyota-camry-2026-le",
+        "name": "LE",
+        "msrp": 28400,
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5,
+        "mpgCombined": 51,
+        "cargoCuFt": 15
+      },
+      {
+        "id": "toyota-camry-2026-se",
+        "name": "SE",
+        "msrp": 31000,
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5,
+        "mpgCombined": 47,
+        "cargoCuFt": 15
+      },
+      {
+        "id": "toyota-camry-2026-xle-awd",
+        "name": "XLE AWD",
+        "msrp": 35000,
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "mpgCombined": 44,
+        "cargoCuFt": 15
+      },
+      {
+        "id": "toyota-camry-2026-xse-awd",
+        "name": "XSE AWD",
+        "msrp": 36000,
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "mpgCombined": 44,
+        "cargoCuFt": 15
+      }
+    ]
+  }
+}

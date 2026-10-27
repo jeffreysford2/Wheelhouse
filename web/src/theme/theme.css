@@ -1,0 +1,76 @@
+/*
+ * Color, type and spacing tokens. Components use only these variables, so
+ * the whole look (and dark mode) changes from this one file.
+ *
+ * Theme choice: follows the system setting by default. The toggle sets
+ * data-theme on <html>, which overrides the system setting either way.
+ */
+
+:root {
+  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Prices use a monospaced face, like a window sticker, so digits line up. */
+  --font-figures: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --radius-small: 6px;
+  --radius: 12px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --max-width: 1240px;
+  --sidebar-width: 272px;
+
+  /* Light: warm paper with near-black ink and one signal-orange accent. */
+  --color-page: #f6f3ee;
+  --color-surface: #ffffff;
+  --color-surface-sunken: #efebe4;
+  --color-ink: #1b1a17;
+  --color-ink-muted: #5f5b53;
+  --color-border: #ddd7cc;
+  --color-accent: #c2410c;
+  --color-accent-ink: #ffffff;
+  --color-accent-soft: #fde7da;
+  --color-focus: #1d4ed8;
+  --color-sticker: #fffbea;
+  --shadow-card: 0 1px 2px rgb(27 26 23 / 0.06), 0 4px 12px rgb(27 26 23 / 0.05);
+
+  color-scheme: light;
+}
+
+/* Dark values, shared by the system preference and the manual toggle. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-page: #121416;
+    --color-surface: #1b1e21;
+    --color-surface-sunken: #16191b;
+    --color-ink: #ecebe7;
+    --color-ink-muted: #a3a29c;
+    --color-border: #2e3236;
+    --color-accent: #fb8a4c;
+    --color-accent-ink: #1b1a17;
+    --color-accent-soft: #3a2418;
+    --color-focus: #93b4ff;
+    --color-sticker: #25231b;
+    --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-page: #121416;
+  --color-surface: #1b1e21;
+  --color-surface-sunken: #16191b;
+  --color-ink: #ecebe7;
+  --color-ink-muted: #a3a29c;
+  --color-border: #2e3236;
+  --color-accent: #fb8a4c;
+  --color-accent-ink: #1b1a17;
+  --color-accent-soft: #3a2418;
+  --color-focus: #93b4ff;
+  --color-sticker: #25231b;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4);
+  color-scheme: dark;
+}

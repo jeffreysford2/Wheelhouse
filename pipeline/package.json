@@ -1,0 +1,13 @@
+{
+  "name": "@wheelhouse/pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sample-data": "tsx writeSampleData.ts",
+    "pipeline": "tsx run.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0"
+  }
+}

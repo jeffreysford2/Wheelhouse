@@ -1,0 +1,56 @@
+.model-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  text-decoration: none;
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.model-card:hover {
+  border-color: var(--color-ink-muted);
+  transform: translateY(-2px);
+}
+
+.model-card-body {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  flex: 1;
+}
+
+.model-card-make {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-ink-muted);
+}
+
+.model-card-name {
+  font-size: 1.375rem;
+}
+
+/* The price reads like a window sticker: the one memorable element on the card. */
+.model-card-price {
+  align-self: flex-start;
+  margin: var(--space-2) 0;
+  padding: var(--space-1) var(--space-2);
+  background: var(--color-sticker);
+  border: 1px dashed var(--color-accent);
+  border-radius: var(--radius-small);
+  font-size: 0.9375rem;
+}
+
+.model-card-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  margin: auto 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  color: var(--color-ink-muted);
+}
