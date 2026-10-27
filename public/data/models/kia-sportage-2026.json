@@ -1,0 +1,174 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "kia-sportage-2026",
+    "make": "Kia",
+    "name": "Sportage",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "kia-sportage-2026-lx-fwd",
+        "name": "LX FWD",
+        "msrp": 28790,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-lx-awd",
+        "name": "LX AWD",
+        "msrp": 30590,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-ex-fwd",
+        "name": "EX FWD",
+        "msrp": 30590,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-ex-awd",
+        "name": "EX AWD",
+        "msrp": 32390,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-x-line",
+        "name": "X-Line",
+        "msrp": 33090,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-sx",
+        "name": "SX",
+        "msrp": 34390,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-sx-prestige-fwd",
+        "name": "SX-Prestige FWD",
+        "msrp": 36390,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-sx-prestige-awd",
+        "name": "SX-Prestige AWD",
+        "msrp": 38190,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-x-pro-prestige",
+        "name": "X-Pro Prestige",
+        "msrp": 39690,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage/2026/pricing",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-lx-hybrid",
+        "name": "LX Hybrid",
+        "msrp": 30490,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-s-hybrid",
+        "name": "S Hybrid",
+        "msrp": 32790,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-ex-hybrid",
+        "name": "EX Hybrid",
+        "msrp": 33790,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-x-line-hybrid",
+        "name": "X-Line Hybrid",
+        "msrp": 35690,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-sx-prestige-hybrid",
+        "name": "SX-Prestige Hybrid",
+        "msrp": 40590,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage-hev/2026/pricing",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-x-line-plug-in-hybrid",
+        "name": "X-Line Plug-in Hybrid",
+        "msrp": 40490,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage-phev/2026/pricing",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "kia-sportage-2026-x-line-prestige-plug-in-hybrid",
+        "name": "X-Line Prestige Plug-in Hybrid",
+        "msrp": 47190,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.kiamedia.com/us/en/models/sportage-phev/2026/pricing",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5
+      }
+    ]
+  }
+}

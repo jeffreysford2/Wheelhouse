@@ -1,0 +1,104 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "ford-bronco-2026",
+    "make": "Ford",
+    "name": "Bronco",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "ford-bronco-2026-base-2-door",
+        "name": "Base 2-Door",
+        "msrp": 40495,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 4
+      },
+      {
+        "id": "ford-bronco-2026-base-4-door",
+        "name": "Base 4-Door",
+        "msrp": 40495,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-2026-big-bend-4-door",
+        "name": "Big Bend 4-Door",
+        "msrp": 40995,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-2026-outer-banks-4-door",
+        "name": "Outer Banks 4-Door",
+        "msrp": 48090,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-2026-badlands-2-door",
+        "name": "Badlands 2-Door",
+        "msrp": 48890,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 4
+      },
+      {
+        "id": "ford-bronco-2026-badlands-4-door",
+        "name": "Badlands 4-Door",
+        "msrp": 48890,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-2026-heritage-edition-4-door",
+        "name": "Heritage Edition 4-Door",
+        "msrp": 51625,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-2026-stroppe-edition-4-door",
+        "name": "Stroppe Edition 4-Door",
+        "msrp": 69995,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "ford-bronco-2026-raptor-4-door",
+        "name": "Raptor 4-Door",
+        "msrp": 79995,
+        "destinationFee": 1995,
+        "priceSourceUrl": "https://fordauthority.com/2025/10/2026-ford-bronco-lineup-gets-modest-price-increases/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      }
+    ]
+  }
+}

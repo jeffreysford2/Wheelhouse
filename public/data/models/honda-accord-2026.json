@@ -1,0 +1,74 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "honda-accord-2026",
+    "make": "Honda",
+    "name": "Accord",
+    "year": 2026,
+    "bodyStyle": "sedan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "honda-accord-2026-lx",
+        "name": "LX",
+        "msrp": 28395,
+        "destinationFee": 1195,
+        "priceSourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-accord-2026-se",
+        "name": "SE",
+        "msrp": 30695,
+        "destinationFee": 1195,
+        "priceSourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-accord-2026-sport-hybrid",
+        "name": "Sport Hybrid",
+        "msrp": 33795,
+        "destinationFee": 1195,
+        "priceSourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-accord-2026-ex-l-hybrid",
+        "name": "EX-L Hybrid",
+        "msrp": 35095,
+        "destinationFee": 1195,
+        "priceSourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-accord-2026-sport-l-hybrid",
+        "name": "Sport-L Hybrid",
+        "msrp": 35495,
+        "destinationFee": 1195,
+        "priceSourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "honda-accord-2026-touring-hybrid",
+        "name": "Touring Hybrid",
+        "msrp": 39495,
+        "destinationFee": 1195,
+        "priceSourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c309dc82-2026-honda-accord-pricing-epa-ratings",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      }
+    ]
+  }
+}

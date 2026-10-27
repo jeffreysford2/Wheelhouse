@@ -1,14 +1,15 @@
 # Wheelhouse
 
-A research site for new cars sold in the US (model years 2025 and 2026).
+A research site for new cars sold in the US (model year 2026 for now).
 Visitors filter every model by what matters to them, open a model to see its
 trims, and (soon) compare up to six trims side by side.
 
 There are two separate pieces, and keeping them apart is what keeps the
 system simple:
 
-1. **The data pipeline** (`pipeline/`) runs monthly, calls the car data APIs,
-   merges and checks the results, and writes static JSON to `public/data/`.
+1. **The data pipeline** (`pipeline/`) reads the car data (today,
+   hand-collected CSV files), merges and checks it, and writes static JSON to
+   `public/data/`.
 2. **The website** (`web/`) is a React app served as static files. The browser
    downloads the JSON once and does all filtering, sorting and search itself.
    There is no database and no search server.
@@ -16,13 +17,13 @@ system simple:
 ```
 wheelhouse/
   shared/carTypes.ts   the Model and Trim types, used by both pieces
-  pipeline/            monthly data job (Node + TypeScript)
-    sources/           one adapter per data source (catalog, EPA, NHTSA), currently stubs
-    sample/            hand-written sample data for building the site
+  pipeline/            data job (Node + TypeScript)
+    curated/           hand-collected trims and prices (CSV), the current catalog
+    sources/           one adapter per data source (curated catalog; CarAPI, EPA, NHTSA stubs)
     match.ts           rules for matching records across sources
     validate.ts        sanity checks before publishing
     build.ts           writes the JSON files
-    run.ts             the monthly job itself
+    run.ts             the pipeline run itself
   web/                 the React site
     src/data/          loading the JSON, filter, sort and search logic
     src/components/    cards, filters, chips, search box
@@ -43,35 +44,56 @@ npm test             # unit tests (Vitest) for the pipeline and the filter logic
 npm run test:e2e     # browser tests (Playwright), builds the site first
 npm run typecheck
 npm run build        # production build in web/dist
+npm run pipeline     # rebuild public/data from pipeline/curated (offline, free)
 ```
 
 ## The data
 
-`public/data/` currently holds **sample data**: 14 hand-written models with
-illustrative prices and figures, not checked against any real source. Rebuild
-it with `npm run sample-data`, which is fully offline.
+`public/data/` holds the **40 best-selling 2026 models** (ranked by 2025 US
+sales). Their trims and prices were collected by hand from manufacturer press
+sites and pricing articles, because Jeff chose a $0 start over a paid catalog
+API on 2026-10-26. The source files are in `pipeline/curated/`:
 
-The files are:
+- `models-2026.csv`: the 40 models, their 2025 sales and body type.
+- `trims-2026.csv`: one row per trim and drivetrain, with the MSRP before
+  destination, the destination fee, seats where known, a `source_url` and the
+  date it was `checked_on`. The `notes` column flags rows worth re-checking
+  and is never published.
+
+To change a price, edit `trims-2026.csv` and run `npm run pipeline`, which is
+offline and free. A test (`pipeline/tests/curatedCatalog.test.ts`) fails if
+the files would not pass validation, so a bad edit is caught in review before
+it reaches the site.
+
+The model page links each price to its source. "Prices updated on" in the
+footer is the **oldest** `checked_on` date, so no price looks fresher than it is.
+
+Missing for now: fuel economy (EPA) and safety ratings (NHTSA). Both are
+free, but their adapters are still stubs and this project's cloud environment
+can't reach fueleconomy.gov or api.nhtsa.gov yet. Their filters and table
+columns stay hidden until the data exists. Some pickup trims have no seat
+count, so those trims show no seat count.
+
+The published files are:
 
 - `index.json`: one slim record per model with everything the results grid
   needs to filter, sort and draw a card. Loaded on first visit.
-- `models/{id}.json`: the full record for one model, loaded when its page opens.
+- `models/{id}.json`: the full record for one model, loaded when its page
+  opens, including destination fees and price sources.
 
 Both carry an `updatedAt` date (shown as "Prices updated on ...") and a
 `version` stamp, used so a fresh index is never mixed with a stale cached model file.
 
-### The real pipeline is not wired up yet, on purpose
+### Paid sources stay behind a guard
 
-**Project rule: the pipeline is never run, and no paid API is called, until
-Jeff has approved the estimated cost.**
+**Project rule: no paid API is called until Jeff has approved the estimated
+cost.**
 
-The source adapters in `pipeline/sources/` are stubs behind small interfaces
-(`CatalogSource`, `FuelEconomySource`, `SafetySource`). Each one refuses to
-run unless `WHEELHOUSE_COST_APPROVED=yes` is set, and a test checks this.
-`npm run pipeline --workspace pipeline` today just prints why it stopped.
-
-When Phase 0 picks the data providers, implement the adapters, keep the
-guard, and get the cost approved before the first run.
+The CarAPI, EPA and NHTSA adapters in `pipeline/sources/` are stubs behind
+small interfaces (`CatalogSource`, `FuelEconomySource`, `SafetySource`). Each
+one refuses to run unless `WHEELHOUSE_COST_APPROVED=yes` is set, and a test
+checks this. The curated catalog only reads local files, so it needs no
+approval.
 
 ## How filtering works
 

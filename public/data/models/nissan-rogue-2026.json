@@ -1,0 +1,116 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "nissan-rogue-2026",
+    "make": "Nissan",
+    "name": "Rogue",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "nissan-rogue-2026-s-fwd",
+        "name": "S FWD",
+        "msrp": 29490,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-s-awd",
+        "name": "S AWD",
+        "msrp": 30890,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-sv-fwd",
+        "name": "SV FWD",
+        "msrp": 30490,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-sv-awd",
+        "name": "SV AWD",
+        "msrp": 31890,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-dark-armor-fwd",
+        "name": "Dark Armor FWD",
+        "msrp": 33340,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-dark-armor-awd",
+        "name": "Dark Armor AWD",
+        "msrp": 34740,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-rock-creek",
+        "name": "Rock Creek",
+        "msrp": 34390,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-platinum",
+        "name": "Platinum",
+        "msrp": 39390,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/20265-nissan-rogue-priced-from-29490-adds-striking-new-dark-armor-grade",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "nissan-rogue-2026-sl-plug-in-hybrid",
+        "name": "SL Plug-in Hybrid",
+        "msrp": 45990,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/2026-nissan-rogue-plug-in-hybrid-pricing-starts-at-45990",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 38
+      },
+      {
+        "id": "nissan-rogue-2026-platinum-plug-in-hybrid",
+        "name": "Platinum Plug-in Hybrid",
+        "msrp": 49990,
+        "destinationFee": 1575,
+        "priceSourceUrl": "https://usa.nissannews.com/en-US/releases/2026-nissan-rogue-plug-in-hybrid-pricing-starts-at-45990",
+        "powertrain": "plug-in hybrid",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 38
+      }
+    ]
+  }
+}

@@ -1,36 +1,73 @@
 {
-  "updatedAt": "2026-10-01",
-  "version": "20261001000000000",
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
   "model": {
     "id": "subaru-outback-2026",
     "make": "Subaru",
     "name": "Outback",
     "year": 2026,
-    "bodyStyle": "wagon",
+    "bodyStyle": "suv",
     "imageUrl": "/images/placeholder-car.svg",
-    "safetyRating": 5,
     "trims": [
       {
         "id": "subaru-outback-2026-premium",
         "name": "Premium",
-        "msrp": 31000,
+        "msrp": 34995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv",
         "powertrain": "gas",
         "drivetrain": "AWD",
-        "seats": 5,
-        "mpgCombined": 28,
-        "towingLbs": 2700,
-        "cargoCuFt": 32.6
+        "seats": 5
+      },
+      {
+        "id": "subaru-outback-2026-limited",
+        "name": "Limited",
+        "msrp": 41715,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-outback-2026-limited-xt",
+        "name": "Limited XT",
+        "msrp": 44365,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
       },
       {
         "id": "subaru-outback-2026-wilderness",
         "name": "Wilderness",
-        "msrp": 41500,
+        "msrp": 44995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv",
         "powertrain": "gas",
         "drivetrain": "AWD",
-        "seats": 5,
-        "mpgCombined": 24,
-        "towingLbs": 3500,
-        "cargoCuFt": 32.6
+        "seats": 5
+      },
+      {
+        "id": "subaru-outback-2026-touring",
+        "name": "Touring",
+        "msrp": 45395,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
+      },
+      {
+        "id": "subaru-outback-2026-touring-xt",
+        "name": "Touring XT",
+        "msrp": 47995,
+        "destinationFee": 1450,
+        "priceSourceUrl": "https://media.subaru.com/pressrelease/2353/subaru-announces-pricing-all-new-2026-outback-suv",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 5
       }
     ]
   }

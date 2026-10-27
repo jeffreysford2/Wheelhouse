@@ -1,0 +1,74 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "ford-explorer-2026",
+    "make": "Ford",
+    "name": "Explorer",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "ford-explorer-2026-active",
+        "name": "Active",
+        "msrp": 38465,
+        "destinationFee": 1695,
+        "priceSourceUrl": "https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 7
+      },
+      {
+        "id": "ford-explorer-2026-st-line",
+        "name": "ST-Line",
+        "msrp": 45155,
+        "destinationFee": 1695,
+        "priceSourceUrl": "https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 7
+      },
+      {
+        "id": "ford-explorer-2026-tremor",
+        "name": "Tremor",
+        "msrp": 48465,
+        "destinationFee": 1695,
+        "priceSourceUrl": "https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 7
+      },
+      {
+        "id": "ford-explorer-2026-platinum",
+        "name": "Platinum",
+        "msrp": 50965,
+        "destinationFee": 1695,
+        "priceSourceUrl": "https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 7
+      },
+      {
+        "id": "ford-explorer-2026-st-rwd",
+        "name": "ST RWD",
+        "msrp": 54905,
+        "destinationFee": 1695,
+        "priceSourceUrl": "https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/",
+        "powertrain": "gas",
+        "drivetrain": "RWD",
+        "seats": 7
+      },
+      {
+        "id": "ford-explorer-2026-st-awd",
+        "name": "ST AWD",
+        "msrp": 56905,
+        "destinationFee": 1695,
+        "priceSourceUrl": "https://fordauthority.com/2025/09/2026-ford-explorer-lineup-gets-slightly-more-expensive/",
+        "powertrain": "gas",
+        "drivetrain": "AWD",
+        "seats": 7
+      }
+    ]
+  }
+}

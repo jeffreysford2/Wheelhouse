@@ -11,6 +11,7 @@ import type { Model } from "../shared/carTypes";
 // second-guess real cars.
 const SANE_RANGES = {
   msrp: [10_000, 500_000],
+  destinationFee: [300, 5_000],
   seats: [1, 15],
   mpgCombined: [5, 200],
   electricRangeMiles: [5, 600],
@@ -57,6 +58,10 @@ export function validateModels(models: Model[]): ValidationResult {
       // Every trim must have a price: "from $X" is on every card.
       if (trim.msrp === undefined) problems.push(`${trim.id}: missing msrp`);
       checkRange(trim.id, "msrp", trim.msrp);
+      checkRange(trim.id, "destinationFee", trim.destinationFee);
+      if (trim.priceSourceUrl !== undefined && !trim.priceSourceUrl.startsWith("https://")) {
+        problems.push(`${trim.id}: price source "${trim.priceSourceUrl}" is not an https link`);
+      }
       checkRange(trim.id, "seats", trim.seats);
       checkRange(trim.id, "mpgCombined", trim.mpgCombined);
       checkRange(trim.id, "electricRangeMiles", trim.electricRangeMiles);

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-01",
-  "version": "20261001000000000",
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
   "model": {
     "id": "tesla-model-y-2026",
     "make": "Tesla",
@@ -8,49 +8,61 @@
     "year": 2026,
     "bodyStyle": "suv",
     "imageUrl": "/images/placeholder-car.svg",
-    "safetyRating": 5,
     "trims": [
       {
-        "id": "tesla-model-y-2026-long-range-rwd",
-        "name": "Long Range RWD",
-        "msrp": 45000,
+        "id": "tesla-model-y-2026-standard-rwd",
+        "name": "Standard RWD",
+        "msrp": 39990,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/",
         "powertrain": "electric",
         "drivetrain": "RWD",
         "seats": 5,
-        "mpgCombined": 123,
-        "electricRangeMiles": 357,
-        "fastChargeKw": 250,
-        "chargeTimeHours": 8,
-        "towingLbs": 3500,
-        "cargoCuFt": 76
+        "electricRangeMiles": 321
       },
       {
-        "id": "tesla-model-y-2026-long-range-awd",
-        "name": "Long Range AWD",
-        "msrp": 49000,
+        "id": "tesla-model-y-2026-standard-awd",
+        "name": "Standard AWD",
+        "msrp": 41990,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/",
         "powertrain": "electric",
         "drivetrain": "AWD",
         "seats": 5,
-        "mpgCombined": 117,
-        "electricRangeMiles": 327,
-        "fastChargeKw": 250,
-        "chargeTimeHours": 8,
-        "towingLbs": 3500,
-        "cargoCuFt": 76
+        "electricRangeMiles": 294
       },
       {
-        "id": "tesla-model-y-2026-performance",
-        "name": "Performance",
-        "msrp": 57500,
+        "id": "tesla-model-y-2026-premium-rwd",
+        "name": "Premium RWD",
+        "msrp": 45990,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/",
+        "powertrain": "electric",
+        "drivetrain": "RWD",
+        "seats": 5,
+        "electricRangeMiles": 357
+      },
+      {
+        "id": "tesla-model-y-2026-premium-awd",
+        "name": "Premium AWD",
+        "msrp": 49990,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/",
         "powertrain": "electric",
         "drivetrain": "AWD",
         "seats": 5,
-        "mpgCombined": 107,
-        "electricRangeMiles": 306,
-        "fastChargeKw": 250,
-        "chargeTimeHours": 8,
-        "towingLbs": 3500,
-        "cargoCuFt": 76
+        "electricRangeMiles": 327
+      },
+      {
+        "id": "tesla-model-y-2026-performance-awd",
+        "name": "Performance AWD",
+        "msrp": 57990,
+        "destinationFee": 1390,
+        "priceSourceUrl": "https://cars.com/articles/how-much-is-the-2026-tesla-model-y-521805/",
+        "powertrain": "electric",
+        "drivetrain": "AWD",
+        "seats": 5,
+        "electricRangeMiles": 306
       }
     ]
   }

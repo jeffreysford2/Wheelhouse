@@ -13,7 +13,7 @@
     "test": "vitest run",
     "test:e2e": "npm run test:e2e --workspace web",
     "typecheck": "tsc -p pipeline && tsc -p web",
-    "sample-data": "npm run sample-data --workspace pipeline"
+    "pipeline": "npm run pipeline --workspace pipeline"
   },
   "devDependencies": {
     "typescript": "^5.9.3",

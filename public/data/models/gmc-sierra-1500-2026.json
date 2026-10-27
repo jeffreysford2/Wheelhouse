@@ -1,0 +1,95 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "gmc-sierra-1500-2026",
+    "make": "GMC",
+    "name": "Sierra 1500",
+    "year": 2026,
+    "bodyStyle": "truck",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "gmc-sierra-1500-2026-pro",
+        "name": "Pro",
+        "msrp": 38300,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-sle",
+        "name": "SLE",
+        "msrp": 48700,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-elevation",
+        "name": "Elevation",
+        "msrp": 50500,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-slt",
+        "name": "SLT",
+        "msrp": 55100,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-at4",
+        "name": "AT4",
+        "msrp": 67000,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-denali",
+        "name": "Denali",
+        "msrp": 66595,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "RWD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-at4x",
+        "name": "AT4X",
+        "msrp": 79600,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-at4x-aev-edition",
+        "name": "AT4X AEV Edition",
+        "msrp": 86510,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      },
+      {
+        "id": "gmc-sierra-1500-2026-denali-ultimate",
+        "name": "Denali Ultimate",
+        "msrp": 83395,
+        "destinationFee": 2795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2025/12/2026-gmc-sierra-1500-gets-price-increase/",
+        "powertrain": "gas",
+        "drivetrain": "4WD"
+      }
+    ]
+  }
+}

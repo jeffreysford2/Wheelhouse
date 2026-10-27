@@ -1,0 +1,134 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "hyundai-elantra-2026",
+    "make": "Hyundai",
+    "name": "Elantra",
+    "year": 2026,
+    "bodyStyle": "sedan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "hyundai-elantra-2026-se",
+        "name": "SE",
+        "msrp": 22625,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-sel-sport",
+        "name": "SEL Sport",
+        "msrp": 23750,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-sel-sport-premium",
+        "name": "SEL Sport Premium",
+        "msrp": 25075,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-limited",
+        "name": "Limited",
+        "msrp": 27175,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-n-line",
+        "name": "N Line",
+        "msrp": 29400,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-hybrid-blue",
+        "name": "Hybrid Blue",
+        "msrp": 25450,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-hybrid-sel-sport",
+        "name": "Hybrid SEL Sport",
+        "msrp": 27425,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-hybrid-limited",
+        "name": "Hybrid Limited",
+        "msrp": 29800,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-n-manual",
+        "name": "N (manual)",
+        "msrp": 35100,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-n-dct",
+        "name": "N (DCT)",
+        "msrp": 36600,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-n-tcr-edition-manual",
+        "name": "N TCR Edition (manual)",
+        "msrp": 39250,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "hyundai-elantra-2026-n-tcr-edition-dct",
+        "name": "N TCR Edition (DCT)",
+        "msrp": 40750,
+        "destinationFee": 1245,
+        "priceSourceUrl": "https://www.hyundainews.com/assets/applications/original/70729-26my-elantra-series-pricing-15-april-2026.pdf",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      }
+    ]
+  }
+}

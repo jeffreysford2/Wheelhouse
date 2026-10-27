@@ -1,0 +1,74 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "toyota-corolla-2026",
+    "make": "Toyota",
+    "name": "Corolla",
+    "year": 2026,
+    "bodyStyle": "sedan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "toyota-corolla-2026-le",
+        "name": "LE",
+        "msrp": 23125,
+        "destinationFee": 1295,
+        "priceSourceUrl": "https://www.truecar.com/overview/toyota/corolla/2026",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-corolla-2026-se",
+        "name": "SE",
+        "msrp": 25565,
+        "destinationFee": 1295,
+        "priceSourceUrl": "https://www.truecar.com/overview/toyota/corolla/2026",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-corolla-2026-xse",
+        "name": "XSE",
+        "msrp": 28840,
+        "destinationFee": 1295,
+        "priceSourceUrl": "https://www.truecar.com/overview/toyota/corolla/2026",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-corolla-2026-hybrid-le",
+        "name": "Hybrid LE",
+        "msrp": 24975,
+        "destinationFee": 1295,
+        "priceSourceUrl": "https://www.truecar.com/overview/toyota/corolla/2026",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-corolla-2026-hybrid-se",
+        "name": "Hybrid SE",
+        "msrp": 27415,
+        "destinationFee": 1295,
+        "priceSourceUrl": "https://www.truecar.com/overview/toyota/corolla/2026",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "toyota-corolla-2026-hybrid-xle",
+        "name": "Hybrid XLE",
+        "msrp": 29340,
+        "destinationFee": 1295,
+        "priceSourceUrl": "https://www.truecar.com/overview/toyota/corolla/2026",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 5
+      }
+    ]
+  }
+}

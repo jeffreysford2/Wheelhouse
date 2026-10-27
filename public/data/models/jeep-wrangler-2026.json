@@ -1,0 +1,131 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "jeep-wrangler-2026",
+    "make": "Jeep",
+    "name": "Wrangler",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "jeep-wrangler-2026-sport-2-door",
+        "name": "Sport 2-Door",
+        "msrp": 36035,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 4
+      },
+      {
+        "id": "jeep-wrangler-2026-sport-4-door",
+        "name": "Sport 4-Door",
+        "msrp": 39040,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-wrangler-2026-sport-s-2-door",
+        "name": "Sport S 2-Door",
+        "msrp": 39685,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 4
+      },
+      {
+        "id": "jeep-wrangler-2026-sport-s-4-door",
+        "name": "Sport S 4-Door",
+        "msrp": 41440,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-wrangler-2026-willys-2-door",
+        "name": "Willys 2-Door",
+        "msrp": 43755,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 4
+      },
+      {
+        "id": "jeep-wrangler-2026-willys-4-door",
+        "name": "Willys 4-Door",
+        "msrp": 44940,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-wrangler-2026-sahara-4-door",
+        "name": "Sahara 4-Door",
+        "msrp": 48910,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-wrangler-2026-rubicon-2-door",
+        "name": "Rubicon 2-Door",
+        "msrp": 45815,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 4
+      },
+      {
+        "id": "jeep-wrangler-2026-rubicon-4-door",
+        "name": "Rubicon 4-Door",
+        "msrp": 49740,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-wrangler-2026-rubicon-x-2-door",
+        "name": "Rubicon X 2-Door",
+        "msrp": 55765,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 4
+      },
+      {
+        "id": "jeep-wrangler-2026-rubicon-x-4-door",
+        "name": "Rubicon X 4-Door",
+        "msrp": 60435,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-wrangler-2026-willys-392-4-door",
+        "name": "Willys 392 4-Door",
+        "msrp": 69995,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      },
+      {
+        "id": "jeep-wrangler-2026-moab-392-4-door",
+        "name": "Moab 392 4-Door",
+        "msrp": 79995,
+        "priceSourceUrl": "https://www.edmunds.com/jeep/wrangler/2026",
+        "powertrain": "gas",
+        "drivetrain": "4WD",
+        "seats": 5
+      }
+    ]
+  }
+}

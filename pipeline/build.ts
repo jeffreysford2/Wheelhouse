@@ -12,7 +12,10 @@ export const PUBLIC_DATA_DIR = path.resolve(path.dirname(fileURLToPath(import.me
 
 /** Strip the fields only the detail page needs, to keep the first download small. */
 export function toIndexModel(model: Model): IndexModel {
-  const trims: IndexTrim[] = model.trims.map(({ fastChargeKw: _kw, chargeTimeHours: _hours, ...indexFields }) => indexFields);
+  const trims: IndexTrim[] = model.trims.map(
+    ({ fastChargeKw: _kw, chargeTimeHours: _hours, destinationFee: _fee, priceSourceUrl: _url, ...indexFields }) =>
+      indexFields,
+  );
   return { ...model, trims };
 }
 
@@ -22,9 +25,14 @@ export type BuildStamp = {
   version: string;
 };
 
-export function makeBuildStamp(now: Date): BuildStamp {
+/**
+ * `pricesCheckedOn` is the date prices were last checked against their
+ * sources. It defaults to the run date, but hand-collected prices can be
+ * older than the run, and the site must not claim they are fresher.
+ */
+export function makeBuildStamp(now: Date, pricesCheckedOn?: string): BuildStamp {
   return {
-    updatedAt: now.toISOString().slice(0, 10),
+    updatedAt: pricesCheckedOn ?? now.toISOString().slice(0, 10),
     // A timestamp is enough to tell one monthly run from the next.
     version: now.toISOString().replace(/[-:.TZ]/g, ""),
   };
@@ -55,8 +63,7 @@ async function writeJson(filePath: string, data: unknown): Promise<void> {
 }
 
 /**
- * The last step of both the monthly run and the sample-data script, shared so
- * the two can never publish differently. Writes nothing if validation fails,
+ * The last step of the pipeline run. Writes nothing if validation fails,
  * so the files already published stay live. Returns whether it wrote.
  */
 export async function validateAndWrite(models: Model[], stamp: BuildStamp, outputDir = PUBLIC_DATA_DIR): Promise<boolean> {

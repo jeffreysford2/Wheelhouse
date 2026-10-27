@@ -1,0 +1,114 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "toyota-sienna-2026",
+    "make": "Toyota",
+    "name": "Sienna",
+    "year": 2026,
+    "bodyStyle": "minivan",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "toyota-sienna-2026-le-fwd",
+        "name": "LE FWD",
+        "msrp": 40120,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 8
+      },
+      {
+        "id": "toyota-sienna-2026-le-awd",
+        "name": "LE AWD",
+        "msrp": 42120,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "toyota-sienna-2026-xle-fwd",
+        "name": "XLE FWD",
+        "msrp": 44820,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 8
+      },
+      {
+        "id": "toyota-sienna-2026-xle-awd",
+        "name": "XLE AWD",
+        "msrp": 46820,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 8
+      },
+      {
+        "id": "toyota-sienna-2026-xse-fwd",
+        "name": "XSE FWD",
+        "msrp": 48045,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-sienna-2026-xse-awd",
+        "name": "XSE AWD",
+        "msrp": 48935,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-sienna-2026-woodland",
+        "name": "Woodland",
+        "msrp": 50900,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-sienna-2026-limited-fwd",
+        "name": "Limited FWD",
+        "msrp": 50805,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "FWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-sienna-2026-limited-awd",
+        "name": "Limited AWD",
+        "msrp": 52805,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      },
+      {
+        "id": "toyota-sienna-2026-platinum",
+        "name": "Platinum",
+        "msrp": 57510,
+        "destinationFee": 1495,
+        "priceSourceUrl": "https://www.carscoops.com/2025/10/toyotas-hybrid-minivan-gets-fancier-and-more-expensive-for-2026/",
+        "powertrain": "hybrid",
+        "drivetrain": "AWD",
+        "seats": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "updatedAt": "2026-10-26",
+  "version": "20261027013128949",
+  "model": {
+    "id": "chevrolet-trax-2026",
+    "make": "Chevrolet",
+    "name": "Trax",
+    "year": 2026,
+    "bodyStyle": "suv",
+    "imageUrl": "/images/placeholder-car.svg",
+    "trims": [
+      {
+        "id": "chevrolet-trax-2026-ls",
+        "name": "LS",
+        "msrp": 21700,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trax-2026-1rs",
+        "name": "1RS",
+        "msrp": 23200,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trax-2026-lt",
+        "name": "LT",
+        "msrp": 23200,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trax-2026-2rs",
+        "name": "2RS",
+        "msrp": 25700,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      },
+      {
+        "id": "chevrolet-trax-2026-activ",
+        "name": "Activ",
+        "msrp": 25700,
+        "destinationFee": 1795,
+        "priceSourceUrl": "https://gmauthority.com/blog/2026/10/these-two-2026-chevy-trax-trim-levels-received-a-price-increase-in-october/",
+        "powertrain": "gas",
+        "drivetrain": "FWD",
+        "seats": 5
+      }
+    ]
+  }
+}
