@@ -102,6 +102,42 @@ A filter only appears when some car has data for it. A field we can't source
 
 ## Hosting
 
-Vercel or Netlify, still to be decided. Either way the host needs a rewrite
-from every path to `index.html`, because pages like `/cars/toyota-camry-2026`
-are handled in the browser.
+The site is hosted on **Cloudflare Workers, free plan**, as static files
+only (no server code). Cloudflare builds the site from GitHub on every push
+to `main` and serves `web/dist`.
+
+Two files in the repo set it up:
+
+- **`wrangler.jsonc`** runs `npm run build` before every deploy, tells
+  Cloudflare where the built files are and turns on single-page-app mode. Pages such as `/cars/toyota-camry-2026` exist only
+  in the browser, so any path that isn't a real file gets `index.html`.
+- **`public/_headers`** sets how long browsers keep each file: hashed
+  `/assets/` forever, `/data/index.json` for 5 minutes, model files for a day
+  (their URLs change every month anyway).
+
+`web/src/hostingConfig.test.ts` fails if either setting is lost.
+
+### Free plan limits (checked 2026-10-27)
+
+- 3,000 build minutes a month, one build at a time, 20 minutes each at most.
+  A build here takes well under a minute.
+- Requests and bandwidth for static files are free and unlimited.
+
+Sources: [build limits](https://developers.cloudflare.com/workers/ci-cd/builds/limits-and-pricing/),
+[Workers pricing](https://developers.cloudflare.com/workers/platform/pricing/),
+[SPA mode](https://developers.cloudflare.com/workers/static-assets/routing/single-page-application/),
+[headers](https://developers.cloudflare.com/workers/static-assets/headers/).
+
+### Connecting the repo (one time, in your own Cloudflare account)
+
+1. Sign in or sign up (free) at https://dash.cloudflare.com.
+2. Go to **Workers & Pages**, then **Create**, then **Import a repository**,
+   and connect GitHub with access to `jeffreysford2/wheelhouse` only.
+3. Name the Worker `wheelhouse` (it must match `name` in `wrangler.jsonc`).
+4. Under the Worker's **Settings > Build**, set:
+   - Build command: leave empty (`wrangler.jsonc` runs the build)
+   - Deploy command: `npx wrangler deploy`
+   - Root directory: `/`
+   - Build variable: `NODE_VERSION` = `22`
+5. Push to `main` (or press **Retry deployment**). The site goes live at
+   `https://wheelhouse.<your-subdomain>.workers.dev`.
