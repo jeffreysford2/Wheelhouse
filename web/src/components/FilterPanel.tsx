@@ -2,12 +2,14 @@
 // findAvailableFilters); cargo and towing sit under "Advanced" because few
 // shoppers start there.
 
+import type { ReactNode } from "react";
 import type { IndexModel } from "../../../shared/carTypes";
 import type { FilterState } from "../data/filters";
 import { countForOption, type AvailableFilters, type ListFilterKey } from "../data/filterOptions";
-import { BODY_STYLE_LABELS, formatNumber, POWERTRAIN_LABELS } from "../data/format";
+import { BODY_STYLE_LABELS, formatNumber } from "../data/format";
 import { CheckboxGroup } from "./CheckboxGroup";
 import { MinimumSelect } from "./MinimumSelect";
+import { PowertrainLabel } from "./PowertrainIcon";
 import { PriceFilter } from "./PriceFilter";
 import "./FilterPanel.css";
 
@@ -34,7 +36,7 @@ export function FilterPanel({ models, available, filters, onChange }: Props) {
   const set = <K extends keyof FilterState>(key: K, value: FilterState[K]) => onChange({ ...filters, [key]: value });
 
   // Each checkbox option shows how many models it would bring back.
-  const optionsFor = <T extends string>(key: ListFilterKey, values: T[], labelOf: (value: T) => string) =>
+  const optionsFor = <T extends string>(key: ListFilterKey, values: T[], labelOf: (value: T) => ReactNode) =>
     values.map((value) => ({ value, label: labelOf(value), count: countForOption(models, filters, key, value) }));
 
   return (
@@ -55,7 +57,7 @@ export function FilterPanel({ models, available, filters, onChange }: Props) {
 
       <CheckboxGroup
         legend="Powertrain"
-        options={optionsFor("powertrains", available.powertrains, (value) => POWERTRAIN_LABELS[value])}
+        options={optionsFor("powertrains", available.powertrains, (value) => <PowertrainLabel powertrain={value} />)}
         selected={filters.powertrains}
         onToggle={(value) => set("powertrains", toggleValue(filters.powertrains, value))}
       />

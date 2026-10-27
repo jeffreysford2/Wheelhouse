@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import type { ModelMatch } from "../data/filters";
-import { BODY_STYLE_LABELS, formatEfficiency, formatPrice, POWERTRAIN_LABELS } from "../data/format";
+import { BODY_STYLE_LABELS, formatEfficiency, formatPrice } from "../data/format";
 import { CarImage } from "./CarImage";
+import { PowertrainLabel } from "./PowertrainIcon";
 import "./ModelCard.css";
 
 type Props = { match: ModelMatch };
@@ -11,7 +12,7 @@ export function ModelCard({ match }: Props) {
   const fullName = `${model.year} ${model.make} ${model.name}`;
 
   // Describe the trims the visitor can actually buy under their filters.
-  const powertrains = [...new Set(matchingTrims.map((trim) => POWERTRAIN_LABELS[trim.powertrain]))];
+  const powertrains = [...new Set(matchingTrims.map((trim) => trim.powertrain))];
   const seatsText = describeSeats(matchingTrims.map((trim) => trim.seats));
   const efficiency = formatEfficiency(featuredTrim.mpgCombined, featuredTrim.powertrain);
 
@@ -38,7 +39,14 @@ export function ModelCard({ match }: Props) {
 
         <ul className="model-card-specs">
           <li>{BODY_STYLE_LABELS[model.bodyStyle]}</li>
-          <li>{powertrains.join(" or ")}</li>
+          <li>
+            {powertrains.map((powertrain, index) => (
+              <span key={powertrain}>
+                {index > 0 && " or "}
+                <PowertrainLabel powertrain={powertrain} />
+              </span>
+            ))}
+          </li>
           {seatsText && <li>{seatsText}</li>}
           {efficiency && <li>{efficiency}</li>}
           {featuredTrim.electricRangeMiles !== undefined && <li>{featuredTrim.electricRangeMiles} mi electric</li>}

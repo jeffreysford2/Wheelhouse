@@ -2,7 +2,9 @@
 // would return. Options that would return nothing stay visible but dimmed,
 // so the list doesn't jump around as filters change.
 
-type Option<T extends string> = { value: T; label: string; count: number };
+import type { ReactNode } from "react";
+
+type Option<T extends string> = { value: T; label: ReactNode; count: number };
 
 type Props<T extends string> = {
   legend: string;

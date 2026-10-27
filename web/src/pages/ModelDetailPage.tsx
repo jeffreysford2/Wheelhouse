@@ -8,7 +8,8 @@
 import { Link, useParams } from "react-router-dom";
 import type { Trim } from "../../../shared/carTypes";
 import { CarImage } from "../components/CarImage";
-import { formatEfficiency, formatNumber, formatPrice, POWERTRAIN_LABELS } from "../data/format";
+import { PowertrainLabel } from "../components/PowertrainIcon";
+import { formatEfficiency, formatNumber, formatPrice } from "../data/format";
 import { startingPrice } from "../data/filters";
 import { loadModel, ModelNotFoundError } from "../data/loadData";
 import { useAsync } from "../data/useAsync";
@@ -90,7 +91,9 @@ export function ModelDetailPage() {
                 {show.destination && (
                   <td className="figures">{trim.destinationFee !== undefined ? formatPrice(trim.destinationFee) : "—"}</td>
                 )}
-                <td>{POWERTRAIN_LABELS[trim.powertrain]}</td>
+                <td>
+                  <PowertrainLabel powertrain={trim.powertrain} />
+                </td>
                 <td>{trim.drivetrain}</td>
                 {show.seats && <td>{trim.seats ?? "—"}</td>}
                 {show.efficiency && <td>{formatEfficiency(trim.mpgCombined, trim.powertrain) ?? "—"}</td>}

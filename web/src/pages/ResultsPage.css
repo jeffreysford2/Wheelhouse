@@ -10,7 +10,11 @@
   top: 88px;
   max-height: calc(100vh - 104px);
   overflow-y: auto;
-  padding-right: var(--space-2);
+  /* Keep the scrollbar off the option counts. The gutter reserves room for
+     classic scrollbars; the padding covers overlay ones (macOS) that float
+     over content instead of taking space. */
+  scrollbar-gutter: stable;
+  padding-right: var(--space-4);
 }
 
 /* On desktop the sheet header and button are unnecessary: the sidebar is always visible.
@@ -84,6 +88,7 @@
     z-index: 40;
     max-height: 85vh;
     padding: 0;
+    scrollbar-gutter: auto;
     background: var(--color-surface);
     border-radius: var(--radius) var(--radius) 0 0;
     box-shadow: 0 -8px 24px rgb(0 0 0 / 0.2);
